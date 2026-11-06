@@ -1,0 +1,36 @@
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+secrets.toml
+.streamlit/secrets.toml
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data and Confidential Screenplay Content
+data/input/
+data/raw_outputs/
+data/extracted/
+data/analyzed/
+data/candidates/
+data/final_results/
+data/quality_reports/
+input/
+docs/*.pdf
+docs/assignment_extracted.txt
+
+# Streamlit logs
+.streamlit/
