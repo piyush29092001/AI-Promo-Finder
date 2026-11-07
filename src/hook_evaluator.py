@@ -23,6 +23,10 @@ class HookEvaluator:
         self.api_key = api_key or get_api_key()
         self.model_name = model_name or get_model_name()
         self.client = None
+        self._hook_cache: Dict[str, HookEvaluation] = {}
+        self._circuit_broken: bool = False
+        self._failure_count: int = 0
+        self._max_failures: int = 2
 
         if self.api_key:
             try:
@@ -31,19 +35,46 @@ class HookEvaluator:
             except Exception as e:
                 logger.warning(f"Could not initialize Gemini Client for HookEvaluator: {e}")
 
-    def evaluate_hook(self, candidate: PromoCandidate) -> HookEvaluation:
+    def evaluate_hook(
+        self, candidate: PromoCandidate, use_gemini: bool = False
+    ) -> HookEvaluation:
         """
-        Evaluates the hook of a PromoCandidate. Uses Gemini if available,
-        otherwise uses deterministic rubric analysis.
+        Evaluates the hook of a PromoCandidate. Uses the deterministic Four Hook Mistakes rubric
+        by default for high-speed, verifiable evaluation across thousands of candidates.
+        When use_gemini=True, queries Gemini if healthy, with caching and fallback.
         """
-        if self.client and self.api_key:
+        cache_key = f"{candidate.hook_text}_{candidate.hook_start_time}_{candidate.segments[0].start_seconds}"
+        if cache_key in self._hook_cache:
+            return self._hook_cache[cache_key]
+
+        if use_gemini and self.client and self.api_key and not self._circuit_broken:
             try:
-                return self._call_gemini_hook_eval(candidate)
+                eval_res = self._call_gemini_hook_eval(candidate)
+                self._hook_cache[cache_key] = eval_res
+                self._failure_count = 0
+                return eval_res
             except Exception as e:
-                logger.error(f"Gemini hook evaluation failed: {e}. Using rubric fallback.")
-                return self._heuristic_hook_eval(candidate)
+                self._failure_count += 1
+                logger.warning(
+                    f"Gemini hook evaluation failed: {e}. (Failure {self._failure_count}/{self._max_failures})"
+                )
+                if (
+                    self._failure_count >= self._max_failures
+                    or "404" in str(e)
+                    or "11001" in str(e)
+                    or "403" in str(e)
+                ):
+                    self._circuit_broken = True
+                    logger.warning(
+                        "Circuit breaker tripped for HookEvaluator: switching to verified deterministic rubric engine."
+                    )
+                eval_res = self._heuristic_hook_eval(candidate)
+                self._hook_cache[cache_key] = eval_res
+                return eval_res
         else:
-            return self._heuristic_hook_eval(candidate)
+            eval_res = self._heuristic_hook_eval(candidate)
+            self._hook_cache[cache_key] = eval_res
+            return eval_res
 
     def _call_gemini_hook_eval(self, candidate: PromoCandidate) -> HookEvaluation:
         from google.genai import types
@@ -188,3 +219,4 @@ Return valid JSON with:
             weaknesses=weaknesses,
             explanation=explanation,
         )
+

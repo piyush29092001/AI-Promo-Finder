@@ -1,0 +1,71 @@
+{
+  "episode_id": 34,
+  "summary": "Put on trial for witchcraft and poisoning, Lady Juliana stands proud and defiant in the prisoner's dock, refusing to renounce her mother's herbal medicine even after her coerced maid gives false testimony against her.",
+  "key_events": [
+    "Betrayal conflict: JUDGE: 'Lady Juliana Ashcroft, you are accused of witchcraft, unlawful healing, "
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP34_SCENE_01",
+      "episode_id": 34,
+      "key_conflict": "Betrayal conflict: JUDGE: 'Lady Juliana Ashcroft, you are accused of witchcraft, unlawful healing, ",
+      "betrayals": [
+        "JUDGE: 'Lady Juliana Ashcroft, you are accused of witchcraft, unlawful healing, and poisoning.'",
+        "LORD: 'We have further witnesses.'",
+        "LORD: 'The people call it poisoning!'"
+      ],
+      "secrets_or_revelations": [
+        "JUDGE: 'Did you witness Lady Juliana perform these treatments?'",
+        "LADY JULIANA: 'Tell the truth.'",
+        "LORD: 'Your Honor... the witness has confirmed the ritual.'"
+      ],
+      "threats_or_danger": [
+        "JUDGE: 'Lady Juliana Ashcroft, you are accused of witchcraft, unlawful healing, and poisoning.'",
+        "JUDGE: 'Do you deny using its remedies?'",
+        "LORD: 'We have further witnesses.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP34_SCENE_01 at INT. COURTROOM – DAY involving JUDGE, LADY JULIANA, LORD, OLD WOMAN, PRUDENCE, TOWNSMAN.",
+      "characters_involved": [
+        "JUDGE",
+        "LADY JULIANA",
+        "LORD",
+        "OLD WOMAN",
+        "PRUDENCE",
+        "TOWNSMAN"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:01.20",
+          "end_time": "00:07.80",
+          "start_seconds": 1.2,
+          "end_seconds": 7.8,
+          "quote_or_action": "JUDGE: \"Lady Juliana Ashcroft, you are accused of witchcraft, unlawful healing, and poisoning.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Lady Juliana Ashcroft, you are accused of witchcraft, unlawful healing, and poisoning."
+        },
+        {
+          "start_time": "00:09.10",
+          "end_time": "00:12.60",
+          "start_seconds": 9.1,
+          "end_seconds": 12.6,
+          "quote_or_action": "JUDGE: \"Do you deny possessing this book?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Do you deny possessing this book?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "03:01.00",
+          "end_time": "03:04.20",
+          "start_seconds": 181.0,
+          "end_seconds": 184.2,
+          "quote_or_action": "JUDGE: \"Lady Juliana Ashcroft...\"",
+          "unresolved_question": "What will happen after JUDGE says: 'Lady Juliana Ashcroft...'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

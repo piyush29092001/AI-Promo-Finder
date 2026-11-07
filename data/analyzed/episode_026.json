@@ -1,0 +1,64 @@
+{
+  "episode_id": 26,
+  "summary": "While secretly administering a charcoal antidote to the poisoned Dowager Duchess in the dead of night, Juliana is stunned when the Duchess suddenly recognizes a distinctive family ring on her hand and fiercely demands the truth about her identity.",
+  "key_events": [
+    "Betrayal conflict: DOWAGER DUCHESS: 'Rupert and Catherine want me dead. They are poisoning me in my"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP26_SCENE_01",
+      "episode_id": 26,
+      "key_conflict": "Betrayal conflict: DOWAGER DUCHESS: 'Rupert and Catherine want me dead. They are poisoning me in my",
+      "betrayals": [
+        "DOWAGER DUCHESS: 'Rupert and Catherine want me dead. They are poisoning me in my own bed, aren't they?'",
+        "JULIANA: 'Yes. But the charcoal is fighting the poison. You are safe now.'"
+      ],
+      "secrets_or_revelations": [
+        "JULIANA: 'Please, Your Grace. Drink the last of this antidote. Drink it slowly.'"
+      ],
+      "threats_or_danger": [
+        "JULIANA: 'If the guards hear us, we are both dead.'",
+        "DOWAGER DUCHESS: 'Rupert and Catherine want me dead. They are poisoning me in my own bed, aren't they?'",
+        "JULIANA: 'Yes. But the charcoal is fighting the poison. You are safe now.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP26_SCENE_01 at INT. DOWAGER DUCHESS'S BEDCHAMBER – NIGHT involving DOWAGER DUCHESS, JULIANA.",
+      "characters_involved": [
+        "DOWAGER DUCHESS",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:14.20",
+          "end_time": "00:20.20",
+          "start_seconds": 14.2,
+          "end_seconds": 20.2,
+          "quote_or_action": "DOWAGER DUCHESS: \"Who are you? Speak to me. I have not seen your face before.\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Who are you? Speak to me. I have not seen your face before."
+        },
+        {
+          "start_time": "00:20.60",
+          "end_time": "00:25.40",
+          "start_seconds": 20.6,
+          "end_seconds": 25.4,
+          "quote_or_action": "JULIANA: \"Please, Your Grace. Drink the last of this antidote. Drink it slowly.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Please, Your Grace. Drink the last of this antidote. Drink it slowly."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:51.00",
+          "end_time": "01:55.50",
+          "start_seconds": 111.0,
+          "end_seconds": 115.5,
+          "quote_or_action": "DOWAGER DUCHESS: \"Where... where... Where did you get this ring? Speak to me!\"",
+          "unresolved_question": "What will happen after DOWAGER DUCHESS says: 'Where... where... Where did you get this ring? Speak to me!'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

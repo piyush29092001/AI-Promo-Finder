@@ -1,0 +1,109 @@
+{
+  "episode_id": 48,
+  "summary": "While feigning submission after her public humiliation, Catherine schemes in secret, plotting to use the council's ten-day reprieve to strike back at Alexander and Juliana with the aid of Father Thomas.",
+  "key_events": [
+    "Threat conflict: CATHERINE: 'Ten days for a decree to be undone.'",
+    "Threat conflict: CATHERINE: 'Then no one sees him.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP48_SCENE_01",
+      "episode_id": 48,
+      "key_conflict": "Threat conflict: CATHERINE: 'Ten days for a decree to be undone.'",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "CATHERINE: 'Ten days for witnesses to be gathered.'"
+      ],
+      "threats_or_danger": [
+        "CATHERINE: 'Ten days for a decree to be undone.'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP48_SCENE_01 at INT. CATHERINE'S CHAMBERS – NIGHT involving CATHERINE.",
+      "characters_involved": [
+        "CATHERINE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:02.40",
+          "end_time": "00:07.50",
+          "start_seconds": 2.4,
+          "end_seconds": 7.5,
+          "quote_or_action": "CATHERINE: \"Two words, and that healer's crown rolls right back into the gutter where it belongs.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Two words, and that healer's crown rolls right back into the gutter where it belongs."
+        },
+        {
+          "start_time": "00:08.00",
+          "end_time": "00:12.30",
+          "start_seconds": 8.0,
+          "end_seconds": 12.3,
+          "quote_or_action": "CATHERINE: \"Ten days. He gave himself ten days to fix it.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Ten days. He gave himself ten days to fix it."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:23.90",
+          "end_time": "00:26.50",
+          "start_seconds": 23.9,
+          "end_seconds": 26.5,
+          "quote_or_action": "CATHERINE: \"And doors can be closed from the other side.\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'And doors can be closed from the other side.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP48_SCENE_02",
+      "episode_id": 48,
+      "key_conflict": "Threat conflict: CATHERINE: 'Then no one sees him.'",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "CATHERINE: 'Father Thomas did his part beautifully today.'"
+      ],
+      "threats_or_danger": [
+        "CATHERINE: 'Then no one sees him.'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP48_SCENE_02 at INT. CATHERINE'S CHAMBERS – CONTINUOUS involving AGNES, CATHERINE.",
+      "characters_involved": [
+        "AGNES",
+        "CATHERINE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:29.20",
+          "end_time": "00:30.80",
+          "start_seconds": 29.2,
+          "end_seconds": 30.8,
+          "quote_or_action": "AGNES: \"You sent for me, my lady?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You sent for me, my lady?"
+        },
+        {
+          "start_time": "00:30.90",
+          "end_time": "00:32.00",
+          "start_seconds": 30.9,
+          "end_seconds": 32.0,
+          "quote_or_action": "CATHERINE: \"Lock it.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Lock it."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:10.80",
+          "end_time": "01:13.40",
+          "start_seconds": 70.8,
+          "end_seconds": 73.4,
+          "quote_or_action": "CATHERINE: \"And make sure no one sees him arrive.\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'And make sure no one sees him arrive.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

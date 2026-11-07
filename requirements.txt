@@ -1,9 +1,17 @@
+# Core Web Application
 streamlit>=1.35.0
-pymupdf>=1.24.0
-google-genai>=1.0.0
 pandas>=2.2.0
+pillow>=10.0.0
+
+# LLM & AI Processing
+google-genai>=1.0.0
 pydantic>=2.7.0
 tenacity>=8.3.0
-reportlab>=4.2.0
+
+# Document & Screenplay Parsing
+pymupdf>=1.24.0
 python-dotenv>=1.0.0
+reportlab>=4.2.0
+
+# Testing & Verification
 pytest>=8.2.0

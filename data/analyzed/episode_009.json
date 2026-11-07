@@ -1,0 +1,107 @@
+{
+  "episode_id": 9,
+  "summary": "When a frantic mother brings her critically ill child to the woodland cottage, Juliana successfully cures him with her mother's herbal remedies, unknowingly igniting dangerous rumors that reach the ears of the Blond Nobleman.",
+  "key_events": [
+    "Confrontation between ALEXANDER and others: Stay back. I'll open it.",
+    "Confrontation between BLOND NOBLEMAN and others: What is it?"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP09_SCENE_01",
+      "episode_id": 9,
+      "key_conflict": "Confrontation between ALEXANDER and others: Stay back. I'll open it.",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "JULIANA: 'Chamomile... and willow bark.'",
+        "JULIANA: 'The herbs did their work. Let him rest.'",
+        "PEASANT MOTHER: 'I will tell the village what you did. They will never forget you.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP09_SCENE_01 at INT. WOODLAND COTTAGE – NIGHT involving ALEXANDER, JULIANA, PEASANT MOTHER.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA",
+        "PEASANT MOTHER"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:03.60",
+          "end_time": "00:05.00",
+          "start_seconds": 3.6,
+          "end_seconds": 5.0,
+          "quote_or_action": "ALEXANDER: \"Stay back. I'll open it.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Stay back. I'll open it."
+        },
+        {
+          "start_time": "00:06.30",
+          "end_time": "00:11.10",
+          "start_seconds": 6.3,
+          "end_seconds": 11.1,
+          "quote_or_action": "PEASANT MOTHER: \"Please! They told me there was a woman here who knows herbs. My boy is burning with fever!\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Please! They told me there was a woman here who knows herbs. My boy is burning with fever!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:22.00",
+          "end_time": "01:23.80",
+          "start_seconds": 82.0,
+          "end_seconds": 83.8,
+          "quote_or_action": "JULIANA: \"Then we will face it together.\"",
+          "unresolved_question": "What will happen after JULIANA says: 'Then we will face it together.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP09_SCENE_02",
+      "episode_id": 9,
+      "key_conflict": "Confrontation between BLOND NOBLEMAN and others: What is it?",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP09_SCENE_02 at INT. LORD'S STUDY – NIGHT involving BLOND NOBLEMAN, THE FORMER GROOM.",
+      "characters_involved": [
+        "BLOND NOBLEMAN",
+        "THE FORMER GROOM"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:26.60",
+          "end_time": "01:27.40",
+          "start_seconds": 86.6,
+          "end_seconds": 87.4,
+          "quote_or_action": "BLOND NOBLEMAN: \"What is it?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: What is it?"
+        },
+        {
+          "start_time": "01:28.00",
+          "end_time": "01:30.30",
+          "start_seconds": 88.0,
+          "end_seconds": 90.3,
+          "quote_or_action": "THE FORMER GROOM: \"There is a rumor going around, my Lord.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: There is a rumor going around, my Lord."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:49.80",
+          "end_time": "01:51.20",
+          "start_seconds": 109.8,
+          "end_seconds": 111.2,
+          "quote_or_action": "BLOND NOBLEMAN: \"Impossible.\"",
+          "unresolved_question": "What will happen after BLOND NOBLEMAN says: 'Impossible.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

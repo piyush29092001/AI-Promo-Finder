@@ -1,11 +1,13 @@
 import os
 import re
+import glob
 from typing import List, Optional, Tuple, Union
 import pymupdf
 
 from src.models import (
     DialogueLine,
     ActionItem,
+    ScreenplayEntry,
     Scene,
     Episode,
     timestamp_to_seconds,
@@ -129,8 +131,8 @@ def parse_screenplay(
         start_time_str = start_match.group(1).strip() if start_match else ""
         end_time_str = end_match.group(1).strip() if end_match else ""
 
-        # Parse internal blocks (dialogues, actions, camera, sound fx)
-        dialogues, actions, characters, block_start_secs, block_end_secs = _parse_scene_blocks(
+        # Parse internal blocks (dialogues, actions, camera, sound fx, chronological entries)
+        dialogues, actions, characters, block_start_secs, block_end_secs, entries = _parse_scene_blocks(
             scene_block
         )
 
@@ -171,6 +173,7 @@ def parse_screenplay(
                 dialogues=dialogues,
                 characters=sorted(list(characters)),
                 actions=actions,
+                entries=entries,
                 raw_text=scene_block,
                 timestamp_status=timestamp_status,
             )
@@ -202,13 +205,15 @@ def _parse_scene_blocks(
     set,
     Optional[float],
     Optional[float],
+    List[ScreenplayEntry],
 ]:
     """
     Parses dialogues and action blocks within a scene text.
-    Returns (dialogues, actions, character_names, earliest_start_sec, latest_end_sec).
+    Returns (dialogues, actions, character_names, earliest_start_sec, latest_end_sec, entries).
     """
     dialogues: List[DialogueLine] = []
     actions: List[ActionItem] = []
+    entries: List[ScreenplayEntry] = []
     characters = set()
 
     # Regex matches: **TAG:** or **TAG**:
@@ -257,7 +262,55 @@ def _parse_scene_blocks(
 
         clean_tag_upper = tag_name.upper().strip()
 
-        if clean_tag_upper in ("ACTION", "CAMERA", "SOUND FX"):
+        if clean_tag_upper == "ACTION":
+            actions.append(
+                ActionItem(
+                    type="ACTION",
+                    start_time=start_time_str,
+                    end_time=end_time_str,
+                    start_seconds=s_secs,
+                    end_seconds=e_secs,
+                    description=content_after_time,
+                )
+            )
+            entries.append(
+                ScreenplayEntry(
+                    entry_type="ACTION",
+                    speaker=None,
+                    emotion=None,
+                    start_time=start_time_str,
+                    end_time=end_time_str,
+                    start_seconds=s_secs,
+                    end_seconds=e_secs,
+                    content=content_after_time,
+                    order_index=i,
+                )
+            )
+        elif clean_tag_upper == "CAMERA":
+            actions.append(
+                ActionItem(
+                    type="CAMERA",
+                    start_time=start_time_str,
+                    end_time=end_time_str,
+                    start_seconds=s_secs,
+                    end_seconds=e_secs,
+                    description=content_after_time,
+                )
+            )
+            entries.append(
+                ScreenplayEntry(
+                    entry_type="CAMERA",
+                    speaker=None,
+                    emotion=None,
+                    start_time=start_time_str,
+                    end_time=end_time_str,
+                    start_seconds=s_secs,
+                    end_seconds=e_secs,
+                    content=content_after_time,
+                    order_index=i,
+                )
+            )
+        elif clean_tag_upper in ("SOUND FX", "SOUND", "SFX"):
             actions.append(
                 ActionItem(
                     type=clean_tag_upper,
@@ -268,10 +321,22 @@ def _parse_scene_blocks(
                     description=content_after_time,
                 )
             )
+            entries.append(
+                ScreenplayEntry(
+                    entry_type="SOUND_FX",
+                    speaker=None,
+                    emotion=None,
+                    start_time=start_time_str,
+                    end_time=end_time_str,
+                    start_seconds=s_secs,
+                    end_seconds=e_secs,
+                    content=content_after_time,
+                    order_index=i,
+                )
+            )
         else:
             # Character dialogue
             clean_text = content_after_time.strip('"').strip()
-            # If text had quotes inside or multiple lines
             if clean_text:
                 characters.add(tag_name)
                 dialogues.append(
@@ -285,5 +350,141 @@ def _parse_scene_blocks(
                         text=clean_text,
                     )
                 )
+                entries.append(
+                    ScreenplayEntry(
+                        entry_type="DIALOGUE",
+                        speaker=tag_name,
+                        emotion=emotion,
+                        start_time=start_time_str,
+                        end_time=end_time_str,
+                        start_seconds=s_secs,
+                        end_seconds=e_secs,
+                        content=clean_text,
+                        order_index=i,
+                    )
+                )
+            else:
+                # Other screenplay instruction without dialogue text
+                entries.append(
+                    ScreenplayEntry(
+                        entry_type="OTHER",
+                        speaker=tag_name,
+                        emotion=emotion,
+                        start_time=start_time_str,
+                        end_time=end_time_str,
+                        start_seconds=s_secs,
+                        end_seconds=e_secs,
+                        content=content_after_time,
+                        order_index=i,
+                    )
+                )
 
-    return dialogues, actions, characters, earliest_sec, latest_sec
+    return dialogues, actions, characters, earliest_sec, latest_sec, entries
+
+
+def extract_promo_screenplay_entries(
+    scene: Scene, promo_start_sec: float, promo_end_sec: float
+) -> List[ScreenplayEntry]:
+    """
+    Extracts all original screenplay entries (dialogue, camera, action, sound fx)
+    that fall within or overlap the promo cut window [promo_start_sec, promo_end_sec].
+    Preserves exact chronological source order and original wording without summarization.
+    Flags entries that partially overlap the window with descriptive overlap notes.
+    """
+    source_entries = scene.entries
+    if not source_entries:
+        # Fallback reconstruction from dialogues and actions if scene.entries is empty
+        source_entries = []
+        for idx, d in enumerate(scene.dialogues):
+            source_entries.append(
+                ScreenplayEntry(
+                    entry_type="DIALOGUE",
+                    speaker=d.speaker,
+                    emotion=d.emotion,
+                    start_time=d.start_time,
+                    end_time=d.end_time,
+                    start_seconds=d.start_seconds,
+                    end_seconds=d.end_seconds,
+                    content=d.text,
+                    order_index=idx,
+                )
+            )
+        for idx, a in enumerate(scene.actions):
+            t = "SOUND_FX" if "SOUND" in a.type.upper() else a.type.upper()
+            source_entries.append(
+                ScreenplayEntry(
+                    entry_type=t,
+                    speaker=None,
+                    emotion=None,
+                    start_time=a.start_time,
+                    end_time=a.end_time,
+                    start_seconds=a.start_seconds,
+                    end_seconds=a.end_seconds,
+                    content=a.description,
+                    order_index=len(scene.dialogues) + idx,
+                )
+            )
+        source_entries.sort(key=lambda x: (x.start_seconds, x.order_index))
+
+    matched_entries: List[ScreenplayEntry] = []
+    for entry in source_entries:
+        # Check if entry overlaps with the promo window [promo_start_sec, promo_end_sec]
+        if entry.end_seconds > (promo_start_sec + 0.001) and entry.start_seconds < (promo_end_sec - 0.001):
+            is_partial = False
+            notes = []
+            if entry.start_seconds < (promo_start_sec - 0.05):
+                is_partial = True
+                notes.append(f"Starts at {entry.start_time} before promo cut ({seconds_to_timestamp(promo_start_sec)})")
+            if entry.end_seconds > (promo_end_sec + 0.05):
+                is_partial = True
+                notes.append(f"Extends to {entry.end_time} after promo cut ({seconds_to_timestamp(promo_end_sec)})")
+
+            matched_entries.append(
+                entry.model_copy(
+                    update={
+                        "is_partial_overlap": is_partial,
+                        "overlap_note": "; ".join(notes) if notes else None,
+                    }
+                )
+            )
+
+    return matched_entries
+
+
+def get_scene_for_segment(
+    episode_id: int,
+    scene_id: str,
+    episodes: Optional[List[Episode]] = None,
+) -> Optional[Scene]:
+    """
+    Retrieves the Scene object matching episode_id and scene_id.
+    Looks in provided episodes list, or falls back to loading from disk (input/ or data/input/).
+    Returns None if not found, allowing caller to handle missing content warnings gracefully.
+    """
+    # 1. Search in memory
+    if episodes:
+        for ep in episodes:
+            if ep.episode_id == episode_id:
+                for sc in ep.scenes:
+                    if sc.scene_id == scene_id:
+                        return sc
+
+    # 2. Fallback search on disk
+    for search_dir in ["input", "data/input"]:
+        candidates = glob.glob(f"{search_dir}/*{episode_id:02d}*") + glob.glob(f"{search_dir}/*{episode_id}*")
+        for fpath in candidates:
+            if fpath.endswith(".txt") or fpath.endswith(".pdf"):
+                try:
+                    if fpath.endswith(".pdf"):
+                        text = extract_text_from_pdf(fpath)
+                    else:
+                        text = extract_text_from_txt(fpath)
+                    parsed_ep = parse_screenplay(text, source_filename=fpath, episode_id=episode_id)
+                    for sc in parsed_ep.scenes:
+                        if sc.scene_id == scene_id:
+                            return sc
+                except Exception:
+                    continue
+
+    return None
+

@@ -1,0 +1,65 @@
+{
+  "episode_id": 36,
+  "summary": "Learning from his mother that Rupert and Catherine framed Juliana for witchcraft and sentenced her to death right after their upcoming wedding, Alexander vows to return from the dead and reclaim everything stolen from him.",
+  "key_events": [
+    "Betrayal conflict: ALEXANDER'S MOTHER: 'Rupert and Catherine accused her of poisoning me!'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP36_SCENE_01",
+      "episode_id": 36,
+      "key_conflict": "Betrayal conflict: ALEXANDER'S MOTHER: 'Rupert and Catherine accused her of poisoning me!'",
+      "betrayals": [
+        "ALEXANDER'S MOTHER: 'Rupert and Catherine accused her of poisoning me!'"
+      ],
+      "secrets_or_revelations": [
+        "ALEXANDER: 'They knew where I was.'",
+        "ALEXANDER: 'My position was leaked to the French... before I could expose what I had discovered.'",
+        "ALEXANDER: 'While the world mourned a dead heir.'"
+      ],
+      "threats_or_danger": [
+        "ALEXANDER'S MOTHER: 'They arrested her!'",
+        "ALEXANDER: 'Arrested?'",
+        "ALEXANDER'S MOTHER: 'Rupert and Catherine accused her of poisoning me!'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP36_SCENE_01 at INT. SECLUDED CABIN – NIGHT involving ALEXANDER, ALEXANDER'S MOTHER.",
+      "characters_involved": [
+        "ALEXANDER",
+        "ALEXANDER'S MOTHER"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:00.80",
+          "end_time": "00:03.70",
+          "start_seconds": 0.8,
+          "end_seconds": 3.7,
+          "quote_or_action": "ALEXANDER'S MOTHER: \"Then why did they never find you?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Then why did they never find you?"
+        },
+        {
+          "start_time": "00:04.80",
+          "end_time": "00:08.20",
+          "start_seconds": 4.8,
+          "end_seconds": 8.2,
+          "quote_or_action": "ALEXANDER: \"Because they made certain no one would look.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Because they made certain no one would look."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "03:13.00",
+          "end_time": "03:16.80",
+          "start_seconds": 193.0,
+          "end_seconds": 196.8,
+          "quote_or_action": "ALEXANDER: \"...their dead Duke is coming home.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: '...their dead Duke is coming home.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

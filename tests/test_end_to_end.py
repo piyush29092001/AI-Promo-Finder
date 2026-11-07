@@ -128,6 +128,10 @@ def test_round_3_full_50_episodes(tmp_path):
     top_3 = [ev for ev in evaluations if ev.is_top_three][:3]
     assert len(top_3) == 3
 
+    # Verify that the top 3 recommendations represent 3 distinct episodes/scenes
+    top_3_scenes = [f"{ev.candidate.episodes[0]}_{ev.candidate.segments[0].scene_id}" for ev in top_3]
+    assert len(set(top_3_scenes)) == 3, "Top 3 recommendations must represent genuinely distinct scenes"
+
     # Verify ranking monotonicity
     scores = [ev.overall_promo_score for ev in evaluations]
     assert scores == sorted(scores, reverse=True)
@@ -149,3 +153,4 @@ def test_round_3_full_50_episodes(tmp_path):
     assert json_path.exists() and json_path.stat().st_size > 0
     assert csv_path.exists() and csv_path.stat().st_size > 0
     assert pdf_path.exists() and pdf_path.stat().st_size > 0
+

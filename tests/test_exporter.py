@@ -82,3 +82,4 @@ def test_export_pdf(sample_evaluation):
     pdf_bytes = Exporter.export_pdf([sample_evaluation])
     assert len(pdf_bytes) > 0
     assert pdf_bytes.startswith(b"%PDF")
+

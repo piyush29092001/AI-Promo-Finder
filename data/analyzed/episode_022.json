@@ -1,0 +1,204 @@
+{
+  "episode_id": 22,
+  "summary": "Disguised as a common scullery maid, Lady Juliana infiltrates Ashbury Manor alongside Prudence and slips into the forbidden West Wing, where she discovers the dying Dowager Duchess suffering from an unnatural, poisoned affliction.",
+  "key_events": [
+    "Confrontation between PRUDENCE and others: Keep your head down. If anyone recognizes you, everything is over.",
+    "Betrayal conflict: PRUDENCE: 'That was close.'",
+    "Confrontation between LADY JULIANA and others: This house...",
+    "Confrontation between LADY JULIANA and others: Your Grace?"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP22_SCENE_01",
+      "episode_id": 22,
+      "key_conflict": "Confrontation between PRUDENCE and others: Keep your head down. If anyone recognizes you, everything is over.",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "LADY JULIANA: 'No one will recognize me dressed like this.'",
+        "PRUDENCE: 'And if they discover who you are?'",
+        "LADY JULIANA: 'Then I will face that when she is breathing again.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP22_SCENE_01 at EXT. ASHBURY MANOR – SERVICE COURTYARD – DAY involving LADY JULIANA, PRUDENCE.",
+      "characters_involved": [
+        "LADY JULIANA",
+        "PRUDENCE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:07.00",
+          "end_time": "00:11.10",
+          "start_seconds": 7.0,
+          "end_seconds": 11.1,
+          "quote_or_action": "PRUDENCE: \"Keep your head down. If anyone recognizes you, everything is over.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Keep your head down. If anyone recognizes you, everything is over."
+        },
+        {
+          "start_time": "00:11.20",
+          "end_time": "00:14.20",
+          "start_seconds": 11.2,
+          "end_seconds": 14.2,
+          "quote_or_action": "LADY JULIANA: \"No one will recognize me dressed like this.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: No one will recognize me dressed like this."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:37.00",
+          "end_time": "00:39.50",
+          "start_seconds": 37.0,
+          "end_seconds": 39.5,
+          "quote_or_action": "LADY JULIANA: \"Today, I am only a maid.\"",
+          "unresolved_question": "What will happen after LADY JULIANA says: 'Today, I am only a maid.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP22_SCENE_02",
+      "episode_id": 22,
+      "key_conflict": "Betrayal conflict: PRUDENCE: 'That was close.'",
+      "betrayals": [
+        "PRUDENCE: 'That was close.'"
+      ],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "HOUSEKEEPER: 'And can you keep your eyes and ears where they belong?'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP22_SCENE_02 at INT. ASHBURY MANOR – SERVANTS' CORRIDOR – CONTINUOUS involving HOUSEKEEPER, LADY JULIANA, PRUDENCE.",
+      "characters_involved": [
+        "HOUSEKEEPER",
+        "LADY JULIANA",
+        "PRUDENCE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:43.00",
+          "end_time": "00:44.20",
+          "start_seconds": 43.0,
+          "end_seconds": 44.2,
+          "quote_or_action": "HOUSEKEEPER: \"Prudence.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Prudence."
+        },
+        {
+          "start_time": "00:44.30",
+          "end_time": "00:45.60",
+          "start_seconds": 44.3,
+          "end_seconds": 45.6,
+          "quote_or_action": "HOUSEKEEPER: \"Who is this?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Who is this?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:24.80",
+          "end_time": "01:28.00",
+          "start_seconds": 84.8,
+          "end_seconds": 88.0,
+          "quote_or_action": "PRUDENCE: \"Beyond the grand staircase. Few servants go there.\"",
+          "unresolved_question": "What will happen after PRUDENCE says: 'Beyond the grand staircase. Few servants go there.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP22_SCENE_03",
+      "episode_id": 22,
+      "key_conflict": "Confrontation between LADY JULIANA and others: This house...",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP22_SCENE_03 at INT. ASHBURY MANOR – GRAND ENTRANCE HALL – CONTINUOUS involving LADY JULIANA, PRUDENCE.",
+      "characters_involved": [
+        "LADY JULIANA",
+        "PRUDENCE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:34.50",
+          "end_time": "01:36.00",
+          "start_seconds": 94.5,
+          "end_seconds": 96.0,
+          "quote_or_action": "LADY JULIANA: \"This house...\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: This house..."
+        },
+        {
+          "start_time": "01:36.00",
+          "end_time": "01:38.50",
+          "start_seconds": 96.0,
+          "end_seconds": 98.5,
+          "quote_or_action": "PRUDENCE: \"Do not stare. Keep walking.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Do not stare. Keep walking."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:36.00",
+          "end_time": "01:38.50",
+          "start_seconds": 96.0,
+          "end_seconds": 98.5,
+          "quote_or_action": "PRUDENCE: \"Do not stare. Keep walking.\"",
+          "unresolved_question": "What will happen after PRUDENCE says: 'Do not stare. Keep walking.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP22_SCENE_04",
+      "episode_id": 22,
+      "key_conflict": "Confrontation between LADY JULIANA and others: Your Grace?",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP22_SCENE_04 at INT. ASHBURY MANOR – DOWAGER DUCHESS'S BEDCHAMBER – CONTINUOUS involving LADY JULIANA.",
+      "characters_involved": [
+        "LADY JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:54.00",
+          "end_time": "01:55.50",
+          "start_seconds": 114.0,
+          "end_seconds": 115.5,
+          "quote_or_action": "LADY JULIANA: \"Your Grace?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Your Grace?"
+        },
+        {
+          "start_time": "01:58.20",
+          "end_time": "01:59.80",
+          "start_seconds": 118.2,
+          "end_seconds": 119.8,
+          "quote_or_action": "LADY JULIANA: \"Do not speak.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Do not speak."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:07.20",
+          "end_time": "02:08.80",
+          "start_seconds": 127.2,
+          "end_seconds": 128.8,
+          "quote_or_action": "LADY JULIANA: \"Who has been treating you?\"",
+          "unresolved_question": "What will happen after LADY JULIANA says: 'Who has been treating you?'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

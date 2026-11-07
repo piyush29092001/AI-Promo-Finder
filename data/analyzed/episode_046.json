@@ -1,0 +1,68 @@
+{
+  "episode_id": 46,
+  "summary": "The High Priest places the sanctuary under Crown seizure and invalidates Alexander and Juliana's wedding for lack of royal license, prompting Alexander to demand a ten-day ecclesiastical trial while Catherine schemes to destroy them.",
+  "key_events": [
+    "Betrayal conflict: JULIANA: 'Now a church calls my marriage a lie!'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP46_SCENE_01",
+      "episode_id": 46,
+      "key_conflict": "Betrayal conflict: JULIANA: 'Now a church calls my marriage a lie!'",
+      "betrayals": [
+        "JULIANA: 'Now a church calls my marriage a lie!'",
+        "HIGH PRIEST: 'God did not marry you. A frightened parishioner did, without leave, without license, without the Crown's blessing!'"
+      ],
+      "secrets_or_revelations": [
+        "HIGH PRIEST: 'None shall leave until every witness is accounted for.'",
+        "HIGH PRIEST: 'And no clerk in London ever entered your name in the Royal register, because as far as the Crown knew, Alexander Ashburton was already dead.'",
+        "JULIANA: 'I didn't ask this church for permission to survive, Father.'"
+      ],
+      "threats_or_danger": [
+        "HIGH PRIEST: 'The church married a vagrant to a ruined lady. It never married the Duke of Ashburton to anyone.'",
+        "HIGH PRIEST: 'Careful, girl. You mistake my patience for weakness.'",
+        "HIGH PRIEST: 'And I have the power to undo in one hearing what took you three years to steal!'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP46_SCENE_01 at INT. ASHBURTON ESTATE CHAPEL – CONTINUOUS involving ALEXANDER, CATHERINE, HIGH PRIEST, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "CATHERINE",
+        "HIGH PRIEST",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:11.50",
+          "end_time": "00:16.80",
+          "start_seconds": 11.5,
+          "end_seconds": 16.8,
+          "quote_or_action": "HIGH PRIEST: \"By Royal command, this sanctuary is placed under immediate Crown scesion.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: By Royal command, this sanctuary is placed under immediate Crown scesion."
+        },
+        {
+          "start_time": "00:17.30",
+          "end_time": "00:20.40",
+          "start_seconds": 17.3,
+          "end_seconds": 20.4,
+          "quote_or_action": "HIGH PRIEST: \"None shall leave until every witness is accounted for.\"",
+          "hook_type": "SHOCKING_REVELATION",
+          "curiosity_driver": "Viewer immediately questions: None shall leave until every witness is accounted for."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:21.20",
+          "end_time": "02:23.80",
+          "start_seconds": 141.2,
+          "end_seconds": 143.8,
+          "quote_or_action": "CATHERINE: \"Ten days is plenty of time.\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'Ten days is plenty of time.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

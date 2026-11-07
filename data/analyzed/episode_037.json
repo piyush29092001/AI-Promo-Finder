@@ -1,0 +1,213 @@
+{
+  "episode_id": 37,
+  "summary": "As Rupert and Catherine issue wedding invitations paired with Juliana's public execution decree to terrorize the county, Juliana endures starvation in the dungeon, refusing to break her spirit.",
+  "key_events": [
+    "Confrontation between BLOND NOBLEMAN and others: Every important family in the county should witness it.",
+    "Betrayal conflict: LADY CLARISSA: 'They want the families to witness it.'",
+    "Confrontation between JULIANA and others: They think hunger will make me surrender.",
+    "Confrontation between NOBLEMAN and others: Do you think she'll actually be executed?"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP37_SCENE_01",
+      "episode_id": 37,
+      "key_conflict": "Confrontation between BLOND NOBLEMAN and others: Every important family in the county should witness it.",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "BLOND NOBLEMAN: 'Every important family in the county should witness it.'",
+        "CATHERINE: 'After the ceremony, no one will question who owns this house.'",
+        "BLOND NOBLEMAN: 'And no one will question what happened to the woman who tried to stop us.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP37_SCENE_01 at INT. ASHBRIDGE MANOR - GRAND CORRIDOR – DAY involving BLOND NOBLEMAN, CATHERINE.",
+      "characters_involved": [
+        "BLOND NOBLEMAN",
+        "CATHERINE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:06.00",
+          "end_time": "00:09.30",
+          "start_seconds": 6.0,
+          "end_seconds": 9.3,
+          "quote_or_action": "BLOND NOBLEMAN: \"Every important family in the county should witness it.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Every important family in the county should witness it."
+        },
+        {
+          "start_time": "00:10.80",
+          "end_time": "00:12.40",
+          "start_seconds": 10.8,
+          "end_seconds": 12.4,
+          "quote_or_action": "CATHERINE: \"The wedding?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: The wedding?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:32.80",
+          "end_time": "00:34.50",
+          "start_seconds": 32.8,
+          "end_seconds": 34.5,
+          "quote_or_action": "CATHERINE: \"Especially to the Ashcrofts.\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'Especially to the Ashcrofts.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP37_SCENE_02",
+      "episode_id": 37,
+      "key_conflict": "Betrayal conflict: LADY CLARISSA: 'They want the families to witness it.'",
+      "betrayals": [
+        "LADY CLARISSA: 'They want the families to witness it.'"
+      ],
+      "secrets_or_revelations": [
+        "LADY CLARISSA: 'They want the families to witness it.'",
+        "LADY CLARISSA: 'Juliana's ruin will be a lesson. And we will be there to watch.'"
+      ],
+      "threats_or_danger": [
+        "LADY CLARISSA: 'Juliana's ruin will be a lesson. And we will be there to watch.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP37_SCENE_02 at INT. NOBLE MANOR - PARLOR – DAY involving BUTLER, LADY CLARISSA, NOBLEMAN.",
+      "characters_involved": [
+        "BUTLER",
+        "LADY CLARISSA",
+        "NOBLEMAN"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:37.00",
+          "end_time": "00:39.80",
+          "start_seconds": 37.0,
+          "end_seconds": 39.8,
+          "quote_or_action": "BUTLER: \"Lady Clarissa, an invitation from Ashbridge Manor.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Lady Clarissa, an invitation from Ashbridge Manor."
+        },
+        {
+          "start_time": "00:44.50",
+          "end_time": "00:46.50",
+          "start_seconds": 44.5,
+          "end_seconds": 46.5,
+          "quote_or_action": "LADY CLARISSA: \"Catherine's wedding.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Catherine's wedding."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:23.00",
+          "end_time": "01:27.50",
+          "start_seconds": 83.0,
+          "end_seconds": 87.5,
+          "quote_or_action": "LADY CLARISSA: \"Juliana's ruin will be a lesson. And we will be there to watch.\"",
+          "unresolved_question": "What will happen after LADY CLARISSA says: 'Juliana's ruin will be a lesson. And we will be there to watch.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP37_SCENE_03",
+      "episode_id": 37,
+      "key_conflict": "Confrontation between JULIANA and others: They think hunger will make me surrender.",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "JULIANA: 'They think hunger will make me surrender.'",
+        "JULIANA: 'They think fear will make me beg.'",
+        "JULIANA: 'I will not!'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP37_SCENE_03 at INT. ASHBRIDGE DUNGEON – CONTINUOUS involving JULIANA.",
+      "characters_involved": [
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:36.00",
+          "end_time": "01:39.50",
+          "start_seconds": 96.0,
+          "end_seconds": 99.5,
+          "quote_or_action": "JULIANA: \"They think hunger will make me surrender.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: They think hunger will make me surrender."
+        },
+        {
+          "start_time": "01:40.80",
+          "end_time": "01:43.20",
+          "start_seconds": 100.8,
+          "end_seconds": 103.2,
+          "quote_or_action": "JULIANA: \"They think fear will make me beg.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: They think fear will make me beg."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:53.60",
+          "end_time": "01:56.20",
+          "start_seconds": 113.6,
+          "end_seconds": 116.2,
+          "quote_or_action": "JULIANA: \"They cannot take who I am!\"",
+          "unresolved_question": "What will happen after JULIANA says: 'They cannot take who I am!'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP37_SCENE_04",
+      "episode_id": 37,
+      "key_conflict": "Confrontation between NOBLEMAN and others: Do you think she'll actually be executed?",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "LADY CLARISSA: 'Instead she married a nobody, played healer to peasants, challenged people above her. And now the whole county will watch her pay for it.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP37_SCENE_04 at INT. NOBLE MANOR - PARLOR – NIGHT involving LADY CLARISSA, NOBLEMAN.",
+      "characters_involved": [
+        "LADY CLARISSA",
+        "NOBLEMAN"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:57.20",
+          "end_time": "01:59.80",
+          "start_seconds": 117.2,
+          "end_seconds": 119.8,
+          "quote_or_action": "NOBLEMAN: \"Do you think she'll actually be executed?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Do you think she'll actually be executed?"
+        },
+        {
+          "start_time": "02:00.50",
+          "end_time": "02:04.20",
+          "start_seconds": 120.5,
+          "end_seconds": 124.2,
+          "quote_or_action": "LADY CLARISSA: \"After what she has been accused of? Of course.\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: After what she has been accused of? Of course."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:22.50",
+          "end_time": "02:26.50",
+          "start_seconds": 142.5,
+          "end_seconds": 146.5,
+          "quote_or_action": "LADY CLARISSA: \"Let them see what happens when a woman forgets her place.\"",
+          "unresolved_question": "What will happen after LADY CLARISSA says: 'Let them see what happens when a woman forgets her place.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

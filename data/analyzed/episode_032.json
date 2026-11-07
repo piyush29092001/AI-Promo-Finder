@@ -1,0 +1,63 @@
+{
+  "episode_id": 32,
+  "summary": "Cornered and chained in the damp dungeon, Juliana shatters Catherine's cruelty with unshakeable dignity and the truth about love and worth, driving Catherine into a murderous fury.",
+  "key_events": [
+    "Betrayal conflict: JULIANA: 'You want everyone to believe you are powerful.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP32_SCENE_01",
+      "episode_id": 32,
+      "key_conflict": "Betrayal conflict: JULIANA: 'You want everyone to believe you are powerful.'",
+      "betrayals": [
+        "JULIANA: 'You want everyone to believe you are powerful.'"
+      ],
+      "secrets_or_revelations": [
+        "JULIANA: '...but you will never have the courage to earn what you demand from everyone else.'"
+      ],
+      "threats_or_danger": [
+        "JULIANA: 'You may destroy the book...'",
+        "JULIANA: '...you cannot destroy what my mother taught me.'",
+        "JULIANA: 'A woman who survived. You cannot destroy me.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP32_SCENE_01 at INT. DUNGEON CELLS – CONTINUOUS involving CATHERINE, JULIANA.",
+      "characters_involved": [
+        "CATHERINE",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:03.80",
+          "end_time": "00:05.20",
+          "start_seconds": 3.8,
+          "end_seconds": 5.2,
+          "quote_or_action": "CATHERINE: \"There it is.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: There it is."
+        },
+        {
+          "start_time": "00:07.50",
+          "end_time": "00:09.20",
+          "start_seconds": 7.5,
+          "end_seconds": 9.2,
+          "quote_or_action": "CATHERINE: \"Fear.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Fear."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:28.10",
+          "end_time": "02:31.20",
+          "start_seconds": 148.1,
+          "end_seconds": 151.2,
+          "quote_or_action": "CATHERINE: \"Then let's see how brave you are when it touches your skin!\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'Then let's see how brave you are when it touches your skin!'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "episode_id": 20,
+  "summary": "Inside the opulent Ashbury estate, the treacherous Rupert and Catherine plot to seize the ducal title as the Dowager Duchess slowly withers, while in an icy barn, Juliana defiantly prepares remedies to save the fever-stricken villagers.",
+  "key_events": [
+    "Dramatic confrontation",
+    "Betrayal conflict: CATHERINE: ''Practically' is a word for beggars. I do not marry a practical Duke",
+    "Confrontation between SEAMUS and others: Let me take that basket, Lady Juliana.",
+    "Confrontation between CATHERINE and others: Let the peasants rot in their barns."
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP20_SCENE_01",
+      "episode_id": 20,
+      "key_conflict": "Dramatic confrontation",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP20_SCENE_01 at EXT. ASHBURY MANOR – DAY involving .",
+      "characters_involved": [],
+      "hook_moments": [
+        {
+          "start_time": "00:00.00",
+          "end_time": "00:02.80",
+          "start_seconds": 0.0,
+          "end_seconds": 2.8,
+          "quote_or_action": "Low-angle establishing shot tilting up toward the imposing, grand stone facade of Ashbury Manor against a cold, overcast morning sky, frost dusting the pristine lawn.",
+          "hook_type": "VISUAL_ACTION",
+          "curiosity_driver": "High visual tension establishes immediate dramatic stakes."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:00.00",
+          "end_time": "00:02.80",
+          "start_seconds": 0.0,
+          "end_seconds": 2.8,
+          "quote_or_action": "Low-angle establishing shot tilting up toward the imposing, grand stone facade of Ashbury Manor against a cold, overcast morning sky, frost dusting the pristine lawn.",
+          "unresolved_question": "How will the character respond to this critical turning point?",
+          "intensity": 7
+        }
+      ]
+    },
+    {
+      "scene_id": "EP20_SCENE_02",
+      "episode_id": 20,
+      "key_conflict": "Betrayal conflict: CATHERINE: ''Practically' is a word for beggars. I do not marry a practical Duke",
+      "betrayals": [
+        "CATHERINE: ''Practically' is a word for beggars. I do not marry a practical Duke.'"
+      ],
+      "secrets_or_revelations": [
+        "RUPERT: 'They will learn their place when you wear the ducal crown.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 8,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP20_SCENE_02 at INT. ASHBURY MANOR - DRAWING ROOM – CONTINUOUS involving CATHERINE, RUPERT.",
+      "characters_involved": [
+        "CATHERINE",
+        "RUPERT"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:02.90",
+          "end_time": "00:04.40",
+          "start_seconds": 2.9,
+          "end_seconds": 4.4,
+          "quote_or_action": "CATHERINE: \"Two lumps of sugar, Rupert?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Two lumps of sugar, Rupert?"
+        },
+        {
+          "start_time": "00:04.60",
+          "end_time": "00:07.80",
+          "start_seconds": 4.6,
+          "end_seconds": 7.8,
+          "quote_or_action": "CATHERINE: \"Or has your sudden climb to power sweetened your taste already?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Or has your sudden climb to power sweetened your taste already?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:52.80",
+          "end_time": "00:56.00",
+          "start_seconds": 52.8,
+          "end_seconds": 56.0,
+          "quote_or_action": "RUPERT: \"They will learn their place when you wear the ducal crown.\"",
+          "unresolved_question": "What will happen after RUPERT says: 'They will learn their place when you wear the ducal crown.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP20_SCENE_03",
+      "episode_id": 20,
+      "key_conflict": "Confrontation between SEAMUS and others: Let me take that basket, Lady Juliana.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP20_SCENE_03 at INT. ABANDONED BARN – DAY involving JULIANA, SEAMUS.",
+      "characters_involved": [
+        "JULIANA",
+        "SEAMUS"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:00.50",
+          "end_time": "01:02.50",
+          "start_seconds": 60.5,
+          "end_seconds": 62.5,
+          "quote_or_action": "SEAMUS: \"Let me take that basket, Lady Juliana.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Let me take that basket, Lady Juliana."
+        },
+        {
+          "start_time": "01:02.60",
+          "end_time": "01:06.60",
+          "start_seconds": 62.6,
+          "end_seconds": 66.6,
+          "quote_or_action": "SEAMUS: \"Your palms are still raw from the fire. You shouldn't be working in this freezing draft.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Your palms are still raw from the fire. You shouldn't be working in this freezing draft."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:26.60",
+          "end_time": "01:28.00",
+          "start_seconds": 86.6,
+          "end_seconds": 88.0,
+          "quote_or_action": "JULIANA: \"And I am not finished.\"",
+          "unresolved_question": "What will happen after JULIANA says: 'And I am not finished.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP20_SCENE_04",
+      "episode_id": 20,
+      "key_conflict": "Confrontation between CATHERINE and others: Let the peasants rot in their barns.",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "CATHERINE: 'Let the peasants rot in their barns.'",
+        "CATHERINE: 'Let them pray to their weeds.'",
+        "CATHERINE: '...Ashbury will finally belong to us.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP20_SCENE_04 at INT. ASHBURY MANOR - DRAWING ROOM – CONTINUOUS involving CATHERINE, RUPERT.",
+      "characters_involved": [
+        "CATHERINE",
+        "RUPERT"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:29.90",
+          "end_time": "01:32.40",
+          "start_seconds": 89.9,
+          "end_seconds": 92.4,
+          "quote_or_action": "CATHERINE: \"Let the peasants rot in their barns.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Let the peasants rot in their barns."
+        },
+        {
+          "start_time": "01:32.60",
+          "end_time": "01:34.50",
+          "start_seconds": 92.6,
+          "end_seconds": 94.5,
+          "quote_or_action": "CATHERINE: \"Let them pray to their weeds.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Let them pray to their weeds."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:46.80",
+          "end_time": "01:49.20",
+          "start_seconds": 106.8,
+          "end_seconds": 109.2,
+          "quote_or_action": "CATHERINE: \"This house will only bow to me.\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'This house will only bow to me.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

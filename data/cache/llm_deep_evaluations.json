@@ -1,0 +1,26 @@
+{
+  "PROMO_A": {
+    "hook_eval": {
+      "delay_score": 25.0,
+      "confusion_score": 25.0,
+      "irrelevance_score": 25.0,
+      "disinterest_score": 25.0,
+      "total_hook_score": 100.0,
+      "hook_dialogue": "You should turn around, Juliana.",
+      "hook_start_time": "00:11.30",
+      "hook_end_time": "00:14.30",
+      "supporting_evidence": "Altar dialogue",
+      "weaknesses": [],
+      "explanation": "Perfect hook scored by LLM cache"
+    },
+    "cliffhanger_eval": {
+      "cliffhanger_score": 95.0,
+      "description": "Because he is marrying me.",
+      "supporting_evidence": "Altar line",
+      "source_timestamp": "00:45.00",
+      "unresolved_question": "Will Juliana fight back against Clarissa?",
+      "explanation": "High stakes cliffhanger",
+      "weaknesses": []
+    }
+  }
+}

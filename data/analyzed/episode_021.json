@@ -1,0 +1,150 @@
+{
+  "episode_id": 21,
+  "summary": "After defying her own despair to cure a fever-stricken village boy with her mother's herbal remedies, Lady Juliana learns that the Dowager Duchess is secretly withering away from a mysterious illness inside Ashbury Manor.",
+  "key_events": [
+    "Threat conflict: PRUDENCE: 'He is only seven! If you do not come, he will die! You are his only h",
+    "Dramatic confrontation",
+    "Betrayal conflict: PRUDENCE: 'Oh, thank God! His chest is quiet! The rattling has stopped!'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP21_SCENE_01",
+      "episode_id": 21,
+      "key_conflict": "Threat conflict: PRUDENCE: 'He is only seven! If you do not come, he will die! You are his only h",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "PRUDENCE: 'He is only seven! If you do not come, he will die! You are his only hope, Lady Juliana!'",
+        "LADY JULIANA: 'Stand up. Sinking to your knees will not save him. Let me grab my ledger. We go now.'"
+      ],
+      "threats_or_danger": [
+        "PRUDENCE: 'He is only seven! If you do not come, he will die! You are his only hope, Lady Juliana!'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP21_SCENE_01 at INT. BARN – DAY involving LADY JULIANA, PRUDENCE.",
+      "characters_involved": [
+        "LADY JULIANA",
+        "PRUDENCE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:04.20",
+          "end_time": "00:08.00",
+          "start_seconds": 4.2,
+          "end_seconds": 8.0,
+          "quote_or_action": "PRUDENCE: \"Lady Juliana! Please! You have to help me, Toby is dying!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Lady Juliana! Please! You have to help me, Toby is dying!"
+        },
+        {
+          "start_time": "00:08.50",
+          "end_time": "00:11.00",
+          "start_seconds": 8.5,
+          "end_seconds": 11.0,
+          "quote_or_action": "LADY JULIANA: \"Oh dear. Breathe. Tell me what has happened.\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Oh dear. Breathe. Tell me what has happened."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:35.90",
+          "end_time": "00:40.40",
+          "start_seconds": 35.9,
+          "end_seconds": 40.4,
+          "quote_or_action": "LADY JULIANA: \"Stand up. Sinking to your knees will not save him. Let me grab my ledger. We go now.\"",
+          "unresolved_question": "What will happen after LADY JULIANA says: 'Stand up. Sinking to your knees will not save him. Let me grab my ledger. We go now.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP21_SCENE_02",
+      "episode_id": 21,
+      "key_conflict": "Dramatic confrontation",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP21_SCENE_02 at EXT. VILLAGE LANE – CONTINUOUS involving .",
+      "characters_involved": [],
+      "hook_moments": [
+        {
+          "start_time": "00:40.50",
+          "end_time": "00:42.80",
+          "start_seconds": 40.5,
+          "end_seconds": 42.8,
+          "quote_or_action": "Tracking wide shot following Lady Juliana and Prudence running side by side along a muddy, puddled village road past thatched stone cottages under a gloomy, overcast sky.",
+          "hook_type": "VISUAL_ACTION",
+          "curiosity_driver": "High visual tension establishes immediate dramatic stakes."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:40.50",
+          "end_time": "00:42.80",
+          "start_seconds": 40.5,
+          "end_seconds": 42.8,
+          "quote_or_action": "Lady Juliana clutches the thick book to her chest as she and Prudence sprint swiftly through the village.",
+          "unresolved_question": "How will the character respond to this critical turning point?",
+          "intensity": 7
+        }
+      ]
+    },
+    {
+      "scene_id": "EP21_SCENE_03",
+      "episode_id": 21,
+      "key_conflict": "Betrayal conflict: PRUDENCE: 'Oh, thank God! His chest is quiet! The rattling has stopped!'",
+      "betrayals": [
+        "PRUDENCE: 'Oh, thank God! His chest is quiet! The rattling has stopped!'"
+      ],
+      "secrets_or_revelations": [
+        "PRUDENCE: 'Yes! Right away, I will get it!'",
+        "PRUDENCE: 'I have no money, Lady Juliana, but I swear on my life, I will do anything to repay you.'",
+        "PRUDENCE: 'At the grand manor, they ignore us. They only care about their own luxury.'"
+      ],
+      "threats_or_danger": [
+        "PRUDENCE: 'Yes! Right away, I will get it!'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP21_SCENE_03 at INT. PRUDENCE'S COTTAGE – CONTINUOUS involving LADY JULIANA, PRUDENCE.",
+      "characters_involved": [
+        "LADY JULIANA",
+        "PRUDENCE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:47.30",
+          "end_time": "00:48.80",
+          "start_seconds": 47.3,
+          "end_seconds": 48.8,
+          "quote_or_action": "LADY JULIANA: \"His skin is burning hot.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: His skin is burning hot."
+        },
+        {
+          "start_time": "00:48.90",
+          "end_time": "00:50.80",
+          "start_seconds": 48.9,
+          "end_seconds": 50.8,
+          "quote_or_action": "LADY JULIANA: \"Prudence, fetch hot water immediately!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Prudence, fetch hot water immediately!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:43.50",
+          "end_time": "01:48.40",
+          "start_seconds": 103.5,
+          "end_seconds": 108.4,
+          "quote_or_action": "PRUDENCE: \"Inside that massive house with all their wealth, she is fading to nothing, and no one can stop it.\"",
+          "unresolved_question": "What will happen after PRUDENCE says: 'Inside that massive house with all their wealth, she is fading to nothing, and no one can stop it.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

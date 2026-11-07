@@ -1,0 +1,112 @@
+{
+  "episode_id": 24,
+  "summary": "When an arrogant noblewoman catches Juliana in the poisoned Dowager Duchess's chambers, she strikes Juliana with a riding crop and sentences her to scrub the hearth, unaware that Juliana has secretly hidden the antidote and remedy journal to finish the Duchess's cure.",
+  "key_events": [
+    "Threat conflict: NOBLEWOMAN: 'You are a maid.'",
+    "Betrayal conflict: LADY JULIANA: 'Let her believe I am ignorant.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP24_SCENE_01",
+      "episode_id": 24,
+      "key_conflict": "Threat conflict: NOBLEWOMAN: 'You are a maid.'",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "NOBLEWOMAN: 'You are a maid.'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP24_SCENE_01 at INT. DOWAGER DUCHESS'S BEDCHAMBER – DAY involving LADY JULIANA, NOBLEWOMAN.",
+      "characters_involved": [
+        "LADY JULIANA",
+        "NOBLEWOMAN"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:06.80",
+          "end_time": "00:08.40",
+          "start_seconds": 6.8,
+          "end_seconds": 8.4,
+          "quote_or_action": "NOBLEWOMAN: \"Who are you?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Who are you?"
+        },
+        {
+          "start_time": "00:08.50",
+          "end_time": "00:12.00",
+          "start_seconds": 8.5,
+          "end_seconds": 12.0,
+          "quote_or_action": "LADY JULIANA: \"Juliana, my lady. I was hired for the winter cleaning.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Juliana, my lady. I was hired for the winter cleaning."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:45.50",
+          "end_time": "00:48.00",
+          "start_seconds": 45.5,
+          "end_seconds": 48.0,
+          "quote_or_action": "NOBLEWOMAN: \"Good. Perhaps we can teach you your place.\"",
+          "unresolved_question": "What will happen after NOBLEWOMAN says: 'Good. Perhaps we can teach you your place.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP24_SCENE_02",
+      "episode_id": 24,
+      "key_conflict": "Betrayal conflict: LADY JULIANA: 'Let her believe I am ignorant.'",
+      "betrayals": [
+        "LADY JULIANA: 'Let her believe I am ignorant.'"
+      ],
+      "secrets_or_revelations": [
+        "NOBLEWOMAN: 'Every stone. Perhaps when your hands are black enough, you will finally remember what you are.'",
+        "LADY JULIANA: 'I will return. You cannot stop the healer.'"
+      ],
+      "threats_or_danger": [
+        "NOBLEWOMAN: 'Do you want the same punishment?'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP24_SCENE_02 at INT. MANOR HEARTH ROOM – CONTINUOUS involving LADY JULIANA, NOBLEWOMAN, PRUDENCE.",
+      "characters_involved": [
+        "LADY JULIANA",
+        "NOBLEWOMAN",
+        "PRUDENCE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:53.60",
+          "end_time": "00:55.20",
+          "start_seconds": 53.6,
+          "end_seconds": 55.2,
+          "quote_or_action": "NOBLEWOMAN: \"Clean it.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Clean it."
+        },
+        {
+          "start_time": "00:56.20",
+          "end_time": "00:57.60",
+          "start_seconds": 56.2,
+          "end_seconds": 57.6,
+          "quote_or_action": "LADY JULIANA: \"All of it, my lady?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: All of it, my lady?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:25.60",
+          "end_time": "01:29.80",
+          "start_seconds": 85.6,
+          "end_seconds": 89.8,
+          "quote_or_action": "LADY JULIANA: \"I will return. You cannot stop the healer.\"",
+          "unresolved_question": "What will happen after LADY JULIANA says: 'I will return. You cannot stop the healer.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

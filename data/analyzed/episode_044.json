@@ -1,0 +1,109 @@
+{
+  "episode_id": 44,
+  "summary": "As Lord Sterling and Rupert are apprehended by the Crown, Catherine pleads with Alexander for their past love, only to be coldly rejected as he walks toward his chained bride, Juliana.",
+  "key_events": [
+    "Threat conflict: POLICE CONSTABLE: 'Lord Henry Sterling, you are under arrest by order of the Cro",
+    "Betrayal conflict: CATHERINE: 'For three years, I believed the man I loved was buried somewhere acr"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP44_SCENE_01",
+      "episode_id": 44,
+      "key_conflict": "Threat conflict: POLICE CONSTABLE: 'Lord Henry Sterling, you are under arrest by order of the Cro",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "POLICE CONSTABLE: 'Lord Henry Sterling, you are under arrest by order of the Crown.'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP44_SCENE_01 at INT. RUINED CATHEDRAL - SIDE ENTRANCE – DAY involving LORD STERLING, POLICE CONSTABLE.",
+      "characters_involved": [
+        "LORD STERLING",
+        "POLICE CONSTABLE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:03.30",
+          "end_time": "00:08.20",
+          "start_seconds": 3.3,
+          "end_seconds": 8.2,
+          "quote_or_action": "POLICE CONSTABLE: \"Lord Henry Sterling, you are under arrest by order of the Crown.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Lord Henry Sterling, you are under arrest by order of the Crown."
+        },
+        {
+          "start_time": "00:09.10",
+          "end_time": "00:11.20",
+          "start_seconds": 9.1,
+          "end_seconds": 11.2,
+          "quote_or_action": "LORD STERLING: \"You have no authority!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You have no authority!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:11.40",
+          "end_time": "00:13.20",
+          "start_seconds": 11.4,
+          "end_seconds": 13.2,
+          "quote_or_action": "POLICE CONSTABLE: \"I have more than enough.\"",
+          "unresolved_question": "What will happen after POLICE CONSTABLE says: 'I have more than enough.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP44_SCENE_02",
+      "episode_id": 44,
+      "key_conflict": "Betrayal conflict: CATHERINE: 'For three years, I believed the man I loved was buried somewhere acr",
+      "betrayals": [
+        "CATHERINE: 'For three years, I believed the man I loved was buried somewhere across the sea.'"
+      ],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "CATHERINE: 'Alexander... I thought you had died.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP44_SCENE_02 at INT. RUINED CATHEDRAL - ALTAR & NAVE – CONTINUOUS involving ALEXANDER, BLOND NOBLEMAN, CATHERINE.",
+      "characters_involved": [
+        "ALEXANDER",
+        "BLOND NOBLEMAN",
+        "CATHERINE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:14.00",
+          "end_time": "00:16.80",
+          "start_seconds": 14.0,
+          "end_seconds": 16.8,
+          "quote_or_action": "BLOND NOBLEMAN: \"Get your hands off me! Catherine!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Get your hands off me! Catherine!"
+        },
+        {
+          "start_time": "00:17.40",
+          "end_time": "00:19.30",
+          "start_seconds": 17.4,
+          "end_seconds": 19.3,
+          "quote_or_action": "BLOND NOBLEMAN: \"Do something!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Do something!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:10.10",
+          "end_time": "01:10.40",
+          "start_seconds": 70.1,
+          "end_seconds": 70.4,
+          "quote_or_action": "CATHERINE: \"Her?!\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'Her?!'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

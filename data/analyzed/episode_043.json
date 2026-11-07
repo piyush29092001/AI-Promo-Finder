@@ -1,0 +1,68 @@
+{
+  "episode_id": 43,
+  "summary": "When Rupert frantically orders Alexander's arrest, the royal guards refuse and salute the true Duke, before damning Crown intelligence documents expose Rupert and Lord Sterling's treasonous plot.",
+  "key_events": [
+    "Betrayal conflict: ALEXANDER: 'And when you believed I was dead...'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP43_SCENE_01",
+      "episode_id": 43,
+      "key_conflict": "Betrayal conflict: ALEXANDER: 'And when you believed I was dead...'",
+      "betrayals": [
+        "ALEXANDER: 'And when you believed I was dead...'",
+        "BLOND NOBLEMAN: 'Sterling handled the report!'"
+      ],
+      "secrets_or_revelations": [
+        "ROYAL GUARD: 'We will not.'"
+      ],
+      "threats_or_danger": [
+        "BLOND NOBLEMAN: 'This man is an imposter! Arrest him!'",
+        "BLOND NOBLEMAN: 'I said arrest him!'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP43_SCENE_01 at INT. RUINED CATHEDRAL – CONTINUOUS involving ALEXANDER, BLOND NOBLEMAN, CATHERINE, CROWN OFFICIAL, DOWAGER DUCHESS, POLICE CONSTABLE, ROYAL GUARD.",
+      "characters_involved": [
+        "ALEXANDER",
+        "BLOND NOBLEMAN",
+        "CATHERINE",
+        "CROWN OFFICIAL",
+        "DOWAGER DUCHESS",
+        "POLICE CONSTABLE",
+        "ROYAL GUARD"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:00.60",
+          "end_time": "00:02.40",
+          "start_seconds": 0.6,
+          "end_seconds": 2.4,
+          "quote_or_action": "BLOND NOBLEMAN: \"You're lying!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You're lying!"
+        },
+        {
+          "start_time": "00:03.90",
+          "end_time": "00:07.40",
+          "start_seconds": 3.9,
+          "end_seconds": 7.4,
+          "quote_or_action": "BLOND NOBLEMAN: \"This man is an imposter! Arrest him!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: This man is an imposter! Arrest him!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:50.40",
+          "end_time": "01:52.50",
+          "start_seconds": 110.4,
+          "end_seconds": 112.5,
+          "quote_or_action": "POLICE CONSTABLE: \"Going somewhere, Lord Sterling?\"",
+          "unresolved_question": "What will happen after POLICE CONSTABLE says: 'Going somewhere, Lord Sterling?'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

@@ -52,6 +52,7 @@ class ScreenplayAnalyzer:
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         self.client = None
+        self._circuit_broken = False
 
         if self.api_key:
             try:
@@ -60,6 +61,7 @@ class ScreenplayAnalyzer:
                 self.client = genai.Client(api_key=self.api_key)
             except Exception as e:
                 logger.warning(f"Could not initialize Gemini Client: {e}")
+                self._circuit_broken = True
 
     def analyze_episode(
         self, episode: Episode, force_refresh: bool = False
@@ -118,13 +120,20 @@ class ScreenplayAnalyzer:
         if not scenes:
             return []
 
-        if self.client and self.api_key:
+        if self.client and self.api_key and not self._circuit_broken:
             try:
                 return self._call_gemini_batch(scenes)
             except Exception as e:
-                logger.error(
-                    f"Gemini API call failed for batch: {e}. Falling back to heuristic analysis."
-                )
+                err_msg = str(e)
+                if any(code in err_msg for code in ["404", "401", "403", "NOT_FOUND", "API_KEY_INVALID", "getaddrinfo", "ConnectError"]):
+                    logger.warning(
+                        f"Non-recoverable or network error calling Gemini API: {e}. Tripping circuit breaker."
+                    )
+                    self._circuit_broken = True
+                else:
+                    logger.error(
+                        f"Gemini API call failed for batch: {e}. Falling back to heuristic analysis."
+                    )
                 return [self._heuristic_analyze_scene(s) for s in scenes]
         else:
             return [self._heuristic_analyze_scene(s) for s in scenes]
@@ -433,3 +442,4 @@ Return a JSON array of objects, one for each scene, matching this exact schema:
             return episode.logline
         key_points = [sa.key_conflict for sa in scene_analyses if sa.key_conflict]
         return f"Episode {episode.episode_id} centers on {'; '.join(key_points[:3])}."
+

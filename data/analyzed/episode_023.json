@@ -1,0 +1,64 @@
+{
+  "episode_id": 23,
+  "summary": "After examining the dying Dowager Duchess's blackened fingernails and consulting her late mother's remedy journal, Lady Juliana discovers the Duchess is being poisoned with arsenic—only for someone to arrive at the bedroom door just as she begins concocting the antidote.",
+  "key_events": [
+    "Betrayal conflict: LADY JULIANA: 'Someone is poisoning her.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP23_SCENE_01",
+      "episode_id": 23,
+      "key_conflict": "Betrayal conflict: LADY JULIANA: 'Someone is poisoning her.'",
+      "betrayals": [
+        "LADY JULIANA: 'Someone is poisoning her.'",
+        "PRUDENCE: 'Poison?'"
+      ],
+      "secrets_or_revelations": [
+        "PRUDENCE: 'Juliana, we cannot stay for long. Someone will come.'",
+        "LADY JULIANA: 'Arsenic.'"
+      ],
+      "threats_or_danger": [
+        "LADY JULIANA: 'Someone is poisoning her.'",
+        "PRUDENCE: 'Poison?'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP23_SCENE_01 at INT. ASHBURY MANOR - WEST WING BEDCHAMBER – NIGHT involving LADY JULIANA, PRUDENCE.",
+      "characters_involved": [
+        "LADY JULIANA",
+        "PRUDENCE"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:01.80",
+          "end_time": "00:06.00",
+          "start_seconds": 1.8,
+          "end_seconds": 6.0,
+          "quote_or_action": "PRUDENCE: \"Juliana, we cannot stay for long. Someone will come.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Juliana, we cannot stay for long. Someone will come."
+        },
+        {
+          "start_time": "00:13.50",
+          "end_time": "00:16.00",
+          "start_seconds": 13.5,
+          "end_seconds": 16.0,
+          "quote_or_action": "LADY JULIANA: \"How long has she been like this?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: How long has she been like this?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:58.80",
+          "end_time": "02:04.00",
+          "start_seconds": 118.8,
+          "end_seconds": 124.0,
+          "quote_or_action": "PRUDENCE: \"Juliana... someone is coming.\"",
+          "unresolved_question": "What will happen after PRUDENCE says: 'Juliana... someone is coming.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

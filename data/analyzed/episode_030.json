@@ -1,0 +1,153 @@
+{
+  "episode_id": 30,
+  "summary": "When rumors of the poisoned Duchess begin spreading among the servants, Rupert and Catherine conspire with an elder nobleman to fabricate a witchcraft charge against Juliana, sealing her fate for the gallows.",
+  "key_events": [
+    "Betrayal conflict: RUPERT: 'She knows the Duchess was poisoned.'",
+    "Betrayal conflict: ELDER NOBLEMAN: 'Give those facts to a magistrate in the right order, and she be",
+    "Dramatic confrontation"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP30_SCENE_01",
+      "episode_id": 30,
+      "key_conflict": "Betrayal conflict: RUPERT: 'She knows the Duchess was poisoned.'",
+      "betrayals": [
+        "RUPERT: 'She knows the Duchess was poisoned.'"
+      ],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "ELDER NOBLEMAN: 'The kitchen maids are whispering. They see the soup bowls returned unwiped. They see your guards outside the lower grates.'",
+        "RUPERT: 'She knows the Duchess was poisoned.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP30_SCENE_01 at INT. CASTLE CORRIDOR – DAY involving ELDER NOBLEMAN, RUPERT.",
+      "characters_involved": [
+        "ELDER NOBLEMAN",
+        "RUPERT"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:08.80",
+          "end_time": "00:13.30",
+          "start_seconds": 8.8,
+          "end_seconds": 13.3,
+          "quote_or_action": "ELDER NOBLEMAN: \"You have a rat in your cellar, Rupert. And the servants are beginning to smell it.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You have a rat in your cellar, Rupert. And the servants are beginning to smell it."
+        },
+        {
+          "start_time": "00:13.60",
+          "end_time": "00:16.80",
+          "start_seconds": 13.6,
+          "end_seconds": 16.8,
+          "quote_or_action": "RUPERT: \"The Ashcroft girl is locked tight. Nobody knows she is down there.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: The Ashcroft girl is locked tight. Nobody knows she is down there."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:44.80",
+          "end_time": "00:47.30",
+          "start_seconds": 44.8,
+          "end_seconds": 47.3,
+          "quote_or_action": "ELDER NOBLEMAN: \"We stop hiding the prisoner.\"",
+          "unresolved_question": "What will happen after ELDER NOBLEMAN says: 'We stop hiding the prisoner.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP30_SCENE_02",
+      "episode_id": 30,
+      "key_conflict": "Betrayal conflict: ELDER NOBLEMAN: 'Give those facts to a magistrate in the right order, and she be",
+      "betrayals": [
+        "ELDER NOBLEMAN: 'Give those facts to a magistrate in the right order, and she becomes a poisoner.'"
+      ],
+      "secrets_or_revelations": [
+        "ELDER NOBLEMAN: 'A maid with herbs in her possession, a secret medicine, an unauthorized visit to the Duchess's chamber.'",
+        "ELDER NOBLEMAN: 'She is weak, confused. No magistrate will trust a dying woman's accusations against a respected household.'",
+        "CATHERINE: 'She will hang. A perfect solution. The town will cheer as the witch's disgraced daughter faces the noose.'"
+      ],
+      "threats_or_danger": [
+        "ELDER NOBLEMAN: 'We use the law to destroy her.'",
+        "ELDER NOBLEMAN: 'Give those facts to a magistrate in the right order, and she becomes a poisoner.'",
+        "RUPERT: 'I will write the arrest warrant myself.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP30_SCENE_02 at INT. CASTLE STUDY / LIBRARY – CONTINUOUS involving CATHERINE, ELDER NOBLEMAN, RUPERT.",
+      "characters_involved": [
+        "CATHERINE",
+        "ELDER NOBLEMAN",
+        "RUPERT"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:51.20",
+          "end_time": "00:54.00",
+          "start_seconds": 51.2,
+          "end_seconds": 54.0,
+          "quote_or_action": "ELDER NOBLEMAN: \"We give them a reason to condemn her.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: We give them a reason to condemn her."
+        },
+        {
+          "start_time": "00:57.00",
+          "end_time": "00:58.80",
+          "start_seconds": 57.0,
+          "end_seconds": 58.8,
+          "quote_or_action": "CATHERINE: \"You have a solution?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You have a solution?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:17.50",
+          "end_time": "02:23.50",
+          "start_seconds": 137.5,
+          "end_seconds": 143.5,
+          "quote_or_action": "ELDER NOBLEMAN: \"Tomorrow, she stops being a prisoner. She becomes a witch.\"",
+          "unresolved_question": "What will happen after ELDER NOBLEMAN says: 'Tomorrow, she stops being a prisoner. She becomes a witch.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP30_SCENE_03",
+      "episode_id": 30,
+      "key_conflict": "Dramatic confrontation",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP30_SCENE_03 at INT. CASTLE SUBTERRANEAN WET CELLS – NIGHT involving .",
+      "characters_involved": [],
+      "hook_moments": [
+        {
+          "start_time": "02:24.50",
+          "end_time": "02:28.50",
+          "start_seconds": 144.5,
+          "end_seconds": 148.5,
+          "quote_or_action": "High-angle shot peering down through the heavy iron dungeon grate into the flooded, pitch-black subterranean wet cells where water drips continuously.",
+          "hook_type": "VISUAL_ACTION",
+          "curiosity_driver": "High visual tension establishes immediate dramatic stakes."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:28.50",
+          "end_time": "02:31.21",
+          "start_seconds": 148.5,
+          "end_seconds": 151.21,
+          "quote_or_action": "Juliana clutches a rough burlap rag to her trembling chest, her tear-stained face lifting upward in dread and fragile hope as the frame holds, cutting abruptly to black.",
+          "unresolved_question": "How will the character respond to this critical turning point?",
+          "intensity": 7
+        }
+      ]
+    }
+  ]
+}

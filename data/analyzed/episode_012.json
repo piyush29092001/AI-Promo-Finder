@@ -1,0 +1,64 @@
+{
+  "episode_id": 12,
+  "summary": "When the Constable attempts to arrest Alexander for grand theft, Clarissa offers Juliana a sadistic ultimatum: retrieve a signet ring from frozen, razor-sharp blackthorn briars with her bare hands, or watch her husband hang.",
+  "key_events": [
+    "Threat conflict: CONSTABLE: 'Put out your hands, veteran. You are under arrest for theft.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP12_SCENE_01",
+      "episode_id": 12,
+      "key_conflict": "Threat conflict: CONSTABLE: 'Put out your hands, veteran. You are under arrest for theft.'",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "CLARISSA: 'You will retrieve it with your bare hands before the magistrate arrives.'",
+        "GERALD: 'A lady's hands will be shredded to ribbons!'"
+      ],
+      "threats_or_danger": [
+        "CONSTABLE: 'Put out your hands, veteran. You are under arrest for theft.'",
+        "JULIANA: 'What do you want?'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP12_SCENE_01 at INT. COTTAGE – CONTINUOUS involving ALEXANDER, CLARISSA, CONSTABLE, GERALD, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "CLARISSA",
+        "CONSTABLE",
+        "GERALD",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:00.50",
+          "end_time": "00:04.50",
+          "start_seconds": 0.5,
+          "end_seconds": 4.5,
+          "quote_or_action": "CONSTABLE: \"Put out your hands, veteran. You are under arrest for theft.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Put out your hands, veteran. You are under arrest for theft."
+        },
+        {
+          "start_time": "00:05.70",
+          "end_time": "00:08.80",
+          "start_seconds": 5.7,
+          "end_seconds": 8.8,
+          "quote_or_action": "JULIANA: \"No! That watch was not in his coat!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: No! That watch was not in his coat!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:22.80",
+          "end_time": "01:24.70",
+          "start_seconds": 82.8,
+          "end_seconds": 84.7,
+          "quote_or_action": "JULIANA: \"Tell me where the garden is.\"",
+          "unresolved_question": "What will happen after JULIANA says: 'Tell me where the garden is.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

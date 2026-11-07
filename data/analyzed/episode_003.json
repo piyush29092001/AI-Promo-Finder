@@ -1,0 +1,163 @@
+{
+  "episode_id": 3,
+  "summary": "Banished from her mother's chapel and seized by guards at her family's command, Juliana is rescued by an imposing, scarred stranger who intervenes with lethal grace—and drops to one knee with a proposal that shocks high society.",
+  "key_events": [
+    "Confrontation between LADY IN GOLD GOWN and others: Look at you...",
+    "Betrayal conflict: LADY JULIANA: 'I was humiliated by your family.'",
+    "Threat conflict: ROYAL GUARD: 'Stand aside, stranger!'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP03_SCENE_01",
+      "episode_id": 3,
+      "key_conflict": "Confrontation between LADY IN GOLD GOWN and others: Look at you...",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP03_SCENE_01 at INT. CATHEDRAL NAVE – DAY involving LADY IN GOLD GOWN, LADY JULIANA.",
+      "characters_involved": [
+        "LADY IN GOLD GOWN",
+        "LADY JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:02.10",
+          "end_time": "00:04.20",
+          "start_seconds": 2.1,
+          "end_seconds": 4.2,
+          "quote_or_action": "LADY IN GOLD GOWN: \"Look at you...\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Look at you..."
+        },
+        {
+          "start_time": "00:03.60",
+          "end_time": "00:08.20",
+          "start_seconds": 3.6,
+          "end_seconds": 8.2,
+          "quote_or_action": "LADY IN GOLD GOWN: \"...still clinging to that little locket as if it can make you worthy of a place here.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: ...still clinging to that little locket as if it can make you worthy of a place here."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:20.60",
+          "end_time": "00:22.50",
+          "start_seconds": 20.6,
+          "end_seconds": 22.5,
+          "quote_or_action": "LADY IN GOLD GOWN: \"Now it is mine.\"",
+          "unresolved_question": "What will happen after LADY IN GOLD GOWN says: 'Now it is mine.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP03_SCENE_02",
+      "episode_id": 3,
+      "key_conflict": "Betrayal conflict: LADY JULIANA: 'I was humiliated by your family.'",
+      "betrayals": [
+        "LADY JULIANA: 'I was humiliated by your family.'",
+        "LADY JULIANA: 'Leave where?'"
+      ],
+      "secrets_or_revelations": [
+        "LADY JULIANA: 'And my father said nothing.'",
+        "NOBLE MATRIARCH: 'Your father has made his choice.'",
+        "NOBLE MATRIARCH: 'Your father has chosen his family...'"
+      ],
+      "threats_or_danger": [
+        "NOBLE MATRIARCH: 'Guards! Remove her!'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP03_SCENE_02 at INT. CATHEDRAL – CONTINUOUS involving LADY JULIANA, NOBLE MATRIARCH.",
+      "characters_involved": [
+        "LADY JULIANA",
+        "NOBLE MATRIARCH"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:23.10",
+          "end_time": "00:25.50",
+          "start_seconds": 23.1,
+          "end_seconds": 25.5,
+          "quote_or_action": "NOBLE MATRIARCH: \"Enough, Juliana.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Enough, Juliana."
+        },
+        {
+          "start_time": "00:25.90",
+          "end_time": "00:28.00",
+          "start_seconds": 25.9,
+          "end_seconds": 28.0,
+          "quote_or_action": "NOBLE MATRIARCH: \"You have humiliated this family enough for one day.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You have humiliated this family enough for one day."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:02.40",
+          "end_time": "01:03.50",
+          "start_seconds": 62.4,
+          "end_seconds": 63.5,
+          "quote_or_action": "LADY JULIANA: \"Please! Someone!\"",
+          "unresolved_question": "What will happen after LADY JULIANA says: 'Please! Someone!'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP03_SCENE_03",
+      "episode_id": 3,
+      "key_conflict": "Threat conflict: ROYAL GUARD: 'Stand aside, stranger!'",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "ROYAL GUARD: 'Stand aside, stranger!'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP03_SCENE_03 at INT. CATHEDRAL AISLE – CONTINUOUS involving LADY JULIANA, NOBLE MATRIARCH, ROYAL GUARD, THE BEARDED STRANGER, THE FORMER GROOM.",
+      "characters_involved": [
+        "LADY JULIANA",
+        "NOBLE MATRIARCH",
+        "ROYAL GUARD",
+        "THE BEARDED STRANGER",
+        "THE FORMER GROOM"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:09.90",
+          "end_time": "01:12.10",
+          "start_seconds": 69.9,
+          "end_seconds": 72.1,
+          "quote_or_action": "THE BEARDED STRANGER: \"Take your hands off her.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Take your hands off her."
+        },
+        {
+          "start_time": "01:13.00",
+          "end_time": "01:16.80",
+          "start_seconds": 73.0,
+          "end_seconds": 76.8,
+          "quote_or_action": "NOBLE MATRIARCH: \"And who are you to give orders in my family's chapel?!\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: And who are you to give orders in my family's chapel?!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:17.50",
+          "end_time": "02:20.30",
+          "start_seconds": 137.5,
+          "end_seconds": 140.3,
+          "quote_or_action": "THE BEARDED STRANGER: \"Lady Juliana... accept my hand.\"",
+          "unresolved_question": "What will happen after THE BEARDED STRANGER says: 'Lady Juliana... accept my hand.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

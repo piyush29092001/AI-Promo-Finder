@@ -1,0 +1,114 @@
+{
+  "episode_id": 11,
+  "summary": "Gerald and Clarissa arrive at the cottage with an armed constable accusing Alexander of grand theft, culminating in a devastating planted discovery that threatens to tear the newlyweds apart.",
+  "key_events": [
+    "Threat conflict: GERALD: 'Then you should have nothing to fear from a search.'",
+    "Threat conflict: GERALD: 'What is it, soldier? Going to strike a gentleman in front of his wife?'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP11_SCENE_01",
+      "episode_id": 11,
+      "key_conflict": "Threat conflict: GERALD: 'Then you should have nothing to fear from a search.'",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "CONSTABLE: 'Then a search will settle the matter.'"
+      ],
+      "threats_or_danger": [
+        "GERALD: 'Then you should have nothing to fear from a search.'",
+        "GERALD: 'You hear that? He threatens me again!'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP11_SCENE_01 at EXT. COTTAGE GROUNDS – DAY involving ALEXANDER, CONSTABLE, GERALD, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "CONSTABLE",
+        "GERALD",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:08.30",
+          "end_time": "00:10.70",
+          "start_seconds": 8.3,
+          "end_seconds": 10.7,
+          "quote_or_action": "JULIANA: \"Gerald? What are you doing here?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Gerald? What are you doing here?"
+        },
+        {
+          "start_time": "00:11.10",
+          "end_time": "00:13.20",
+          "start_seconds": 11.1,
+          "end_seconds": 13.2,
+          "quote_or_action": "GERALD: \"I came for something that belongs to me.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: I came for something that belongs to me."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:52.80",
+          "end_time": "00:53.60",
+          "start_seconds": 52.8,
+          "end_seconds": 53.6,
+          "quote_or_action": "ALEXANDER: \"Let them.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'Let them.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP11_SCENE_02",
+      "episode_id": 11,
+      "key_conflict": "Threat conflict: GERALD: 'What is it, soldier? Going to strike a gentleman in front of his wife?'",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "GERALD: 'What is it, soldier? Going to strike a gentleman in front of his wife?'",
+        "ALEXANDER: 'But one blow would destroy her life.'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP11_SCENE_02 at INT. COTTAGE – CONTINUOUS involving ALEXANDER, CONSTABLE, GERALD, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "CONSTABLE",
+        "GERALD",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:58.00",
+          "end_time": "01:00.10",
+          "start_seconds": 58.0,
+          "end_seconds": 60.1,
+          "quote_or_action": "JULIANA: \"Stop! Those are my mother's medicines!\"",
+          "hook_type": "SHOCKING_REVELATION",
+          "curiosity_driver": "Viewer immediately questions: Stop! Those are my mother's medicines!"
+        },
+        {
+          "start_time": "01:01.80",
+          "end_time": "01:03.80",
+          "start_seconds": 61.8,
+          "end_seconds": 63.8,
+          "quote_or_action": "JULIANA: \"Please! There is nothing here!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Please! There is nothing here!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:44.20",
+          "end_time": "01:46.60",
+          "start_seconds": 104.2,
+          "end_seconds": 106.6,
+          "quote_or_action": "GERALD: \"There it is. Ha!\"",
+          "unresolved_question": "What will happen after GERALD says: 'There it is. Ha!'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

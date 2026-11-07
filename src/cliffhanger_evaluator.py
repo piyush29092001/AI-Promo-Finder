@@ -18,6 +18,10 @@ class CliffhangerEvaluator:
         self.api_key = api_key or get_api_key()
         self.model_name = model_name or get_model_name()
         self.client = None
+        self._cliff_cache: dict = {}
+        self._circuit_broken: bool = False
+        self._failure_count: int = 0
+        self._max_failures: int = 2
 
         if self.api_key:
             try:
@@ -26,19 +30,46 @@ class CliffhangerEvaluator:
             except Exception as e:
                 logger.warning(f"Could not initialize Gemini Client for CliffhangerEvaluator: {e}")
 
-    def evaluate_cliffhanger(self, candidate: PromoCandidate) -> CliffhangerEvaluation:
+    def evaluate_cliffhanger(
+        self, candidate: PromoCandidate, use_gemini: bool = False
+    ) -> CliffhangerEvaluation:
         """
-        Evaluates the cliffhanger of a PromoCandidate. Uses Gemini if available,
-        otherwise uses deterministic rubric analysis.
+        Evaluates the cliffhanger of a PromoCandidate. Uses the deterministic rubric by default
+        for high-speed, verifiable evaluation across thousands of candidates.
+        When use_gemini=True, queries Gemini if healthy, with caching and fallback.
         """
-        if self.client and self.api_key:
+        cache_key = f"{candidate.cliffhanger_text}_{candidate.cliffhanger_end_time}_{candidate.unresolved_question}"
+        if cache_key in self._cliff_cache:
+            return self._cliff_cache[cache_key]
+
+        if use_gemini and self.client and self.api_key and not self._circuit_broken:
             try:
-                return self._call_gemini_cliffhanger_eval(candidate)
+                eval_res = self._call_gemini_cliffhanger_eval(candidate)
+                self._cliff_cache[cache_key] = eval_res
+                self._failure_count = 0
+                return eval_res
             except Exception as e:
-                logger.error(f"Gemini cliffhanger evaluation failed: {e}. Using rubric fallback.")
-                return self._heuristic_cliffhanger_eval(candidate)
+                self._failure_count += 1
+                logger.warning(
+                    f"Gemini cliffhanger evaluation failed: {e}. (Failure {self._failure_count}/{self._max_failures})"
+                )
+                if (
+                    self._failure_count >= self._max_failures
+                    or "404" in str(e)
+                    or "11001" in str(e)
+                    or "403" in str(e)
+                ):
+                    self._circuit_broken = True
+                    logger.warning(
+                        "Circuit breaker tripped for CliffhangerEvaluator: switching to verified deterministic rubric engine."
+                    )
+                eval_res = self._heuristic_cliffhanger_eval(candidate)
+                self._cliff_cache[cache_key] = eval_res
+                return eval_res
         else:
-            return self._heuristic_cliffhanger_eval(candidate)
+            eval_res = self._heuristic_cliffhanger_eval(candidate)
+            self._cliff_cache[cache_key] = eval_res
+            return eval_res
 
     def _call_gemini_cliffhanger_eval(self, candidate: PromoCandidate) -> CliffhangerEvaluation:
         from google.genai import types
@@ -109,6 +140,10 @@ Return valid JSON with:
             base_score -= 8.0
             weaknesses.append("Ends on a scene transition rather than a stinging dialogue cut.")
 
+        if candidate.unresolved_question.startswith("Weak / Resolved ending"):
+            base_score -= 25.0
+            weaknesses.append("Ending cut occurs on a neutral transition without posing an unresolved question.")
+
         if len(cliff_text) < 15:
             base_score -= 5.0
             weaknesses.append("Ending dialogue/action line is very brief.")
@@ -130,3 +165,4 @@ Return valid JSON with:
             explanation=explanation,
             weaknesses=weaknesses,
         )
+

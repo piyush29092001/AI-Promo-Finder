@@ -1,0 +1,66 @@
+{
+  "episode_id": 2,
+  "summary": "Publicly cast aside at the altar by Gerald for her sister Clarissa and abandoned by her own family, Juliana stands tall and turns her public humiliation into an unyielding indictment of Gerald's honor.",
+  "key_events": [
+    "Betrayal conflict: THE FORMER GROOM: 'I cannot marry you, Juliana.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP02_SCENE_01",
+      "episode_id": 2,
+      "key_conflict": "Betrayal conflict: THE FORMER GROOM: 'I cannot marry you, Juliana.'",
+      "betrayals": [
+        "THE FORMER GROOM: 'I cannot marry you, Juliana.'",
+        "LADY JULIANA: 'You gave me your word before both our families.'",
+        "LADY JULIANA: 'A better choice? Is that what she is?'"
+      ],
+      "secrets_or_revelations": [
+        "LADY JULIANA: 'Father...'",
+        "LADY JULIANA: 'Surely you will not let him humiliate me like this?'",
+        "LADY JULIANA: '...but I will not leave it believing I was the one who should be ashamed.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 8,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP02_SCENE_01 at INT. CATHEDRAL – CONTINUOUS involving BLOND NOBLEMAN, LADY IN GOLD GOWN, LADY JULIANA, OFF-SCREEN VOICE, THE FORMER GROOM.",
+      "characters_involved": [
+        "BLOND NOBLEMAN",
+        "LADY IN GOLD GOWN",
+        "LADY JULIANA",
+        "OFF-SCREEN VOICE",
+        "THE FORMER GROOM"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:00.00",
+          "end_time": "00:02.50",
+          "start_seconds": 0.0,
+          "end_seconds": 2.5,
+          "quote_or_action": "THE FORMER GROOM: \"I cannot marry you, Juliana.\"",
+          "hook_type": "SHOCKING_REVELATION",
+          "curiosity_driver": "Viewer immediately questions: I cannot marry you, Juliana."
+        },
+        {
+          "start_time": "00:04.70",
+          "end_time": "00:06.50",
+          "start_seconds": 4.7,
+          "end_seconds": 6.5,
+          "quote_or_action": "THE FORMER GROOM: \"You are far too plain...\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You are far too plain..."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:43.00",
+          "end_time": "01:47.40",
+          "start_seconds": 103.0,
+          "end_seconds": 107.4,
+          "quote_or_action": "LADY JULIANA: \"...but I will not leave it believing I was the one who should be ashamed.\"",
+          "unresolved_question": "What will happen after LADY JULIANA says: '...but I will not leave it believing I was the one who should be ashamed.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

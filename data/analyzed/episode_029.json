@@ -1,0 +1,161 @@
+{
+  "episode_id": 29,
+  "summary": "Thrown into the castle's subterranean wet cells as Catherine threatens to burn her mother's herbarium and frame her for witchcraft, Juliana breaks down in isolation before swearing that they will never take Alexander from her.",
+  "key_events": [
+    "Confrontation between JULIANA and others: Catherine! Please! That book is my mother's only legacy!",
+    "Betrayal conflict: JULIANA: 'You know that is a lie!'",
+    "Confrontation between JULIANA and others: Please!"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP29_SCENE_01",
+      "episode_id": 29,
+      "key_conflict": "Confrontation between JULIANA and others: Catherine! Please! That book is my mother's only legacy!",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP29_SCENE_01 at INT. CASTLE DUNGEON STAIRWELL – NIGHT involving JULIANA.",
+      "characters_involved": [
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:07.40",
+          "end_time": "00:11.70",
+          "start_seconds": 7.4,
+          "end_seconds": 11.7,
+          "quote_or_action": "JULIANA: \"Catherine! Please! That book is my mother's only legacy!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Catherine! Please! That book is my mother's only legacy!"
+        },
+        {
+          "start_time": "00:13.20",
+          "end_time": "00:17.30",
+          "start_seconds": 13.2,
+          "end_seconds": 17.3,
+          "quote_or_action": "JULIANA: \"It contains years of her work! Her knowledge! Everything she left me!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: It contains years of her work! Her knowledge! Everything she left me!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:13.20",
+          "end_time": "00:17.30",
+          "start_seconds": 13.2,
+          "end_seconds": 17.3,
+          "quote_or_action": "JULIANA: \"It contains years of her work! Her knowledge! Everything she left me!\"",
+          "unresolved_question": "What will happen after JULIANA says: 'It contains years of her work! Her knowledge! Everything she left me!'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP29_SCENE_02",
+      "episode_id": 29,
+      "key_conflict": "Betrayal conflict: JULIANA: 'You know that is a lie!'",
+      "betrayals": [
+        "JULIANA: 'You know that is a lie!'",
+        "CATHERINE: 'I know exactly what I need him to believe.'"
+      ],
+      "secrets_or_revelations": [
+        "CATHERINE: 'The magistrate will call it witchcraft.'",
+        "CATHERINE: '...no one will remember what was written inside.'",
+        "CATHERINE: 'I am doing this because women like you forget their place.'"
+      ],
+      "threats_or_danger": [
+        "CATHERINE: 'The magistrate will call it witchcraft.'",
+        "JULIANA: 'You cannot just destroy it!'",
+        "CATHERINE: 'Your scarred soldier?'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP29_SCENE_02 at INT. DUNGEON CORRIDOR – CONTINUOUS involving CATHERINE, GUARD, JULIANA.",
+      "characters_involved": [
+        "CATHERINE",
+        "GUARD",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:21.00",
+          "end_time": "00:24.00",
+          "start_seconds": 21.0,
+          "end_seconds": 24.0,
+          "quote_or_action": "CATHERINE: \"Your mother's little book of weeds?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Your mother's little book of weeds?"
+        },
+        {
+          "start_time": "00:24.80",
+          "end_time": "00:26.70",
+          "start_seconds": 24.8,
+          "end_seconds": 26.7,
+          "quote_or_action": "CATHERINE: \"You still call this a legacy?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You still call this a legacy?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:18.70",
+          "end_time": "01:20.60",
+          "start_seconds": 78.7,
+          "end_seconds": 80.6,
+          "quote_or_action": "GUARD: \"Move along, girl.\"",
+          "unresolved_question": "What will happen after GUARD says: 'Move along, girl.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP29_SCENE_03",
+      "episode_id": 29,
+      "key_conflict": "Confrontation between JULIANA and others: Please!",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "JULIANA: 'They took her locket. But they will not take Alexander from me.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP29_SCENE_03 at INT. CASTLE DUNGEON CELL – CONTINUOUS involving JULIANA.",
+      "characters_involved": [
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:25.70",
+          "end_time": "01:26.50",
+          "start_seconds": 85.7,
+          "end_seconds": 86.5,
+          "quote_or_action": "JULIANA: \"Please!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Please!"
+        },
+        {
+          "start_time": "01:34.20",
+          "end_time": "01:35.50",
+          "start_seconds": 94.2,
+          "end_seconds": 95.5,
+          "quote_or_action": "JULIANA: \"Mother...\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Mother..."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:49.00",
+          "end_time": "01:52.60",
+          "start_seconds": 109.0,
+          "end_seconds": 112.6,
+          "quote_or_action": "JULIANA: \"They took her locket. But they will not take Alexander from me.\"",
+          "unresolved_question": "What will happen after JULIANA says: 'They took her locket. But they will not take Alexander from me.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

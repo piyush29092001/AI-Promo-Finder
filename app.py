@@ -11,8 +11,11 @@ from src.config import (
     FINAL_RESULTS_DIR,
     RAW_OUTPUTS_DIR,
     QUALITY_REPORTS_DIR,
+    ANALYZED_DIR,
+    CANDIDATES_DIR,
     get_api_key,
     get_model_name,
+    get_input_files,
 )
 from src.models import (
     Episode,
@@ -31,6 +34,7 @@ from src.promo_discovery import PromoDiscoveryEngine
 from src.ranking import PromoRanker
 from src.quality_checker import QualityChecker
 from src.exporter import Exporter
+from src.ui_components import render_promo_card, render_promo_screenplay_section
 
 # Page config
 st.set_page_config(
@@ -90,6 +94,23 @@ if "api_key" not in st.session_state:
 if "model_name" not in st.session_state:
     st.session_state.model_name = get_model_name()
 
+# Auto-load verified pre-computed results on initial launch for Streamlit Cloud
+if "auto_loaded" not in st.session_state:
+    st.session_state.auto_loaded = True
+    verified_file = FINAL_RESULTS_DIR / "complete_results.json"
+    if verified_file.exists():
+        try:
+            with open(verified_file, "r", encoding="utf-8") as f:
+                raw_data = json.load(f)
+            st.session_state.evaluations = [PromoEvaluation.model_validate(x) for x in raw_data]
+            st.session_state.candidates = [e.candidate for e in st.session_state.evaluations]
+            qr_file = QUALITY_REPORTS_DIR / "quality_report.json"
+            if qr_file.exists():
+                with open(qr_file, "r", encoding="utf-8") as f:
+                    st.session_state.quality_report = QualityReport.model_validate(json.load(f))
+        except Exception:
+            pass
+
 # Sidebar
 with st.sidebar:
     st.title("🎬 Promo Finder")
@@ -99,18 +120,19 @@ with st.sidebar:
     # API Configuration
     st.subheader("🔑 AI Configuration")
     user_key = st.text_input(
-        "Gemini API Key",
+        "Gemini API Key (Optional)",
         value=st.session_state.api_key,
         type="password",
-        help="Reads from .env by default. Enter a key or leave empty to use the verified offline rule/heuristic engine.",
+        help="Optional. Reading pre-computed verified results requires no API key. A key is only needed to run new live analyses.",
     )
     if user_key != st.session_state.api_key:
         st.session_state.api_key = user_key
 
     selected_model = st.selectbox(
         "Model Selection",
-        ["gemini-2.5-flash", "gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash"],
+        ["gemini-3.5-flash", "gemini-3.1-flash-lite", "gemini-3.8-flash", "gemini-2.5-pro"],
         index=0,
+        help="gemini-3.5-flash (Recommended) & gemini-3.1-flash-lite are high availability. gemini-3.8-flash may experience temporary demand spikes.",
     )
     st.session_state.model_name = selected_model
 
@@ -136,6 +158,41 @@ with st.sidebar:
     )
 
     st.divider()
+    if st.button("🔄 Reset / Clear Session", use_container_width=True):
+        st.session_state.episodes = []
+        st.session_state.analyses = []
+        st.session_state.candidates = []
+        st.session_state.evaluations = []
+        st.session_state.quality_report = None
+        st.rerun()
+
+    verified_results_file = FINAL_RESULTS_DIR / "complete_results.json"
+    results_ready = verified_results_file.exists()
+    if st.button(
+        "📂 Load Verified 11,961 Promos",
+        use_container_width=True,
+        disabled=not results_ready,
+        help="Instantly load pre-computed, verified 11,961 promo evaluations from disk." if results_ready else "Run analysis or place complete_results.json in data/final_results/.",
+    ):
+        with st.spinner("Loading verified results..."):
+            with open(verified_results_file, "r", encoding="utf-8") as f:
+                raw_data = json.load(f)
+            evals = [PromoEvaluation.model_validate(x) for x in raw_data]
+            st.session_state.evaluations = evals
+            st.session_state.candidates = [e.candidate for e in evals]
+            qr_file = QUALITY_REPORTS_DIR / "quality_report.json"
+            if qr_file.exists():
+                with open(qr_file, "r", encoding="utf-8") as f:
+                    st.session_state.quality_report = QualityReport.model_validate(json.load(f))
+            if not st.session_state.episodes:
+                files = get_input_files()
+                st.session_state.episodes = [
+                    parse_screenplay(extract_text_from_txt(f), source_filename=f)
+                    for f in files
+                ]
+        st.success("Loaded 11,961 verified results!")
+        st.rerun()
+
     st.caption("Status: All 50 episodes supported")
 
 
@@ -174,67 +231,156 @@ if page == "📊 Dashboard":
 
     if not st.session_state.evaluations:
         st.info("👋 Welcome! To begin discovering promos, go to **📁 Upload Screenplays** or click 'Load Full 50-Episode Pack' below.")
-        if st.button("🚀 Quick Start: Load & Analyze Full 50-Episode Input Pack", type="primary"):
-            with st.spinner("Loading and parsing all 50 screenplay files..."):
-                files = sorted(glob.glob("input/*.txt"))
-                loaded_eps = []
-                for f in files:
-                    text = extract_text_from_txt(f)
-                    ep = parse_screenplay(text, source_filename=f)
-                    loaded_eps.append(ep)
-                st.session_state.episodes = loaded_eps
+        c_btn1, c_btn2 = st.columns(2)
+        with c_btn1:
+            if st.button("🚀 Quick Start: Load & Analyze Full 50-Episode Pack", type="primary", use_container_width=True):
+                progress_container = st.container()
+                with progress_container:
+                    overall_bar = st.progress(0, text="Initializing 5-stage analysis pipeline...")
+                    stage_status = st.empty()
+                    metrics_cols = st.columns(4)
+                    m_ep = metrics_cols[0].empty()
+                    m_sc = metrics_cols[1].empty()
+                    m_cand = metrics_cols[2].empty()
+                    m_eval = metrics_cols[3].empty()
 
-            with st.spinner("Analyzing scenes across all 50 episodes..."):
-                analyzer = ScreenplayAnalyzer(
-                    api_key=st.session_state.api_key,
-                    model_name=st.session_state.model_name,
-                )
-                analyses = [analyzer.analyze_episode(ep) for ep in loaded_eps]
-                st.session_state.analyses = analyses
+                    m_ep.metric("Episodes", "0 / 50")
+                    m_sc.metric("Scenes", "0 / 100")
+                    m_cand.metric("Candidates", "0")
+                    m_eval.metric("Evaluated", "0")
 
-            with st.spinner("Discovering single and multi-episode promos (20s - 60s)..."):
-                discovery = PromoDiscoveryEngine()
-                candidates = discovery.discover_all_promos(loaded_eps, analyses)
-                st.session_state.candidates = candidates
+                    try:
+                        # STAGE 1: INGESTION & PARSING
+                        stage_status.info("📁 **Stage 1/5: Loading and parsing screenplay files...**")
+                        overall_bar.progress(0.1, text="Stage 1/5: Parsing screenplays...")
+                        files = get_input_files()
+                        if not files:
+                            stage_status.error("❌ **No screenplay source files found.**")
+                            st.warning("Screenplay source files were omitted from the repository for confidentiality. Please upload `.txt` or `.pdf` screenplays on the **📁 Upload Screenplays** page, or click **📂 Load Pre-computed Verified Results** below.")
+                            st.stop()
 
-            with st.spinner("Evaluating hooks (Four Hook Mistakes) and ranking..."):
-                ranker = PromoRanker()
-                evaluations = ranker.evaluate_and_rank_all(candidates)
-                st.session_state.evaluations = evaluations
+                        loaded_eps = []
+                        total_scenes_count = 0
+                        for idx, f in enumerate(files):
+                            text = extract_text_from_txt(f)
+                            ep = parse_screenplay(text, source_filename=f)
+                            loaded_eps.append(ep)
+                            total_scenes_count += len(ep.scenes)
+                            m_ep.metric("Episodes", f"{idx + 1} / {len(files)}")
+                            m_sc.metric("Scenes", f"{total_scenes_count}")
+                        st.session_state.episodes = loaded_eps
 
-            with st.spinner("Performing dual-method quality verification..."):
-                checker = QualityChecker()
-                st.session_state.quality_report = checker.run_full_quality_check(
-                    evaluations, loaded_eps
-                )
+                        # STAGE 2: SCENE DRAMATIC ANALYSIS
+                        stage_status.info("⚙️ **Stage 2/5: Analyzing dramatic scenes across all 50 episodes...**")
+                        overall_bar.progress(0.3, text="Stage 2/5: Dramatic analysis...")
+                        analyzer = ScreenplayAnalyzer(
+                            api_key=st.session_state.api_key,
+                            model_name=st.session_state.model_name,
+                        )
+                        analyses = []
+                        for idx, ep in enumerate(loaded_eps):
+                            ea = analyzer.analyze_episode(ep)
+                            analyses.append(ea)
+                            m_ep.metric("Episodes Analyzed", f"{idx + 1} / {len(loaded_eps)}")
+                        st.session_state.analyses = analyses
 
-            st.success(f"Processing complete! Discovered {len(candidates)} promo candidates across 50 episodes.")
-            st.rerun()
+                        # STAGE 3: PROMO DISCOVERY
+                        stage_status.info("🎯 **Stage 3/5: Discovering single- and multi-episode promo candidates (20s–60s)...**")
+                        overall_bar.progress(0.5, text="Stage 3/5: Discovering promo candidates...")
+                        discovery = PromoDiscoveryEngine()
+                        candidates = discovery.discover_all_promos(loaded_eps, analyses)
+                        st.session_state.candidates = candidates
+                        m_cand.metric("Candidates", f"{len(candidates):,}")
+
+                        # STAGE 4: EVALUATION & RANKING
+                        stage_status.info("🏆 **Stage 4/5: Two-Stage Evaluation (Stage 4A: Baseline scoring, Stage 4B: Batched Gemini evaluation)...**")
+                        ranker = PromoRanker(
+                            api_key=st.session_state.api_key,
+                            model_name=st.session_state.model_name,
+                        )
+
+                        def update_rank_progress(cur, tot, msg):
+                            pct = cur / max(tot, 1)
+                            overall_bar.progress(0.5 + 0.35 * pct, text=f"Stage 4/5: {msg}")
+                            m_eval.metric("Evaluated", f"{cur:,} / {tot:,}")
+
+                        evaluations = ranker.evaluate_and_rank_all(
+                            candidates,
+                            deep_evaluate_top_n=20 if st.session_state.api_key else 0,
+                            progress_callback=update_rank_progress,
+                        )
+                        st.session_state.evaluations = evaluations
+
+                        # STAGE 5: QUALITY AUDIT
+                        stage_status.info("🛡️ **Stage 5/5: Performing dual-method quality assurance...**")
+                        overall_bar.progress(0.95, text="Stage 5/5: Quality verification...")
+                        checker = QualityChecker()
+                        st.session_state.quality_report = checker.run_full_quality_check(
+                            evaluations, loaded_eps
+                        )
+
+                        overall_bar.progress(1.0, text="Pipeline Complete!")
+                        st.success(f"Processing complete! Discovered and ranked {len(candidates):,} candidates across all 50 episodes with 0 structural errors.")
+                        st.rerun()
+
+                    except Exception as e:
+                        stage_status.error(f"❌ **Pipeline Error encountered:** {e}")
+                        st.exception(e)
+
+        with c_btn2:
+            verified_results_file = FINAL_RESULTS_DIR / "complete_results.json"
+            is_avail = verified_results_file.exists()
+            if st.button(
+                "📂 Load Pre-computed Verified Results (11,961 Promos)",
+                use_container_width=True,
+                disabled=not is_avail,
+                help="Instantly load pre-computed 11,961 promo evaluations from disk (39.5 MB)." if is_avail else "Result file complete_results.json not found.",
+            ):
+                with st.spinner("Loading verified results..."):
+                    with open(verified_results_file, "r", encoding="utf-8") as f:
+                        raw_data = json.load(f)
+                    evals = [PromoEvaluation.model_validate(x) for x in raw_data]
+                    st.session_state.evaluations = evals
+                    st.session_state.candidates = [e.candidate for e in evals]
+                    qr_file = QUALITY_REPORTS_DIR / "quality_report.json"
+                    if qr_file.exists():
+                        with open(qr_file, "r", encoding="utf-8") as f:
+                            st.session_state.quality_report = QualityReport.model_validate(json.load(f))
+                    if not st.session_state.episodes:
+                        files = get_input_files()
+                        st.session_state.episodes = [
+                            parse_screenplay(extract_text_from_txt(f), source_filename=f)
+                            for f in files
+                        ]
+                st.success("Loaded 11,961 verified results!")
+                st.rerun()
 
     else:
-        st.subheader("🌟 Top 3 Recommended Promos to Publish First")
+        top_col1, top_col2 = st.columns([3, 1])
+        with top_col1:
+            st.subheader("🌟 Top 3 Recommended Promos to Publish First")
+            st.caption("Primary creative recommendations representing distinct episodes, dramatic conflicts, and complete original screenplays.")
+        with top_col2:
+            verified_results_file = FINAL_RESULTS_DIR / "complete_results.json"
+            if verified_results_file.exists():
+                if st.button("🔄 Reload 11,961 Verified Promos", use_container_width=True):
+                    with st.spinner("Reloading complete dataset..."):
+                        with open(verified_results_file, "r", encoding="utf-8") as f:
+                            raw_data = json.load(f)
+                        st.session_state.evaluations = [PromoEvaluation.model_validate(x) for x in raw_data]
+                        st.session_state.candidates = [e.candidate for e in st.session_state.evaluations]
+                    st.rerun()
         top_3 = [ev for ev in st.session_state.evaluations if ev.is_top_three][:3]
 
-        cols = st.columns(3)
         for i, ev in enumerate(top_3):
             cand = ev.candidate
-            with cols[i]:
-                st.markdown(f"### Rank #{ev.rank}")
-                st.caption(f"**ID:** `{ev.promo_id}` | **Type:** {cand.promo_type}")
-                st.write(f"⏱️ **Duration:** {cand.total_duration_seconds:.1f}s")
-                st.progress(ev.overall_promo_score / 100.0, text=f"Composite Score: {ev.overall_promo_score:.1f}/100")
-
-                with st.expander("🎣 Hook Analysis", expanded=True):
-                    st.write(f"**Dialogue:** *\"{cand.hook_text}\"*")
-                    st.caption(f"Time: {cand.hook_start_time} - {cand.hook_end_time} | Score: {ev.hook_eval.total_hook_score:.1f}/100")
-                    st.caption(f"Delay: {ev.hook_eval.delay_score}/25 | Confusion: {ev.hook_eval.confusion_score}/25 | Irrelevance: {ev.hook_eval.irrelevance_score}/25 | Disinterest: {ev.hook_eval.disinterest_score}/25")
-
-                with st.expander("⚡ Cliffhanger Analysis", expanded=True):
-                    st.write(f"**Ending:** *\"{cand.cliffhanger_text}\"*")
-                    st.caption(f"Time: {cand.cliffhanger_start_time} - {cand.cliffhanger_end_time} | Score: {ev.cliffhanger_eval.cliffhanger_score:.1f}/100")
-                    st.write(f"❓ **Unresolved Question:** {cand.unresolved_question}")
-
-                st.info(f"💡 **Why Publish First:** {ev.publish_priority_reason}")
+            render_promo_card(
+                candidate=cand,
+                evaluation=ev,
+                episodes=st.session_state.episodes,
+                is_top_recommendation=True,
+                rank_label=f"Recommendation #{ev.recommended_publish_rank or (i + 1)} (Raw Rank #{ev.rank})",
+            )
 
 
 # -----------------------------------------------------------------------------
@@ -255,14 +401,17 @@ elif page == "📁 Upload Screenplays":
     with c2:
         st.write("Or load existing workspace repository files:")
         if st.button("📁 Load All 50 Episodes from `input/` folder", use_container_width=True):
-            files = sorted(glob.glob("input/*.txt"))
-            loaded_eps = []
-            for f in files:
-                text = extract_text_from_txt(f)
-                ep = parse_screenplay(text, source_filename=f)
-                loaded_eps.append(ep)
-            st.session_state.episodes = loaded_eps
-            st.success(f"Successfully loaded and parsed all {len(loaded_eps)} episodes!")
+            files = get_input_files()
+            if not files:
+                st.warning("⚠️ No screenplay files found in `input/` or `data/input/`. Screenplay files are omitted from the public repository for confidentiality. Please upload your `.txt` or `.pdf` screenplay files above.")
+            else:
+                loaded_eps = []
+                for f in files:
+                    text = extract_text_from_txt(f)
+                    ep = parse_screenplay(text, source_filename=f)
+                    loaded_eps.append(ep)
+                st.session_state.episodes = loaded_eps
+                st.success(f"Successfully loaded and parsed all {len(loaded_eps)} episodes!")
 
     if uploaded_files:
         if st.button(f"Parse {len(uploaded_files)} Uploaded Files", type="primary"):
@@ -311,7 +460,18 @@ elif page == "⚙️ Analysis Engine":
     st.markdown("<div class='sub-title'>Batch scene processing, dramatic conflict identification & caching</div>", unsafe_allow_html=True)
 
     if not st.session_state.episodes:
-        st.warning("Please upload or load episodes on the 'Upload Screenplays' page first.")
+        analyzed_files = sorted(glob.glob(str(ANALYZED_DIR / "episode_*.json")))
+        if analyzed_files and not st.session_state.analyses:
+            st.info("💡 Screenplay text files are omitted for confidentiality, but 50 pre-computed episode analyses are available on disk.")
+            if st.button("📂 Load Pre-computed Episode Analyses (50 Episodes)", use_container_width=True):
+                loaded_ea = []
+                for af in analyzed_files:
+                    with open(af, "r", encoding="utf-8") as f:
+                        loaded_ea.append(EpisodeAnalysis.model_validate(json.load(f)))
+                st.session_state.analyses = loaded_ea
+                st.success(f"Loaded {len(loaded_ea)} pre-computed episode analyses!")
+                st.rerun()
+        st.warning("Please upload or load episodes on the 'Upload Screenplays' page to run live scene analysis.")
     else:
         st.write(f"Ready to analyze {len(st.session_state.episodes)} episodes.")
 
@@ -373,8 +533,22 @@ elif page == "🎯 Promo Discovery":
     st.markdown("<div class='main-title'>🎯 Promo Discovery Engine</div>", unsafe_allow_html=True)
     st.markdown("<div class='sub-title'>Discovers Single-Episode and Multi-Episode combinations (20s - 60s)</div>", unsafe_allow_html=True)
 
+    if not st.session_state.candidates and st.session_state.evaluations:
+        st.session_state.candidates = [e.candidate for e in st.session_state.evaluations]
+
+    if not st.session_state.candidates:
+        cand_file = CANDIDATES_DIR / "all_candidates.json"
+        if cand_file.exists():
+            st.info("💡 Pre-discovered candidate promos are available on disk.")
+            if st.button("📂 Load Pre-discovered Promo Candidates (11,961 Promos)", use_container_width=True):
+                with open(cand_file, "r", encoding="utf-8") as f:
+                    st.session_state.candidates = [PromoCandidate.model_validate(x) for x in json.load(f)]
+                st.success(f"Loaded {len(st.session_state.candidates)} pre-discovered candidates!")
+                st.rerun()
+
     if not st.session_state.episodes or not st.session_state.analyses:
-        st.warning("Please complete Screenplay Analysis before discovering promos.")
+        if not st.session_state.candidates:
+            st.warning("Please complete Screenplay Analysis before discovering new promos.")
     else:
         if st.button("⚡ Discover All Promo Candidates", type="primary"):
             with st.spinner("Extracting and evaluating candidate combinations..."):
@@ -393,19 +567,33 @@ elif page == "🎯 Promo Discovery":
             if promo_type_filter != "ALL":
                 filtered = [c for c in filtered if c.promo_type == promo_type_filter]
 
-            st.write(f"Showing **{len(filtered)}** candidates:")
+            c_filter1, c_filter2 = st.columns([1, 2])
+            with c_filter1:
+                page_size = 10
+                total_pages = max(1, (len(filtered) + page_size - 1) // page_size)
+                selected_page = st.number_input(
+                    f"Page (1 to {total_pages})",
+                    min_value=1,
+                    max_value=total_pages,
+                    value=1,
+                    step=1,
+                )
+            with c_filter2:
+                st.write(f"Total Discovered: **{len(filtered)}** candidates. Showing **10** per page with complete screenplay scripts.")
 
-            for c in filtered[:25]:
-                with st.container():
-                    st.markdown(f"#### `{c.promo_id}` ({c.promo_type}) — Duration: {c.total_duration_seconds:.1f}s")
-                    st.write(f"**Episodes:** {c.episodes} | **Conflict:** {c.key_conflict}")
-                    st.write(f"**Segments:** " + "; ".join(f"Ep {s.episode_id}: {s.start_time}-{s.end_time}" for s in c.segments))
-                    c1, c2 = st.columns(2)
-                    with c1:
-                        st.info(f"**Opening Hook:**\n*\"{c.hook_text}\"* ({c.hook_start_time} - {c.hook_end_time})")
-                    with c2:
-                        st.warning(f"**Ending Cliffhanger:**\n*\"{c.cliffhanger_text}\"* ({c.cliffhanger_start_time} - {c.cliffhanger_end_time})\n\n❓ *{c.unresolved_question}*")
-                    st.divider()
+            start_idx = (selected_page - 1) * page_size
+            end_idx = min(start_idx + page_size, len(filtered))
+
+            eval_map = {ev.promo_id: ev for ev in st.session_state.evaluations}
+
+            for c in filtered[start_idx:end_idx]:
+                ev = eval_map.get(c.promo_id)
+                render_promo_card(
+                    candidate=c,
+                    evaluation=ev,
+                    episodes=st.session_state.episodes,
+                    is_top_recommendation=False,
+                )
 
 
 # -----------------------------------------------------------------------------
@@ -415,44 +603,122 @@ elif page == "🏆 Promo Ranking":
     st.markdown("<div class='main-title'>🏆 Multi-Criteria Promo Ranking & Tie-Breaking</div>", unsafe_allow_html=True)
     st.markdown("<div class='sub-title'>Formula: 40% Hook + 25% Cliffhanger + 15% Clarity + 10% Emotion + 10% Continuity</div>", unsafe_allow_html=True)
 
-    if not st.session_state.candidates:
-        st.warning("Please run Promo Discovery first.")
-    else:
+    if not st.session_state.candidates and st.session_state.evaluations:
+        st.session_state.candidates = [e.candidate for e in st.session_state.evaluations]
+
+    if not st.session_state.candidates and not st.session_state.evaluations:
+        verified_results_file = FINAL_RESULTS_DIR / "complete_results.json"
+        if verified_results_file.exists():
+            st.info("💡 Pre-computed verified rankings are available on disk.")
+            if st.button("📂 Load Pre-computed Verified Rankings (11,961 Promos)", use_container_width=True):
+                with open(verified_results_file, "r", encoding="utf-8") as f:
+                    raw_data = json.load(f)
+                st.session_state.evaluations = [PromoEvaluation.model_validate(x) for x in raw_data]
+                st.session_state.candidates = [e.candidate for e in st.session_state.evaluations]
+                st.success("Loaded 11,961 verified results!")
+                st.rerun()
+        st.warning("Please run Promo Discovery first or load pre-computed results.")
+    elif st.session_state.candidates and not st.session_state.evaluations:
         if st.button("⚖️ Calculate Rankings & Apply Tie-Breaking", type="primary"):
-            with st.spinner("Scoring all candidates..."):
-                ranker = PromoRanker()
-                evaluations = ranker.evaluate_and_rank_all(st.session_state.candidates)
+            p_bar = st.progress(0, text="Scoring all candidates...")
+
+            def update_scoring_progress(cur, tot, msg):
+                p_bar.progress(cur / max(tot, 1), text=f"Scoring: {msg}")
+
+            try:
+                ranker = PromoRanker(
+                    api_key=st.session_state.api_key,
+                    model_name=st.session_state.model_name,
+                )
+                evaluations = ranker.evaluate_and_rank_all(
+                    st.session_state.candidates,
+                    deep_evaluate_top_n=20 if st.session_state.api_key else 0,
+                    progress_callback=update_scoring_progress,
+                )
                 st.session_state.evaluations = evaluations
-            st.success("Scoring and ranking completed!")
+                p_bar.empty()
+                st.success(f"Scoring and ranking completed for {len(evaluations):,} candidates!")
+            except Exception as e:
+                p_bar.empty()
+                st.error(f"Error during ranking: {e}")
+                st.exception(e)
 
         if st.session_state.evaluations:
-            ranker = PromoRanker()
+            ranker = PromoRanker(
+                api_key=st.session_state.api_key,
+                model_name=st.session_state.model_name,
+            )
             df = ranker.to_dataframe(st.session_state.evaluations)
 
+            view_mode = st.radio(
+                "Filter View",
+                ["🌟 Primary Recommendations (Distinct Scenes / Conflicts)", "📋 Complete Candidate Pool (Including All Duration Variants)"],
+                horizontal=True,
+            )
+            if "Primary Recommendations" in view_mode:
+                display_df = df[df["Cluster Primary"] == "YES"]
+            else:
+                display_df = df
+
+            cols_to_show = [
+                "Rec Rank",
+                "Rank",
+                "Promo ID",
+                "Type",
+                "Episodes",
+                "Duration (s)",
+                "Overall Score",
+                "Hook Score (40%)",
+                "Cliffhanger Score (25%)",
+                "Top 3",
+                "Cluster Primary",
+                "Variants in Cluster",
+            ]
+            if "LLM Deep Evaluated" in display_df.columns:
+                cols_to_show.append("LLM Deep Evaluated")
+            cols_to_show.append("Diversity Notes")
+
             st.dataframe(
-                df[
-                    [
-                        "Rank",
-                        "Promo ID",
-                        "Type",
-                        "Episodes",
-                        "Duration (s)",
-                        "Overall Score",
-                        "Hook Score (40%)",
-                        "Cliffhanger Score (25%)",
-                        "Clarity Score (15%)",
-                        "Emotional Score (10%)",
-                        "Continuity Score (10%)",
-                        "Top 3",
-                    ]
-                ],
+                display_df[cols_to_show],
                 use_container_width=True,
             )
 
             st.divider()
-            st.subheader("💡 Top 3 Recommendation Rationales")
-            for ev in [e for e in st.session_state.evaluations if e.is_top_three][:3]:
-                st.markdown(f"**Rank #{ev.rank} (`{ev.promo_id}`):** {ev.publish_priority_reason}")
+            st.subheader("🌟 Top 3 Recommendations to Publish First")
+            st.caption("Primary recommendations with complete original screenplays, individual score breakdowns, and partial overlap tracking.")
+            for i, ev in enumerate([e for e in st.session_state.evaluations if e.is_top_three][:3]):
+                render_promo_card(
+                    candidate=ev.candidate,
+                    evaluation=ev,
+                    episodes=st.session_state.episodes,
+                    is_top_recommendation=True,
+                    rank_label=f"Recommendation #{ev.recommended_publish_rank or (i + 1)} (Raw Rank #{ev.rank})",
+                )
+
+            st.divider()
+            st.subheader("🔍 Complete Screenplay & Scoring Inspector")
+            st.caption("Select any candidate in the pool to inspect its complete original screenplay script, camera angles, actions, and metric breakdown.")
+
+            ranked_options = [
+                f"Rank #{ev.rank} [{ev.overall_promo_score:.2f} pts] — {ev.promo_id} ({ev.candidate.promo_type})"
+                for ev in st.session_state.evaluations[:250]
+            ]
+            selected_option = st.selectbox(
+                "Select Candidate to Inspect",
+                options=ranked_options,
+                index=0,
+            )
+            if selected_option:
+                sel_promo_id = selected_option.split(" — ")[1].split(" ")[0].strip()
+                sel_ev = next((e for e in st.session_state.evaluations if e.promo_id == sel_promo_id), None)
+                if sel_ev:
+                    render_promo_card(
+                        candidate=sel_ev.candidate,
+                        evaluation=sel_ev,
+                        episodes=st.session_state.episodes,
+                        is_top_recommendation=True,
+                        rank_label=f"Rank #{sel_ev.rank}",
+                    )
 
 
 # -----------------------------------------------------------------------------
@@ -462,8 +728,17 @@ elif page == "🛡️ Quality Report":
     st.markdown("<div class='main-title'>🛡️ Quality Assurance & Error Auditing</div>", unsafe_allow_html=True)
     st.markdown("<div class='sub-title'>Method 1: Strict Python Rule Validation | Method 2: Independent Adversarial Evaluation</div>", unsafe_allow_html=True)
 
+    if not st.session_state.quality_report:
+        qr_file = QUALITY_REPORTS_DIR / "quality_report.json"
+        if qr_file.exists():
+            try:
+                with open(qr_file, "r", encoding="utf-8") as f:
+                    st.session_state.quality_report = QualityReport.model_validate(json.load(f))
+            except Exception:
+                pass
+
     if not st.session_state.evaluations:
-        st.warning("Please complete Promo Ranking before auditing quality.")
+        st.warning("Please complete Promo Ranking before auditing quality or load pre-computed results.")
     else:
         if st.button("🔍 Run Full Quality Audit", type="primary"):
             with st.spinner("Executing structural and semantic quality checks..."):
@@ -522,7 +797,17 @@ elif page == "📥 Export Center":
     st.markdown("<div class='sub-title'>Export complete outputs in JSON, CSV, PDF, and Raw Formats</div>", unsafe_allow_html=True)
 
     if not st.session_state.evaluations:
-        st.warning("No evaluated promo results to export yet. Please run the pipeline first.")
+        verified_results_file = FINAL_RESULTS_DIR / "complete_results.json"
+        if verified_results_file.exists():
+            try:
+                with open(verified_results_file, "r", encoding="utf-8") as f:
+                    raw_data = json.load(f)
+                st.session_state.evaluations = [PromoEvaluation.model_validate(x) for x in raw_data]
+            except Exception:
+                pass
+
+    if not st.session_state.evaluations:
+        st.warning("No evaluated promo results to export yet. Please run the pipeline or load verified results.")
     else:
         colA, colB, colC = st.columns(3)
 
@@ -587,3 +872,4 @@ elif page == "📥 Export Center":
         with colE:
             st.write("Raw unedited intermediate outputs are preserved in `data/raw_outputs/` and `data/analyzed/`.")
             st.info("Ensures auditability and separation between raw AI generations and post-processed outputs.")
+

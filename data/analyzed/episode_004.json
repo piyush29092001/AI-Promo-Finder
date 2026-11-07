@@ -1,0 +1,64 @@
+{
+  "episode_id": 4,
+  "summary": "Defying Gerald and Clarissa's cruel mockery, Juliana accepts the mysterious scarred warrior's solemn proposal and is officially wed, choosing exile and dignity over her family's cruelty as they walk out into the light together.",
+  "key_events": [
+    "Betrayal conflict: MYSTERIOUS BEARDED MAN: 'A woman who was betrayed.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP04_SCENE_01",
+      "episode_id": 4,
+      "key_conflict": "Betrayal conflict: MYSTERIOUS BEARDED MAN: 'A woman who was betrayed.'",
+      "betrayals": [
+        "MYSTERIOUS BEARDED MAN: 'A woman who was betrayed.'",
+        "LADY ASHCROFT: 'You are disowned!'"
+      ],
+      "secrets_or_revelations": [
+        "JULIANA: 'I will not become anyone's charity.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 8,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP04_SCENE_01 at INT. CHAPEL – CONTINUOUS involving CLARISSA, GERALD, JULIANA, LADY ASHCROFT, MYSTERIOUS BEARDED MAN, THE PRIEST.",
+      "characters_involved": [
+        "CLARISSA",
+        "GERALD",
+        "JULIANA",
+        "LADY ASHCROFT",
+        "MYSTERIOUS BEARDED MAN",
+        "THE PRIEST"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:03.40",
+          "end_time": "00:04.90",
+          "start_seconds": 3.4,
+          "end_seconds": 4.9,
+          "quote_or_action": "GERALD: \"Look at him.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Look at him."
+        },
+        {
+          "start_time": "00:05.00",
+          "end_time": "00:07.50",
+          "start_seconds": 5.0,
+          "end_seconds": 7.5,
+          "quote_or_action": "GERALD: \"A penniless nobody for a discarded bride.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: A penniless nobody for a discarded bride."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:19.50",
+          "end_time": "02:20.80",
+          "start_seconds": 139.5,
+          "end_seconds": 140.8,
+          "quote_or_action": "MYSTERIOUS BEARDED MAN: \"Come, Lady Juliana.\"",
+          "unresolved_question": "What will happen after MYSTERIOUS BEARDED MAN says: 'Come, Lady Juliana.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

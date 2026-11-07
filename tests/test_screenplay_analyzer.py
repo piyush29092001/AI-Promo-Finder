@@ -56,3 +56,4 @@ def test_analyzer_multiscene(tmp_path):
     for sa in ep_analysis.scene_analyses:
         assert isinstance(sa, SceneAnalysis)
         assert sa.episode_id == 3
+

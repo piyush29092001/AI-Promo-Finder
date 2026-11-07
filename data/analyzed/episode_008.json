@@ -1,0 +1,58 @@
+{
+  "episode_id": 8,
+  "summary": "As Juliana inspects her late mother's weathered herbal grimoire, Alexander bonds with her over rustic medicinal knowledge and war-worn memories, gently altering her perception of what true wealth means.",
+  "key_events": [
+    "Threat conflict: JULIANA: 'Some of the pages are ruined. Careful.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP08_SCENE_01",
+      "episode_id": 8,
+      "key_conflict": "Threat conflict: JULIANA: 'Some of the pages are ruined. Careful.'",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "JULIANA: 'Some of the pages are ruined. Careful.'",
+        "ALEXANDER: 'Soldiers learn quickly which plants keep a man alive.'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP08_SCENE_01 at INT. WOODLAND COTTAGE – DAY involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:00.20",
+          "end_time": "00:03.20",
+          "start_seconds": 0.2,
+          "end_seconds": 3.2,
+          "quote_or_action": "JULIANA: \"Some of the pages are ruined. Careful.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Some of the pages are ruined. Careful."
+        },
+        {
+          "start_time": "00:05.10",
+          "end_time": "00:07.80",
+          "start_seconds": 5.1,
+          "end_seconds": 7.8,
+          "quote_or_action": "JULIANA: \"Mother spent years writing this.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Mother spent years writing this."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:13.20",
+          "end_time": "01:15.30",
+          "start_seconds": 73.2,
+          "end_seconds": 75.3,
+          "quote_or_action": "JULIANA: \"Perhaps I was wrong.\"",
+          "unresolved_question": "What will happen after JULIANA says: 'Perhaps I was wrong.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

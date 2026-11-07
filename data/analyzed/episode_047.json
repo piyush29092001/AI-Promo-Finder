@@ -1,0 +1,219 @@
+{
+  "episode_id": 47,
+  "summary": "While Alexander reassures Juliana of their unbreakable bond amid the council's opposition, a destitute Catherine begs for sanctuary at Ashbourne—only for Juliana to offer her survival under the strict humiliation of a scullery maid.",
+  "key_events": [
+    "Confrontation between CATHERINE and others: Rupert is rotting in the undercroft cells. Not me. I intend to stay on this esta",
+    "Confrontation between JULIANA and others: What if Father Thomas sways the High Council?",
+    "Betrayal conflict: CATHERINE: 'London closed its doors! My family disowned me!'",
+    "Threat conflict: ALEXANDER: 'Juliana, she tried to destroy you!'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP47_SCENE_01",
+      "episode_id": 47,
+      "key_conflict": "Confrontation between CATHERINE and others: Rupert is rotting in the undercroft cells. Not me. I intend to stay on this esta",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "CONSPIRATOR: 'Alexander will scour the grounds at first light. The High Council has already blocked the marriage registry.'",
+        "CATHERINE: 'Then you will make sure I remain inside these walls.'",
+        "CATHERINE: 'Keep the council paralyzed. I will do the rest.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP47_SCENE_01 at INT. ESTATE CHAMBERS – NIGHT involving CATHERINE, CONSPIRATOR.",
+      "characters_involved": [
+        "CATHERINE",
+        "CONSPIRATOR"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:01.80",
+          "end_time": "00:08.20",
+          "start_seconds": 1.8,
+          "end_seconds": 8.2,
+          "quote_or_action": "CATHERINE: \"Rupert is rotting in the undercroft cells. Not me. I intend to stay on this estate.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Rupert is rotting in the undercroft cells. Not me. I intend to stay on this estate."
+        },
+        {
+          "start_time": "00:08.80",
+          "end_time": "00:14.50",
+          "start_seconds": 8.8,
+          "end_seconds": 14.5,
+          "quote_or_action": "CONSPIRATOR: \"Alexander will scour the grounds at first light. The High Council has already blocked the marriage registry.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Alexander will scour the grounds at first light. The High Council has already blocked the marriage registry."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:18.50",
+          "end_time": "00:21.20",
+          "start_seconds": 18.5,
+          "end_seconds": 21.2,
+          "quote_or_action": "CATHERINE: \"Keep the council paralyzed. I will do the rest.\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'Keep the council paralyzed. I will do the rest.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP47_SCENE_02",
+      "episode_id": 47,
+      "key_conflict": "Confrontation between JULIANA and others: What if Father Thomas sways the High Council?",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "JULIANA: 'What if Father Thomas sways the High Council?'",
+        "JULIANA: 'I am only a healer. The lords will never accept me.'",
+        "ALEXANDER: 'You were my wife before that priest ever opened his mouth. And we will stand before the King and God again within ten days. Nothing breaks that.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP47_SCENE_02 at INT. DUKE'S BEDCHAMBER – MORNING involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:23.40",
+          "end_time": "00:26.80",
+          "start_seconds": 23.4,
+          "end_seconds": 26.8,
+          "quote_or_action": "JULIANA: \"What if Father Thomas sways the High Council?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: What if Father Thomas sways the High Council?"
+        },
+        {
+          "start_time": "00:27.00",
+          "end_time": "00:30.30",
+          "start_seconds": 27.0,
+          "end_seconds": 30.3,
+          "quote_or_action": "JULIANA: \"What if they strip your title? Because of me?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: What if they strip your title? Because of me?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:45.80",
+          "end_time": "00:54.80",
+          "start_seconds": 45.8,
+          "end_seconds": 54.8,
+          "quote_or_action": "ALEXANDER: \"You were my wife before that priest ever opened his mouth. And we will stand before the King and God again within ten days. Nothing breaks that.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'You were my wife before that priest ever opened his mouth. And we will stand before the King and God again within ten days. Nothing breaks that.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP47_SCENE_03",
+      "episode_id": 47,
+      "key_conflict": "Betrayal conflict: CATHERINE: 'London closed its doors! My family disowned me!'",
+      "betrayals": [
+        "CATHERINE: 'London closed its doors! My family disowned me!'",
+        "LADY ASHBOURNE: 'She aided the poison in my veins. Cast her into the road.'"
+      ],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "LADY ASHBOURNE: 'She aided the poison in my veins. Cast her into the road.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP47_SCENE_03 at EXT. ASHBOURNE COURTYARD – DAY involving ALEXANDER, CATHERINE, JULIANA, LADY ASHBOURNE, VAUGHN.",
+      "characters_involved": [
+        "ALEXANDER",
+        "CATHERINE",
+        "JULIANA",
+        "LADY ASHBOURNE",
+        "VAUGHN"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:56.80",
+          "end_time": "00:59.80",
+          "start_seconds": 56.8,
+          "end_seconds": 59.8,
+          "quote_or_action": "LADY ASHBOURNE: \"You dare show your face in Ashbourne courtyard?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: You dare show your face in Ashbourne courtyard?"
+        },
+        {
+          "start_time": "01:00.50",
+          "end_time": "01:03.40",
+          "start_seconds": 60.5,
+          "end_seconds": 63.4,
+          "quote_or_action": "CATHERINE: \"I have nowhere to go, Your Grace.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: I have nowhere to go, Your Grace."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:22.20",
+          "end_time": "01:23.40",
+          "start_seconds": 82.2,
+          "end_seconds": 83.4,
+          "quote_or_action": "JULIANA: \"Stop.\"",
+          "unresolved_question": "What will happen after JULIANA says: 'Stop.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP47_SCENE_04",
+      "episode_id": 47,
+      "key_conflict": "Threat conflict: ALEXANDER: 'Juliana, she tried to destroy you!'",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "JULIANA: 'You will scrub the floors you walked on as an impostor.'",
+        "JULIANA: 'You will scrub the manor hearths at dawn.'",
+        "JULIANA: 'You will scour the kitchen grease until midnight.'"
+      ],
+      "threats_or_danger": [
+        "ALEXANDER: 'Juliana, she tried to destroy you!'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP47_SCENE_04 at INT. ASHBOURNE GREAT HALL / VESTIBULE – CONTINUOUS involving ALEXANDER, CATHERINE, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "CATHERINE",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:24.00",
+          "end_time": "01:26.50",
+          "start_seconds": 84.0,
+          "end_seconds": 86.5,
+          "quote_or_action": "ALEXANDER: \"Juliana, she tried to destroy you!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Juliana, she tried to destroy you!"
+        },
+        {
+          "start_time": "01:26.70",
+          "end_time": "01:27.80",
+          "start_seconds": 86.7,
+          "end_seconds": 87.8,
+          "quote_or_action": "JULIANA: \"She did.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: She did."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:08.50",
+          "end_time": "02:11.20",
+          "start_seconds": 128.5,
+          "end_seconds": 131.2,
+          "quote_or_action": "CATHERINE: \"I accept, Your Grace.\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'I accept, Your Grace.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

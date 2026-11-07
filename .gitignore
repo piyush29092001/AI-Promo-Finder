@@ -1,9 +1,10 @@
-# Environment and Secrets
+# Environment & Secrets (NEVER COMMIT)
 .env
 .env.*
 !.env.example
 secrets.toml
 .streamlit/secrets.toml
+.streamlit/*.log
 
 # Virtual Environment
 .venv/
@@ -11,7 +12,7 @@ venv/
 ENV/
 env/
 
-# Python Cache
+# Python Cache & Testing Artifacts
 __pycache__/
 *.py[cod]
 *$py.class
@@ -20,17 +21,15 @@ __pycache__/
 .coverage
 htmlcov/
 
-# Data and Confidential Screenplay Content
-data/input/
-data/raw_outputs/
-data/extracted/
-data/analyzed/
-data/candidates/
-data/final_results/
-data/quality_reports/
+# Confidential Screenplays & Source Documents (NEVER COMMIT)
 input/
+data/input/
+data/extracted/
 docs/*.pdf
 docs/assignment_extracted.txt
 
-# Streamlit logs
-.streamlit/
+# OS / Editor Artifacts
+.DS_Store
+Thumbs.db
+*.tmp
+scratch/

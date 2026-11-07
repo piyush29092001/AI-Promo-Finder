@@ -173,14 +173,18 @@ class PromoDiscoveryEngine:
                         ]
 
                         if len(contained_d) >= 2 or (contained_d and actions):
-                            promo_id = f"PROMO_EP{ep.episode_id:02d}_{s_time.replace(':', '').replace('.', '')}_{e_time.replace(':', '').replace('.', '')}"
+                            s_tag = s_time.replace(":", "").replace(".", "")
+                            e_tag = e_time.replace(":", "").replace(".", "")
+                            dur_tag = f"{int(dur * 10):03d}"
+                            promo_id = f"PROMO_EP{ep.episode_id:02d}_SC{sc.scene_number:02d}_{s_tag}_{e_tag}_{dur_tag}"
 
-                            unresolved_q = f"What happens after this revelation: {cliff_desc[:70]}?"
+                            unresolved_q = self._derive_segment_unresolved_question(
+                                cliff_desc=cliff_desc,
+                                sc=sc,
+                                e_sec=e_sec,
+                                sc_analysis=sc_analysis,
+                            )
                             rationale = f"Continuous stretch in Episode {ep.episode_id} from {s_time} to {e_time}."
-                            if sc_analysis and sc_analysis.cliffhanger_moments:
-                                unresolved_q = sc_analysis.cliffhanger_moments[
-                                    0
-                                ].unresolved_question
 
                             cand = PromoCandidate(
                                 promo_id=promo_id,
@@ -218,6 +222,51 @@ class PromoDiscoveryEngine:
                             candidates.append(cand)
 
         return candidates
+
+    def _derive_segment_unresolved_question(
+        self,
+        cliff_desc: str,
+        sc: Scene,
+        e_sec: float,
+        sc_analysis: Optional[SceneAnalysis],
+    ) -> str:
+        """
+        Derives an unresolved question specific to the actual final moment of each promo candidate.
+        Does NOT blindly copy the scene-level cliffhanger question unless the segment extends
+        to the very end of the scene.
+        """
+        # 1. Segment extends to the end of the scene (within 1.0 second)
+        if (sc.end_seconds - e_sec) <= 1.0:
+            if sc_analysis and sc_analysis.cliffhanger_moments:
+                return sc_analysis.cliffhanger_moments[0].unresolved_question
+            return f"How will the narrative resolve following the dramatic scene transition at {sc.heading}?"
+
+        # 2. Ending element is a dialogue line
+        if ":" in cliff_desc:
+            parts = cliff_desc.split(":", 1)
+            speaker = parts[0].strip()
+            quote = parts[1].strip(' "“’\'\t\r\n')
+
+            if "?" in quote:
+                return f"Will {speaker}'s urgent question be answered: '{quote}'?"
+
+            lower_q = quote.lower()
+            if any(w in lower_q for w in ["die", "kill", "poison", "murder", "blood", "danger", "gallows"]):
+                return f"Will the mortal danger escalate after {speaker} warns: '{quote}'?"
+            elif any(w in lower_q for w in ["marry", "betray", "cheat", "abandon", "shame", "choose", "never"]):
+                return f"How will the betrayal unfold after {speaker} declares: '{quote}'?"
+            elif any(w in lower_q for w in ["why", "what", "how", "who", "where"]):
+                return f"What will {speaker} uncover after asking: '{quote}'?"
+            else:
+                return f"What will happen next after {speaker} says: '{quote}'?"
+
+        # 3. Ending element is an action description
+        if cliff_desc and cliff_desc != "Dramatic scene transition":
+            clean_act = cliff_desc.strip()
+            return f"What consequences follow immediately after this critical moment: '{clean_act[:70]}'?"
+
+        # 4. If cut occurs mid-scene without a dialogue/action cliffhanger
+        return "Weak / Resolved ending: Cut occurs on a neutral transition without an urgent unresolved question."
 
     def discover_multi_episode_promos(
         self,
@@ -264,11 +313,21 @@ class PromoDiscoveryEngine:
                 for seg_b in seg_b_candidates[:3]:
                     total_dur = round(seg_a.duration_seconds + seg_b.duration_seconds, 2)
                     if self.min_duration <= total_dur <= self.max_duration:
-                        promo_id = f"PROMO_MULTI_EP{ep_a_id:02d}_EP{ep_b_id:02d}_{int(total_dur)}S"
+                        s_tag = seg_a.start_time.replace(":", "").replace(".", "")
+                        e_tag = seg_b.end_time.replace(":", "").replace(".", "")
+                        dur_tag = f"{int(total_dur * 10):03d}"
+                        promo_id = f"PROMO_MULTI_EP{ep_a_id:02d}_EP{ep_b_id:02d}_{s_tag}_{e_tag}_{dur_tag}"
 
                         hook_text = seg_a.description
                         cliff_text = seg_b.description
-                        unresolved_q = f"Will the confrontation between {', '.join(list(shared_chars)[:2])} escalate further?"
+
+                        if ":" in cliff_text:
+                            parts = cliff_text.split(":", 1)
+                            spk = parts[0].strip()
+                            qt = parts[1].strip(' "')
+                            unresolved_q = f"Across episodes {ep_a_id} and {ep_b_id}, what will happen after {spk} says: '{qt[:60]}'?"
+                        else:
+                            unresolved_q = f"Across episodes {ep_a_id} and {ep_b_id}, what consequences follow: '{cliff_text[:60]}'?"
 
                         cand = PromoCandidate(
                             promo_id=promo_id,

@@ -1,0 +1,64 @@
+{
+  "episode_id": 16,
+  "summary": "When hired thugs attack Juliana's medicinal garden, Alexander unleashes his combat training to effortlessly overpower them, extracting a shocking confession that unmasks Gerald Harrington as the mastermind.",
+  "key_events": [
+    "Threat conflict: THUG WITH CAP: 'Move aside, soldier.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP16_SCENE_01",
+      "episode_id": 16,
+      "key_conflict": "Threat conflict: THUG WITH CAP: 'Move aside, soldier.'",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "JULIANA: 'You knew exactly what to do.'"
+      ],
+      "threats_or_danger": [
+        "THUG WITH CAP: 'Move aside, soldier.'",
+        "ALEXANDER: 'Who sent you?'",
+        "THUG WITH CAP: 'We were only paid to destroy the garden, that's all!'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP16_SCENE_01 at EXT. JULIANA'S COTTAGE GARDEN – NIGHT involving ALEXANDER, BALD THUG, JULIANA, THIRD THUG, THUG WITH CAP.",
+      "characters_involved": [
+        "ALEXANDER",
+        "BALD THUG",
+        "JULIANA",
+        "THIRD THUG",
+        "THUG WITH CAP"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:02.10",
+          "end_time": "00:04.20",
+          "start_seconds": 2.1,
+          "end_seconds": 4.2,
+          "quote_or_action": "THUG WITH CAP: \"Move aside, soldier.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Move aside, soldier."
+        },
+        {
+          "start_time": "00:06.40",
+          "end_time": "00:08.80",
+          "start_seconds": 6.4,
+          "end_seconds": 8.8,
+          "quote_or_action": "THUG WITH CAP: \"I said, move!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: I said, move!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:17.80",
+          "end_time": "01:18.80",
+          "start_seconds": 77.8,
+          "end_seconds": 78.8,
+          "quote_or_action": "ALEXANDER: \"No.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'No.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

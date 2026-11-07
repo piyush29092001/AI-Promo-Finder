@@ -1,0 +1,107 @@
+{
+  "episode_id": 17,
+  "summary": "In the aftermath of the brutal attack, Alexander repairs Juliana's devastated garden and swears to protect her with his life, drawing them into a tender, intimate embrace by the hearth.",
+  "key_events": [
+    "Confrontation between JULIANA and others: Some of them survived.",
+    "Confrontation between JULIANA and others: You were bleeding last night."
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP17_SCENE_01",
+      "episode_id": 17,
+      "key_conflict": "Confrontation between JULIANA and others: Some of them survived.",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "ALEXANDER: '...no one will hurt you again.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP17_SCENE_01 at EXT. MEDICINAL GARDEN – DAY involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:09.30",
+          "end_time": "00:11.30",
+          "start_seconds": 9.3,
+          "end_seconds": 11.3,
+          "quote_or_action": "JULIANA: \"Some of them survived.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Some of them survived."
+        },
+        {
+          "start_time": "00:14.30",
+          "end_time": "00:15.30",
+          "start_seconds": 14.3,
+          "end_seconds": 15.3,
+          "quote_or_action": "JULIANA: \"Thank you.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Thank you."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:34.80",
+          "end_time": "00:35.80",
+          "start_seconds": 34.8,
+          "end_seconds": 35.8,
+          "quote_or_action": "ALEXANDER: \"I just did.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'I just did.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP17_SCENE_02",
+      "episode_id": 17,
+      "key_conflict": "Confrontation between JULIANA and others: You were bleeding last night.",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "JULIANA: 'Soon birds will start nesting in it.'",
+        "JULIANA: 'Then I will wait.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP17_SCENE_02 at INT. COTTAGE HEARTH – NIGHT involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:42.80",
+          "end_time": "00:44.70",
+          "start_seconds": 42.8,
+          "end_seconds": 44.7,
+          "quote_or_action": "JULIANA: \"You were bleeding last night.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You were bleeding last night."
+        },
+        {
+          "start_time": "00:46.00",
+          "end_time": "00:47.30",
+          "start_seconds": 46.0,
+          "end_seconds": 47.3,
+          "quote_or_action": "ALEXANDER: \"So were you.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: So were you."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:52.20",
+          "end_time": "01:56.00",
+          "start_seconds": 112.2,
+          "end_seconds": 116.0,
+          "quote_or_action": "JULIANA: \"But every day, he gives me another reason to trust him.\"",
+          "unresolved_question": "What will happen after JULIANA says: 'But every day, he gives me another reason to trust him.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

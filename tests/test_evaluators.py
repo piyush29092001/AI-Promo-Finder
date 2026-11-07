@@ -62,3 +62,4 @@ def test_cliffhanger_evaluator(sample_candidate):
     assert cliff_eval.unresolved_question != ""
     assert cliff_eval.source_timestamp == sample_candidate.cliffhanger_end_time
     assert cliff_eval.explanation != ""
+

@@ -189,3 +189,4 @@ def test_full_quality_report(dummy_episode):
     report = checker.run_full_quality_check([ev], [dummy_episode])
     assert report.total_promos_checked == 1
     assert report.rule_violations_count == 0
+

@@ -1,0 +1,161 @@
+{
+  "episode_id": 45,
+  "summary": "Alexander frees Juliana from her chains and proclaims her the Duchess of Ashburton before the stunned congregation, only for an ecclesiastical authority to burst in and declare their marriage legally invalid.",
+  "key_events": [
+    "Betrayal conflict: ALEXANDER: 'You chose me when you believed I was nobody.'",
+    "Betrayal conflict: ALEXANDER: 'You poisoned my mother. You tortured my wife.'",
+    "Confrontation between HIGH PRIEST and others: No one will bow yet!"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP45_SCENE_01",
+      "episode_id": 45,
+      "key_conflict": "Betrayal conflict: ALEXANDER: 'You chose me when you believed I was nobody.'",
+      "betrayals": [
+        "ALEXANDER: 'You chose me when you believed I was nobody.'"
+      ],
+      "secrets_or_revelations": [
+        "JULIANA: 'I loved you before I ever knew who you were.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 8,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP45_SCENE_01 at INT. CATHEDRAL NAVE – CONTINUOUS involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:03.20",
+          "end_time": "00:04.80",
+          "start_seconds": 3.2,
+          "end_seconds": 4.8,
+          "quote_or_action": "JULIANA: \"Alexander...\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Alexander..."
+        },
+        {
+          "start_time": "00:07.40",
+          "end_time": "00:08.90",
+          "start_seconds": 7.4,
+          "end_seconds": 8.9,
+          "quote_or_action": "ALEXANDER: \"Look at me.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Look at me."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:46.10",
+          "end_time": "00:48.80",
+          "start_seconds": 46.1,
+          "end_seconds": 48.8,
+          "quote_or_action": "ALEXANDER: \"And I loved you before I ever dared to tell you.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'And I loved you before I ever dared to tell you.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP45_SCENE_02",
+      "episode_id": 45,
+      "key_conflict": "Betrayal conflict: ALEXANDER: 'You poisoned my mother. You tortured my wife.'",
+      "betrayals": [
+        "ALEXANDER: 'You poisoned my mother. You tortured my wife.'"
+      ],
+      "secrets_or_revelations": [
+        "ALEXANDER: 'You knew exactly what you were doing!'"
+      ],
+      "threats_or_danger": [
+        "ALEXANDER: 'You poisoned my mother. You tortured my wife.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP45_SCENE_02 at INT. CATHEDRAL – CONTINUOUS involving ALEXANDER, CATHERINE, RUPERT.",
+      "characters_involved": [
+        "ALEXANDER",
+        "CATHERINE",
+        "RUPERT"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:49.80",
+          "end_time": "00:51.50",
+          "start_seconds": 49.8,
+          "end_seconds": 51.5,
+          "quote_or_action": "CATHERINE: \"Alexander...\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Alexander..."
+        },
+        {
+          "start_time": "00:54.00",
+          "end_time": "00:58.00",
+          "start_seconds": 54.0,
+          "end_seconds": 58.0,
+          "quote_or_action": "ALEXANDER: \"You poisoned my mother. You tortured my wife.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You poisoned my mother. You tortured my wife."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:21.50",
+          "end_time": "01:23.00",
+          "start_seconds": 81.5,
+          "end_seconds": 83.0,
+          "quote_or_action": "RUPERT: \"Juliana?!\"",
+          "unresolved_question": "What will happen after RUPERT says: 'Juliana?!'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP45_SCENE_03",
+      "episode_id": 45,
+      "key_conflict": "Confrontation between HIGH PRIEST and others: No one will bow yet!",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "HIGH PRIEST: 'No one will bow yet!'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP45_SCENE_03 at INT. CATHEDRAL ENTRANCE – CONTINUOUS involving HIGH PRIEST.",
+      "characters_involved": [
+        "HIGH PRIEST"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:28.40",
+          "end_time": "01:30.80",
+          "start_seconds": 88.4,
+          "end_seconds": 90.8,
+          "quote_or_action": "HIGH PRIEST: \"No one will bow yet!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: No one will bow yet!"
+        },
+        {
+          "start_time": "01:33.20",
+          "end_time": "01:41.10",
+          "start_seconds": 93.2,
+          "end_seconds": 101.1,
+          "quote_or_action": "HIGH PRIEST: \"This ceremony was performed without a Crown marriage license, by a priest without authority to sanctify a ducal union.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: This ceremony was performed without a Crown marriage license, by a priest without authority to sanctify a ducal union."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:49.00",
+          "end_time": "01:53.00",
+          "start_seconds": 109.0,
+          "end_seconds": 113.0,
+          "quote_or_action": "HIGH PRIEST: \"You are not Alexander Ashburton's lawful wife.\"",
+          "unresolved_question": "What will happen after HIGH PRIEST says: 'You are not Alexander Ashburton's lawful wife.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

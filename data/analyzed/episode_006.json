@@ -1,0 +1,112 @@
+{
+  "episode_id": 6,
+  "summary": "Seeking shelter from the cold rain, Juliana arrives at her new husband's modest woodland cottage and discovers an unexpected sense of peace beside the hearth.",
+  "key_events": [
+    "Betrayal conflict: JULIANA: 'I suppose the day was already ruined.'",
+    "Betrayal conflict: MYSTERIOUS BEARDED MAN: 'There.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP06_SCENE_01",
+      "episode_id": 6,
+      "key_conflict": "Betrayal conflict: JULIANA: 'I suppose the day was already ruined.'",
+      "betrayals": [
+        "JULIANA: 'I suppose the day was already ruined.'"
+      ],
+      "secrets_or_revelations": [
+        "JULIANA: 'At least no one there will be waiting to humiliate me.'"
+      ],
+      "threats_or_danger": [
+        "JULIANA: 'I suppose the day was already ruined.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP06_SCENE_01 at EXT. WOODLAND PATH – NIGHT involving JULIANA, MYSTERIOUS BEARDED MAN.",
+      "characters_involved": [
+        "JULIANA",
+        "MYSTERIOUS BEARDED MAN"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:07.20",
+          "end_time": "00:09.85",
+          "start_seconds": 7.2,
+          "end_seconds": 9.85,
+          "quote_or_action": "MYSTERIOUS BEARDED MAN: \"I know this is not the life you came from.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: I know this is not the life you came from."
+        },
+        {
+          "start_time": "00:10.10",
+          "end_time": "00:11.20",
+          "start_seconds": 10.1,
+          "end_seconds": 11.2,
+          "quote_or_action": "JULIANA: \"No.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: No."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:30.15",
+          "end_time": "00:33.15",
+          "start_seconds": 30.15,
+          "end_seconds": 33.15,
+          "quote_or_action": "JULIANA: \"At least no one there will be waiting to humiliate me.\"",
+          "unresolved_question": "What will happen after JULIANA says: 'At least no one there will be waiting to humiliate me.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP06_SCENE_02",
+      "episode_id": 6,
+      "key_conflict": "Betrayal conflict: MYSTERIOUS BEARDED MAN: 'There.'",
+      "betrayals": [
+        "MYSTERIOUS BEARDED MAN: 'There.'"
+      ],
+      "secrets_or_revelations": [
+        "JULIANA: 'If I stop now, I will think about everything I lost.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 8,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP06_SCENE_02 at INT. WOODEN CABIN – CONTINUOUS involving JULIANA, MYSTERIOUS BEARDED MAN.",
+      "characters_involved": [
+        "JULIANA",
+        "MYSTERIOUS BEARDED MAN"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:40.70",
+          "end_time": "00:41.90",
+          "start_seconds": 40.7,
+          "end_seconds": 41.9,
+          "quote_or_action": "MYSTERIOUS BEARDED MAN: \"I am sorry.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: I am sorry."
+        },
+        {
+          "start_time": "00:43.60",
+          "end_time": "00:45.00",
+          "start_seconds": 43.6,
+          "end_seconds": 45.0,
+          "quote_or_action": "MYSTERIOUS BEARDED MAN: \"You came from comfort.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You came from comfort."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:46.20",
+          "end_time": "01:49.00",
+          "start_seconds": 106.2,
+          "end_seconds": 109.0,
+          "quote_or_action": "JULIANA: \"Sitting here with him, I don't feel afraid.\"",
+          "unresolved_question": "What will happen after JULIANA says: 'Sitting here with him, I don't feel afraid.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

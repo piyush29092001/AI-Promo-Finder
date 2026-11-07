@@ -55,6 +55,25 @@ class ActionItem(BaseModel):
     description: str
 
 
+class ScreenplayEntry(BaseModel):
+    """
+    Unified chronological screenplay item preserving exact wording, timestamps,
+    and type (DIALOGUE, CAMERA, ACTION, SOUND_FX, OTHER).
+    Includes partial overlap indicators when evaluated against a promo window.
+    """
+    entry_type: str  # DIALOGUE, ACTION, CAMERA, SOUND_FX, OTHER
+    speaker: Optional[str] = None
+    emotion: Optional[str] = None
+    start_time: str
+    end_time: str
+    start_seconds: float
+    end_seconds: float
+    content: str
+    order_index: int = 0
+    is_partial_overlap: bool = False
+    overlap_note: Optional[str] = None
+
+
 class Scene(BaseModel):
     episode_id: int
     scene_id: str
@@ -68,6 +87,7 @@ class Scene(BaseModel):
     dialogues: List[DialogueLine] = Field(default_factory=list)
     characters: List[str] = Field(default_factory=list)
     actions: List[ActionItem] = Field(default_factory=list)
+    entries: List[ScreenplayEntry] = Field(default_factory=list)
     raw_text: str = ""
     timestamp_status: str = "VALID"  # VALID, MALFORMED, REVIEW_REQUIRED
 
@@ -204,6 +224,12 @@ class PromoEvaluation(BaseModel):
     rank: int = 0
     is_top_three: bool = False
     publish_priority_reason: str = ""
+    cluster_id: str = ""
+    is_cluster_primary: bool = True
+    cluster_variant_count: int = 1
+    diversity_notes: str = ""
+    recommended_publish_rank: Optional[int] = None
+    evaluated_by_gemini: bool = False
 
 
 # -------------------------------------------------------------

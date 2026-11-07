@@ -1,0 +1,59 @@
+{
+  "episode_id": 49,
+  "summary": "Meeting Father Thomas in an abandoned wing of the manor before dawn, Catherine orchestrates a calculated conspiracy to stall the council hearing and extract inside intelligence, sealing their treasonous alliance with intimate assurance.",
+  "key_events": [
+    "Confrontation between CATHERINE and others: You took your time."
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP49_SCENE_01",
+      "episode_id": 49,
+      "key_conflict": "Confrontation between CATHERINE and others: You took your time.",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "CATHERINE: 'You didn't need them the first time, either. I just prefer my secrets thorough.'",
+        "CATHERINE: 'It will keep serving us as long as neither of us gets careless. No one in this house so much as suspects your face belongs to that morning. Let's keep it that way.'",
+        "CATHERINE: 'Second, I want to know what the council knows before it decides anything. Every argument, every witness, every whisper against her.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP49_SCENE_01 at INT. FORGOTTEN MANOR WING - NIGHT involving CATHERINE, FATHER THOMAS.",
+      "characters_involved": [
+        "CATHERINE",
+        "FATHER THOMAS"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:05.40",
+          "end_time": "00:06.80",
+          "start_seconds": 5.4,
+          "end_seconds": 6.8,
+          "quote_or_action": "CATHERINE: \"You took your time.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You took your time."
+        },
+        {
+          "start_time": "00:09.00",
+          "end_time": "00:15.20",
+          "start_seconds": 9.0,
+          "end_seconds": 15.2,
+          "quote_or_action": "FATHER THOMAS: \"Agnes is thorough. She made me wait for a groom to finish his rounds before she'd let me past the stables.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Agnes is thorough. She made me wait for a groom to finish his rounds before she'd let me past the stables."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:23.00",
+          "end_time": "02:24.00",
+          "start_seconds": 143.0,
+          "end_seconds": 144.0,
+          "quote_or_action": "CATHERINE: \"We always have.\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'We always have.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

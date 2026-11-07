@@ -53,6 +53,7 @@ class Exporter:
             records.append(
                 {
                     "Rank": ev.rank,
+                    "Rec Rank": ev.recommended_publish_rank if ev.is_top_three else "-",
                     "Promo ID": ev.promo_id,
                     "Type": cand.promo_type,
                     "Episodes": ", ".join(str(e) for e in cand.episodes),
@@ -64,6 +65,9 @@ class Exporter:
                     "Emotional Score (10%)": ev.emotional_impact_score,
                     "Continuity Score (10%)": ev.scene_continuity_score,
                     "Top 3": "YES" if ev.is_top_three else "NO",
+                    "Cluster Primary": "YES" if ev.is_cluster_primary else "NO",
+                    "Cluster ID": ev.cluster_id,
+                    "Variants in Cluster": ev.cluster_variant_count,
                     "Segments": "; ".join(
                         f"Ep {s.episode_id}: {s.start_time}-{s.end_time}"
                         for s in cand.segments
@@ -71,6 +75,7 @@ class Exporter:
                     "Hook Text": cand.hook_text,
                     "Cliffhanger Text": cand.cliffhanger_text,
                     "Unresolved Question": cand.unresolved_question,
+                    "Diversity Notes": ev.diversity_notes,
                     "Priority Reason": ev.publish_priority_reason,
                 }
             )
@@ -263,3 +268,4 @@ class Exporter:
                 f.write(pdf_bytes)
 
         return pdf_bytes
+

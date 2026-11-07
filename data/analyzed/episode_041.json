@@ -1,0 +1,61 @@
+{
+  "episode_id": 41,
+  "summary": "At the height of Catherine and Rupert's lavish wedding, Juliana is paraded before high society in chains to be publicly disgraced—until a deafening explosion shatters the cathedral entrance, heralding Alexander's vengeful assault.",
+  "key_events": [
+    "Confrontation between CATHERINE and others: Wait."
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP41_SCENE_01",
+      "episode_id": 41,
+      "key_conflict": "Confrontation between CATHERINE and others: Wait.",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "CATHERINE: 'Soon, there will be nothing left between us and the Ashburgh title.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP41_SCENE_01 at INT. CATHEDRAL – CONTINUOUS involving BLOND NOBLEMAN, CATHERINE, JULIANA, NOBLEMAN, NOBLEWOMAN, PRIEST.",
+      "characters_involved": [
+        "BLOND NOBLEMAN",
+        "CATHERINE",
+        "JULIANA",
+        "NOBLEMAN",
+        "NOBLEWOMAN",
+        "PRIEST"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:01.80",
+          "end_time": "00:02.80",
+          "start_seconds": 1.8,
+          "end_seconds": 2.8,
+          "quote_or_action": "CATHERINE: \"Wait.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Wait."
+        },
+        {
+          "start_time": "00:04.90",
+          "end_time": "00:08.20",
+          "start_seconds": 4.9,
+          "end_seconds": 8.2,
+          "quote_or_action": "CATHERINE: \"Before I become Duchess of Ashburgh...\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Before I become Duchess of Ashburgh..."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:18.00",
+          "end_time": "01:19.30",
+          "start_seconds": 78.0,
+          "end_seconds": 79.3,
+          "quote_or_action": "PRIEST: \"Shall we?\"",
+          "unresolved_question": "What will happen after PRIEST says: 'Shall we?'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

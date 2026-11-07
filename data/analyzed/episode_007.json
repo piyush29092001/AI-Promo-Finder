@@ -1,0 +1,147 @@
+{
+  "episode_id": 7,
+  "summary": "When Gerald and his spiteful companion arrive at the woodland cottage to mock Juliana's fallen status, her stoic new husband returns from the forest to silently send them fleeing.",
+  "key_events": [
+    "Betrayal conflict: JULIANA: 'I work with my hands. There is no shame in that.'",
+    "Confrontation between GERALD and others: Where is that beggar husband?",
+    "Confrontation between ARISTOCRATIC WOMAN and others: Gerald, don't let him frighten you."
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP07_SCENE_01",
+      "episode_id": 7,
+      "key_conflict": "Betrayal conflict: JULIANA: 'I work with my hands. There is no shame in that.'",
+      "betrayals": [
+        "JULIANA: 'I work with my hands. There is no shame in that.'"
+      ],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "GERALD: 'A fitting home for a woman who threw away everything for a penniless soldier.'",
+        "GERALD: 'I have enough influence to make a beggar disappear.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP07_SCENE_01 at EXT. WOODLAND COTTAGE - DAY involving ARISTOCRATIC WOMAN, GERALD, JULIANA.",
+      "characters_involved": [
+        "ARISTOCRATIC WOMAN",
+        "GERALD",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:22.00",
+          "end_time": "00:24.50",
+          "start_seconds": 22.0,
+          "end_seconds": 24.5,
+          "quote_or_action": "ARISTOCRATIC WOMAN: \"This is where you live now?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: This is where you live now?"
+        },
+        {
+          "start_time": "00:25.00",
+          "end_time": "00:29.80",
+          "start_seconds": 25.0,
+          "end_seconds": 29.8,
+          "quote_or_action": "GERALD: \"A fitting home for a woman who threw away everything for a penniless soldier.\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: A fitting home for a woman who threw away everything for a penniless soldier."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:08.60",
+          "end_time": "01:09.50",
+          "start_seconds": 68.6,
+          "end_seconds": 69.5,
+          "quote_or_action": "GERALD: \"And your husband?\"",
+          "unresolved_question": "What will happen after GERALD says: 'And your husband?'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP07_SCENE_02",
+      "episode_id": 7,
+      "key_conflict": "Confrontation between GERALD and others: Where is that beggar husband?",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP07_SCENE_02 at EXT. FOREST PATH - CONTINUOUS involving GERALD.",
+      "characters_involved": [
+        "GERALD"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:09.50",
+          "end_time": "01:11.20",
+          "start_seconds": 69.5,
+          "end_seconds": 71.2,
+          "quote_or_action": "GERALD: \"Where is that beggar husband?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Where is that beggar husband?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:09.50",
+          "end_time": "01:11.20",
+          "start_seconds": 69.5,
+          "end_seconds": 71.2,
+          "quote_or_action": "GERALD: \"Where is that beggar husband?\"",
+          "unresolved_question": "What will happen after GERALD says: 'Where is that beggar husband?'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP07_SCENE_03",
+      "episode_id": 7,
+      "key_conflict": "Confrontation between ARISTOCRATIC WOMAN and others: Gerald, don't let him frighten you.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP07_SCENE_03 at EXT. WOODLAND COTTAGE - CONTINUOUS involving ARISTOCRATIC WOMAN, GERALD, JULIANA, SCARRED BEARDED MAN.",
+      "characters_involved": [
+        "ARISTOCRATIC WOMAN",
+        "GERALD",
+        "JULIANA",
+        "SCARRED BEARDED MAN"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:26.50",
+          "end_time": "01:28.50",
+          "start_seconds": 86.5,
+          "end_seconds": 88.5,
+          "quote_or_action": "ARISTOCRATIC WOMAN: \"Gerald, don't let him frighten you.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Gerald, don't let him frighten you."
+        },
+        {
+          "start_time": "01:28.60",
+          "end_time": "01:30.00",
+          "start_seconds": 88.6,
+          "end_seconds": 90.0,
+          "quote_or_action": "GERALD: \"What are you staring at?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: What are you staring at?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:46.00",
+          "end_time": "01:47.80",
+          "start_seconds": 106.0,
+          "end_seconds": 107.8,
+          "quote_or_action": "SCARRED BEARDED MAN: \"I didn't need to.\"",
+          "unresolved_question": "What will happen after SCARRED BEARDED MAN says: 'I didn't need to.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

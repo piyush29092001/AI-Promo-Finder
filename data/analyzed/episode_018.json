@@ -1,0 +1,247 @@
+{
+  "episode_id": 18,
+  "summary": "When their cottage is deliberately set ablaze in the dead of night, Alexander risks his life to rescue Juliana and her mother's cherished ledger from the inferno, vowing relentless vengeance against those responsible.",
+  "key_events": [
+    "Confrontation between JULIANA and others: Alexander!",
+    "Confrontation between ALEXANDER and others: Stay close to me.",
+    "Threat conflict: JULIANA: 'Alexander!'",
+    "Confrontation between JULIANA and others: The window!",
+    "Confrontation between JULIANA and others: Our home..."
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP18_SCENE_01",
+      "episode_id": 18,
+      "key_conflict": "Confrontation between JULIANA and others: Alexander!",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP18_SCENE_01 at INT. COTTAGE - BEDROOM - NIGHT involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:06.50",
+          "end_time": "00:08.50",
+          "start_seconds": 6.5,
+          "end_seconds": 8.5,
+          "quote_or_action": "JULIANA: \"Alexander!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Alexander!"
+        },
+        {
+          "start_time": "00:10.50",
+          "end_time": "00:12.30",
+          "start_seconds": 10.5,
+          "end_seconds": 12.3,
+          "quote_or_action": "JULIANA: \"Alexander!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Alexander!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:28.10",
+          "end_time": "00:28.90",
+          "start_seconds": 28.1,
+          "end_seconds": 28.9,
+          "quote_or_action": "ALEXANDER: \"Fire.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'Fire.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP18_SCENE_02",
+      "episode_id": 18,
+      "key_conflict": "Confrontation between ALEXANDER and others: Stay close to me.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP18_SCENE_02 at INT. COTTAGE - HALLWAY - CONTINUOUS involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:33.20",
+          "end_time": "00:35.20",
+          "start_seconds": 33.2,
+          "end_seconds": 35.2,
+          "quote_or_action": "ALEXANDER: \"Stay close to me.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Stay close to me."
+        },
+        {
+          "start_time": "00:39.50",
+          "end_time": "00:41.80",
+          "start_seconds": 39.5,
+          "end_seconds": 41.8,
+          "quote_or_action": "JULIANA: \"We cannot get through!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: We cannot get through!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:42.00",
+          "end_time": "00:43.50",
+          "start_seconds": 42.0,
+          "end_seconds": 43.5,
+          "quote_or_action": "ALEXANDER: \"Then we go another way.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'Then we go another way.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP18_SCENE_03",
+      "episode_id": 18,
+      "key_conflict": "Threat conflict: JULIANA: 'Alexander!'",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "JULIANA: 'Alexander!'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP18_SCENE_03 at INT. COTTAGE - PARLOR / WORKROOM - CONTINUOUS involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:56.50",
+          "end_time": "00:57.80",
+          "start_seconds": 56.5,
+          "end_seconds": 57.8,
+          "quote_or_action": "JULIANA: \"The ledger!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: The ledger!"
+        },
+        {
+          "start_time": "00:58.00",
+          "end_time": "00:59.20",
+          "start_seconds": 58.0,
+          "end_seconds": 59.2,
+          "quote_or_action": "ALEXANDER: \"Leave it!\"",
+          "hook_type": "SHOCKING_REVELATION",
+          "curiosity_driver": "Viewer immediately questions: Leave it!"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:36.50",
+          "end_time": "01:38.20",
+          "start_seconds": 96.5,
+          "end_seconds": 98.2,
+          "quote_or_action": "ALEXANDER: \"I've got you.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'I've got you.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP18_SCENE_04",
+      "episode_id": 18,
+      "key_conflict": "Confrontation between JULIANA and others: The window!",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP18_SCENE_04 at INT. COTTAGE - PARLOR / EXT. COTTAGE - CONTINUOUS involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:43.80",
+          "end_time": "01:45.00",
+          "start_seconds": 103.8,
+          "end_seconds": 105.0,
+          "quote_or_action": "JULIANA: \"The window!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: The window!"
+        },
+        {
+          "start_time": "01:45.20",
+          "end_time": "01:46.80",
+          "start_seconds": 105.2,
+          "end_seconds": 106.8,
+          "quote_or_action": "ALEXANDER: \"Hold on to me.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Hold on to me."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:45.20",
+          "end_time": "01:46.80",
+          "start_seconds": 105.2,
+          "end_seconds": 106.8,
+          "quote_or_action": "ALEXANDER: \"Hold on to me.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'Hold on to me.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP18_SCENE_05",
+      "episode_id": 18,
+      "key_conflict": "Confrontation between JULIANA and others: Our home...",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "ALEXANDER: 'They took our home. I will not let them take anything else now.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP18_SCENE_05 at EXT. COTTAGE - FRONT YARD - CONTINUOUS involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "02:16.20",
+          "end_time": "02:18.00",
+          "start_seconds": 136.2,
+          "end_seconds": 138.0,
+          "quote_or_action": "JULIANA: \"Our home...\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Our home..."
+        },
+        {
+          "start_time": "02:19.80",
+          "end_time": "02:22.50",
+          "start_seconds": 139.8,
+          "end_seconds": 142.5,
+          "quote_or_action": "JULIANA: \"Everything we had is gone.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Everything we had is gone."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "03:04.20",
+          "end_time": "03:06.50",
+          "start_seconds": 184.2,
+          "end_seconds": 186.5,
+          "quote_or_action": "JULIANA: \"What are you going to do?\"",
+          "unresolved_question": "What will happen after JULIANA says: 'What are you going to do?'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "episode_id": 31,
+  "summary": "Catherine enters the wet cells armed with a red-hot iron and Juliana's late mother's botanical book, subjecting the chained heiress to ruthless psychological torment until Juliana's unyielding pride pushes Catherine to a violent brink.",
+  "key_events": [
+    "Confrontation between CATHERINE and others: Look at you."
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP31_SCENE_01",
+      "episode_id": 31,
+      "key_conflict": "Confrontation between CATHERINE and others: Look at you.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP31_SCENE_01 at INT. CASTLE SUBTERRANEAN WET CELLS – NIGHT involving CATHERINE, JULIANA.",
+      "characters_involved": [
+        "CATHERINE",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:06.90",
+          "end_time": "00:08.80",
+          "start_seconds": 6.9,
+          "end_seconds": 8.8,
+          "quote_or_action": "CATHERINE: \"Look at you.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Look at you."
+        },
+        {
+          "start_time": "00:10.50",
+          "end_time": "00:13.80",
+          "start_seconds": 10.5,
+          "end_seconds": 13.8,
+          "quote_or_action": "CATHERINE: \"The great Lady Juliana Ashcroft.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: The great Lady Juliana Ashcroft."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:25.60",
+          "end_time": "02:31.20",
+          "start_seconds": 145.6,
+          "end_seconds": 151.2,
+          "quote_or_action": "CATHERINE: \"One flame, and your mother's life's work becomes ash.\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'One flame, and your mother's life's work becomes ash.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

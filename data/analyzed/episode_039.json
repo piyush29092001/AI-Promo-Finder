@@ -1,0 +1,233 @@
+{
+  "episode_id": 39,
+  "summary": "While Alexander's loyal men infiltrate and neutralize the royal guards stationed outside the cathedral, Alexander sheds his rugged disguise, dons his ducal regalia, and marches forth to reclaim his house and rescue Juliana.",
+  "key_events": [
+    "Dramatic confrontation",
+    "Confrontation between LOYALIST SCOUT and others: Six at the front.",
+    "Betrayal conflict: CART DRIVER: 'The road is clear.'",
+    "Confrontation between ALEXANDER and others: Enough hiding.",
+    "Confrontation between LOYALIST and others: Your Grace."
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP39_SCENE_01",
+      "episode_id": 39,
+      "key_conflict": "Dramatic confrontation",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP39_SCENE_01 at EXT. COBBLESTONE STREET - DAY involving .",
+      "characters_involved": [],
+      "hook_moments": [
+        {
+          "start_time": "00:00.00",
+          "end_time": "00:04.60",
+          "start_seconds": 0.0,
+          "end_seconds": 4.6,
+          "quote_or_action": "Low-angle tracking shot from behind wagon wheels framing laborers unloading wooden crates from a horse-drawn cart in the bustling town square.",
+          "hook_type": "VISUAL_ACTION",
+          "curiosity_driver": "High visual tension establishes immediate dramatic stakes."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:09.60",
+          "end_time": "00:13.80",
+          "start_seconds": 9.6,
+          "end_seconds": 13.8,
+          "quote_or_action": "Close-up of a disguised loyalist adjusting his flat cap, followed by a low-angle tracking shot of two men walking briskly over the wet cobblestones.",
+          "unresolved_question": "How will the character respond to this critical turning point?",
+          "intensity": 7
+        }
+      ]
+    },
+    {
+      "scene_id": "EP39_SCENE_02",
+      "episode_id": 39,
+      "key_conflict": "Confrontation between LOYALIST SCOUT and others: Six at the front.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP39_SCENE_02 at EXT. CATHEDRAL ENTRANCE & ALLEY - CONTINUOUS involving LOYALIST FIGHTER, LOYALIST SCOUT.",
+      "characters_involved": [
+        "LOYALIST FIGHTER",
+        "LOYALIST SCOUT"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:18.30",
+          "end_time": "00:19.90",
+          "start_seconds": 18.3,
+          "end_seconds": 19.9,
+          "quote_or_action": "LOYALIST SCOUT: \"Six at the front.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Six at the front."
+        },
+        {
+          "start_time": "00:20.20",
+          "end_time": "00:21.80",
+          "start_seconds": 20.2,
+          "end_seconds": 21.8,
+          "quote_or_action": "LOYALIST FIGHTER: \"Four more inside.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Four more inside."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:23.30",
+          "end_time": "00:24.20",
+          "start_seconds": 23.3,
+          "end_seconds": 24.2,
+          "quote_or_action": "LOYALIST FIGHTER: \"Ours.\"",
+          "unresolved_question": "What will happen after LOYALIST FIGHTER says: 'Ours.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP39_SCENE_03",
+      "episode_id": 39,
+      "key_conflict": "Betrayal conflict: CART DRIVER: 'The road is clear.'",
+      "betrayals": [
+        "CART DRIVER: 'The road is clear.'"
+      ],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 8,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP39_SCENE_03 at EXT. CATHEDRAL ENTRANCE - CONTINUOUS involving CART DRIVER, LOYALIST FIGHTER, ROYAL SENTRY.",
+      "characters_involved": [
+        "CART DRIVER",
+        "LOYALIST FIGHTER",
+        "ROYAL SENTRY"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:29.80",
+          "end_time": "00:30.60",
+          "start_seconds": 29.8,
+          "end_seconds": 30.6,
+          "quote_or_action": "ROYAL SENTRY: \"Stop!\"",
+          "hook_type": "SHOCKING_REVELATION",
+          "curiosity_driver": "Viewer immediately questions: Stop!"
+        },
+        {
+          "start_time": "00:30.80",
+          "end_time": "00:32.40",
+          "start_seconds": 30.8,
+          "end_seconds": 32.4,
+          "quote_or_action": "CART DRIVER: \"Firewood for the kitchens, sir.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Firewood for the kitchens, sir."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:48.20",
+          "end_time": "00:49.20",
+          "start_seconds": 48.2,
+          "end_seconds": 49.2,
+          "quote_or_action": "LOYALIST FIGHTER: \"Tell the Duke.\"",
+          "unresolved_question": "What will happen after LOYALIST FIGHTER says: 'Tell the Duke.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP39_SCENE_04",
+      "episode_id": 39,
+      "key_conflict": "Confrontation between ALEXANDER and others: Enough hiding.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP39_SCENE_04 at INT. WOODEN CABIN - DAY involving ALEXANDER.",
+      "characters_involved": [
+        "ALEXANDER"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:02.00",
+          "end_time": "01:02.80",
+          "start_seconds": 62.0,
+          "end_seconds": 62.8,
+          "quote_or_action": "ALEXANDER: \"Enough hiding.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Enough hiding."
+        },
+        {
+          "start_time": "01:03.00",
+          "end_time": "01:05.50",
+          "start_seconds": 63.0,
+          "end_seconds": 65.5,
+          "quote_or_action": "ALEXANDER: \"They buried Alexander Ashwin three years ago.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: They buried Alexander Ashwin three years ago."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:05.60",
+          "end_time": "01:06.90",
+          "start_seconds": 65.6,
+          "end_seconds": 66.9,
+          "quote_or_action": "ALEXANDER: \"Today, he comes home.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'Today, he comes home.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP39_SCENE_05",
+      "episode_id": 39,
+      "key_conflict": "Confrontation between LOYALIST and others: Your Grace.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP39_SCENE_05 at EXT. WOODEN OUTPOST / SNOWY PATH - DAY involving ALEXANDER, LOYALIST.",
+      "characters_involved": [
+        "ALEXANDER",
+        "LOYALIST"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:15.80",
+          "end_time": "01:17.20",
+          "start_seconds": 75.8,
+          "end_seconds": 77.2,
+          "quote_or_action": "LOYALIST: \"Your Grace.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Your Grace."
+        },
+        {
+          "start_time": "01:20.50",
+          "end_time": "01:22.20",
+          "start_seconds": 80.5,
+          "end_seconds": 82.2,
+          "quote_or_action": "ALEXANDER: \"Secure the chapel.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Secure the chapel."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:35.00",
+          "end_time": "01:38.00",
+          "start_seconds": 95.0,
+          "end_seconds": 98.0,
+          "quote_or_action": "ALEXANDER: \"And I am bringing my wife home.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'And I am bringing my wife home.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "episode_id": 1,
+  "summary": "Lady Juliana arrives at the cathedral in her late mother's bridal gown, only to suffer the ultimate betrayal when her fiancé Gerald abandons her at the altar for her cruel sister Clarissa with her family's full blessing.",
+  "key_events": [
+    "Betrayal conflict: LADY JULIANA: 'Gerald is waiting for me.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP01_SCENE_01",
+      "episode_id": 1,
+      "key_conflict": "Betrayal conflict: LADY JULIANA: 'Gerald is waiting for me.'",
+      "betrayals": [
+        "LADY JULIANA: 'Gerald is waiting for me.'",
+        "LADY JULIANA: 'You let me believe I was walking toward my husband!'",
+        "THE FORMER GROOM: 'I changed my mind.'"
+      ],
+      "secrets_or_revelations": [
+        "LADY JULIANA: 'You knew this before I walked through those doors!'",
+        "LADY IN GOLD GOWN: 'People change their minds, sister.'",
+        "LADY JULIANA: 'And you knew?'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 8,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP01_SCENE_01 at INT. CATHEDRAL – DAY involving LADY IN GOLD GOWN, LADY JULIANA, MATRIARCH, THE FORMER GROOM.",
+      "characters_involved": [
+        "LADY IN GOLD GOWN",
+        "LADY JULIANA",
+        "MATRIARCH",
+        "THE FORMER GROOM"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:11.30",
+          "end_time": "00:13.10",
+          "start_seconds": 11.3,
+          "end_seconds": 13.1,
+          "quote_or_action": "MATRIARCH: \"You should turn around, Juliana.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You should turn around, Juliana."
+        },
+        {
+          "start_time": "00:13.50",
+          "end_time": "00:14.30",
+          "start_seconds": 13.5,
+          "end_seconds": 14.3,
+          "quote_or_action": "LADY JULIANA: \"Why?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Why?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:08.50",
+          "end_time": "02:11.20",
+          "start_seconds": 128.5,
+          "end_seconds": 131.2,
+          "quote_or_action": "THE FORMER GROOM: \"...when Clarissa is the true jewel of the county.\"",
+          "unresolved_question": "What will happen after THE FORMER GROOM says: '...when Clarissa is the true jewel of the county.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

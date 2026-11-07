@@ -1,0 +1,90 @@
+{
+  "episode_id": 50,
+  "summary": "Following their illicit passion in the abandoned manor wing, Catherine negotiates Father Thomas's corrupt silence with territorial control—unaware that Agnes has walked in and witnessed their scandalous intimacy.",
+  "key_events": [
+    "Confrontation between CATHERINE and others: A man in your collar isn't supposed to have that much left in him, Thomas.",
+    "Dramatic confrontation"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP50_SCENE_01",
+      "episode_id": 50,
+      "key_conflict": "Confrontation between CATHERINE and others: A man in your collar isn't supposed to have that much left in him, Thomas.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP50_SCENE_01 at INT. ABANDONED BEDCHAMBER – PRE-DAWN involving CATHERINE, FATHER THOMAS.",
+      "characters_involved": [
+        "CATHERINE",
+        "FATHER THOMAS"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:01.80",
+          "end_time": "00:05.80",
+          "start_seconds": 1.8,
+          "end_seconds": 5.8,
+          "quote_or_action": "CATHERINE: \"A man in your collar isn't supposed to have that much left in him, Thomas.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: A man in your collar isn't supposed to have that much left in him, Thomas."
+        },
+        {
+          "start_time": "00:07.20",
+          "end_time": "00:11.20",
+          "start_seconds": 7.2,
+          "end_seconds": 11.2,
+          "quote_or_action": "FATHER THOMAS: \"A man in my collar isn't supposed to be in this bed at all.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: A man in my collar isn't supposed to be in this bed at all."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:00.30",
+          "end_time": "01:04.80",
+          "start_seconds": 60.3,
+          "end_seconds": 64.8,
+          "quote_or_action": "CATHERINE: \"Or perhaps discretion isn't the only thing you've developed a taste for.\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'Or perhaps discretion isn't the only thing you've developed a taste for.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP50_SCENE_02",
+      "episode_id": 50,
+      "key_conflict": "Dramatic confrontation",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP50_SCENE_02 at INT. MANOR CORRIDOR – CONTINUOUS involving .",
+      "characters_involved": [],
+      "hook_moments": [
+        {
+          "start_time": "01:10.50",
+          "end_time": "01:13.50",
+          "start_seconds": 70.5,
+          "end_seconds": 73.5,
+          "quote_or_action": "Medium tracking shot following Agnes as she walks cautiously down the dimly lit stone corridor, holding a black iron lantern.",
+          "hook_type": "VISUAL_ACTION",
+          "curiosity_driver": "High visual tension establishes immediate dramatic stakes."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:18.50",
+          "end_time": "01:20.00",
+          "start_seconds": 78.5,
+          "end_seconds": 80.0,
+          "quote_or_action": "Frantic backward tracking close-up on Agnes stumbling back into the shadows of the hallway, horrified by the lethal secret she has uncovered before an abrupt cut to black.",
+          "unresolved_question": "How will the character respond to this critical turning point?",
+          "intensity": 7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "episode_id": 13,
+  "summary": "Defying Alexander's desperate pleas, Juliana crawls barehanded into the razor-sharp blackthorn garden, enduring brutal lacerations under Clarissa and Gerald's cruel taunts until she unearths the lost emerald signet ring.",
+  "key_events": [
+    "Betrayal conflict: JULIANA: 'You stood beside me when everyone else abandoned me. I will not abando",
+    "Threat conflict: ALEXANDER: 'Please...'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP13_SCENE_01",
+      "episode_id": 13,
+      "key_conflict": "Betrayal conflict: JULIANA: 'You stood beside me when everyone else abandoned me. I will not abando",
+      "betrayals": [
+        "JULIANA: 'You stood beside me when everyone else abandoned me. I will not abandon you now.'"
+      ],
+      "secrets_or_revelations": [
+        "ALEXANDER: 'They will tear your hands apart.'",
+        "JULIANA: 'I will be fine.'",
+        "JULIANA: 'You stood beside me when everyone else abandoned me. I will not abandon you now.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 8,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP13_SCENE_01 at EXT. MANOR GROUNDS - BLACKTHORN GARDEN – DUSK involving ALEXANDER, CLARISSA, GERALD, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "CLARISSA",
+        "GERALD",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:05.40",
+          "end_time": "00:10.20",
+          "start_seconds": 5.4,
+          "end_seconds": 10.2,
+          "quote_or_action": "ALEXANDER: \"Juliana, look at those thorns. You cannot do this.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Juliana, look at those thorns. You cannot do this."
+        },
+        {
+          "start_time": "00:12.40",
+          "end_time": "00:13.80",
+          "start_seconds": 12.4,
+          "end_seconds": 13.8,
+          "quote_or_action": "JULIANA: \"I must.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: I must."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:41.80",
+          "end_time": "00:45.50",
+          "start_seconds": 41.8,
+          "end_seconds": 45.5,
+          "quote_or_action": "GERALD: \"Perhaps the beggar's wife will finally learn what her new life is worth.\"",
+          "unresolved_question": "What will happen after GERALD says: 'Perhaps the beggar's wife will finally learn what her new life is worth.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP13_SCENE_02",
+      "episode_id": 13,
+      "key_conflict": "Threat conflict: ALEXANDER: 'Please...'",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "ALEXANDER: 'Please...'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP13_SCENE_02 at EXT. FROZEN BLACKTHORN BRIARS – CONTINUOUS involving ALEXANDER, CLARISSA, GERALD, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "CLARISSA",
+        "GERALD",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:47.20",
+          "end_time": "00:48.80",
+          "start_seconds": 47.2,
+          "end_seconds": 48.8,
+          "quote_or_action": "ALEXANDER: \"Juliana, stop!\"",
+          "hook_type": "SHOCKING_REVELATION",
+          "curiosity_driver": "Viewer immediately questions: Juliana, stop!"
+        },
+        {
+          "start_time": "00:51.50",
+          "end_time": "00:52.60",
+          "start_seconds": 51.5,
+          "end_seconds": 52.6,
+          "quote_or_action": "ALEXANDER: \"Please...\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Please..."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:38.20",
+          "end_time": "01:42.50",
+          "start_seconds": 98.2,
+          "end_seconds": 102.5,
+          "quote_or_action": "JULIANA: \"Please, ring... you have to be here.\"",
+          "unresolved_question": "What will happen after JULIANA says: 'Please, ring... you have to be here.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

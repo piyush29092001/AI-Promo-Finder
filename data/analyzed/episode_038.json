@@ -1,0 +1,63 @@
+{
+  "episode_id": 38,
+  "summary": "A compassionate guard secretly feeds Juliana bread in the dungeon, strengthening her resolve to protect Alexander's secrets just as distant wedding bells signal the start of Rupert's nuptials and her impending execution.",
+  "key_events": [
+    "Betrayal conflict: JULIANA: 'I will not betray him.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP38_SCENE_01",
+      "episode_id": 38,
+      "key_conflict": "Betrayal conflict: JULIANA: 'I will not betray him.'",
+      "betrayals": [
+        "JULIANA: 'I will not betray him.'"
+      ],
+      "secrets_or_revelations": [
+        "JULIANA: 'I will not give them my husband.'",
+        "JULIANA: 'I will not betray him.'"
+      ],
+      "threats_or_danger": [
+        "GUARD: 'Because no one should die hungry.'",
+        "JULIANA: 'What if I die here?'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP38_SCENE_01 at INT. DUNGEON CELL – DAY involving GUARD, JULIANA.",
+      "characters_involved": [
+        "GUARD",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:16.00",
+          "end_time": "00:17.30",
+          "start_seconds": 16.0,
+          "end_seconds": 17.3,
+          "quote_or_action": "JULIANA: \"Why?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Why?"
+        },
+        {
+          "start_time": "00:17.50",
+          "end_time": "00:20.30",
+          "start_seconds": 17.5,
+          "end_seconds": 20.3,
+          "quote_or_action": "GUARD: \"Because no one should die hungry.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Because no one should die hungry."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:22.50",
+          "end_time": "01:24.00",
+          "start_seconds": 82.5,
+          "end_seconds": 84.0,
+          "quote_or_action": "JULIANA: \"Alexander...\"",
+          "unresolved_question": "What will happen after JULIANA says: 'Alexander...'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

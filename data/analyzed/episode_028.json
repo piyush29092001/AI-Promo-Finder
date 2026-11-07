@@ -1,0 +1,69 @@
+{
+  "episode_id": 28,
+  "summary": "Rupert and Catherine frame Juliana for poisoning the Duchess despite the bedridden matriarch's protests, uncovering Juliana's true noble identity and her mother's herbarium before ordering her to the castle dungeons.",
+  "key_events": [
+    "Betrayal conflict: CATHERINE: 'She looks exactly like a poisoner.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP28_SCENE_01",
+      "episode_id": 28,
+      "key_conflict": "Betrayal conflict: CATHERINE: 'She looks exactly like a poisoner.'",
+      "betrayals": [
+        "CATHERINE: 'She looks exactly like a poisoner.'",
+        "JULIANA: 'I did not poison her! Look at her eyes, the fever has broken!'",
+        "JULIANA: 'Your Grace...'"
+      ],
+      "secrets_or_revelations": [
+        "CATHERINE: '...a secret medicine in her hand.'",
+        "BLOND NOBLEMAN: 'But the guards know how to extract the truth.'",
+        "DOWAGER DUCHESS: 'And you... you knew!'"
+      ],
+      "threats_or_danger": [
+        "CATHERINE: 'She looks exactly like a poisoner.'",
+        "JULIANA: 'I did not poison her! Look at her eyes, the fever has broken!'",
+        "BLOND NOBLEMAN: 'But the guards know how to extract the truth.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP28_SCENE_01 at INT. DUCHESS'S BEDCHAMBER – DAY involving BLOND NOBLEMAN, CATHERINE, DOWAGER DUCHESS, JULIANA.",
+      "characters_involved": [
+        "BLOND NOBLEMAN",
+        "CATHERINE",
+        "DOWAGER DUCHESS",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:04.90",
+          "end_time": "00:06.30",
+          "start_seconds": 4.9,
+          "end_seconds": 6.3,
+          "quote_or_action": "CATHERINE: \"Look at her, Rupert.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Look at her, Rupert."
+        },
+        {
+          "start_time": "00:06.60",
+          "end_time": "00:08.10",
+          "start_seconds": 6.6,
+          "end_seconds": 8.1,
+          "quote_or_action": "CATHERINE: \"Soot on her face...\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Soot on her face..."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:14.60",
+          "end_time": "02:16.70",
+          "start_seconds": 134.6,
+          "end_seconds": 136.7,
+          "quote_or_action": "CATHERINE: \"...before he sends you to the gallows.\"",
+          "unresolved_question": "What will happen after CATHERINE says: '...before he sends you to the gallows.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

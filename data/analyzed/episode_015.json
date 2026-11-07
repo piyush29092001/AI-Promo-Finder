@@ -1,0 +1,59 @@
+{
+  "episode_id": 15,
+  "summary": "When ruthless thugs desecrate Juliana's medicinal garden and trample her late mother's herbs, a protective Alexander charges into the night to defend her.",
+  "key_events": [
+    "Threat conflict: JULIANA: 'It is my home. You have no right to destroy anything here.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP15_SCENE_01",
+      "episode_id": 15,
+      "key_conflict": "Threat conflict: JULIANA: 'It is my home. You have no right to destroy anything here.'",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [
+        "JULIANA: 'It is my home. You have no right to destroy anything here.'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP15_SCENE_01 at EXT. HERBAL GARDEN - NIGHT involving BALD THUG, JULIANA, TALL THUG, THUG WITH CAP.",
+      "characters_involved": [
+        "BALD THUG",
+        "JULIANA",
+        "TALL THUG",
+        "THUG WITH CAP"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:08.50",
+          "end_time": "00:11.70",
+          "start_seconds": 8.5,
+          "end_seconds": 11.7,
+          "quote_or_action": "JULIANA: \"Stop! What are you doing?!\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Stop! What are you doing?!"
+        },
+        {
+          "start_time": "00:13.00",
+          "end_time": "00:15.70",
+          "start_seconds": 13.0,
+          "end_seconds": 15.7,
+          "quote_or_action": "THUG WITH CAP: \"We're clearing this rubbish.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: We're clearing this rubbish."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:19.00",
+          "end_time": "01:22.40",
+          "start_seconds": 79.0,
+          "end_seconds": 82.4,
+          "quote_or_action": "THUG WITH CAP: \"What? You want to fight us, veteran?\"",
+          "unresolved_question": "What will happen after THUG WITH CAP says: 'What? You want to fight us, veteran?'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

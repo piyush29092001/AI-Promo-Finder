@@ -1,0 +1,204 @@
+{
+  "episode_id": 40,
+  "summary": "High society gathers at the grand cathedral for Rupert and Catherine's lavish wedding, while the conspirators ensure every exit is sealed to seal Juliana's execution—unaware that Alexander's retribution is already at their gates.",
+  "key_events": [
+    "Confrontation between FOOTMAN and others: The Harrington family.",
+    "Confrontation between LADY HARRINGTON and others: She stands beneath God's watch and still gets exactly what she deserves.",
+    "Threat conflict: ROYAL GUARD: 'Every one, my Lord.'",
+    "Confrontation between LADY HARRINGTON and others: She looks like a queen."
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP40_SCENE_01",
+      "episode_id": 40,
+      "key_conflict": "Confrontation between FOOTMAN and others: The Harrington family.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP40_SCENE_01 at EXT. CATHEDRAL STEPS – DAY involving FOOTMAN, LADY HARRINGTON, LORD HARRINGTON.",
+      "characters_involved": [
+        "FOOTMAN",
+        "LADY HARRINGTON",
+        "LORD HARRINGTON"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:05.50",
+          "end_time": "00:07.40",
+          "start_seconds": 5.5,
+          "end_seconds": 7.4,
+          "quote_or_action": "FOOTMAN: \"The Harrington family.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: The Harrington family."
+        },
+        {
+          "start_time": "00:12.40",
+          "end_time": "00:17.30",
+          "start_seconds": 12.4,
+          "end_seconds": 17.3,
+          "quote_or_action": "LADY HARRINGTON: \"Look at them. Every noble family in the county is here today.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Look at them. Every noble family in the county is here today."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:30.10",
+          "end_time": "00:33.20",
+          "start_seconds": 30.1,
+          "end_seconds": 33.2,
+          "quote_or_action": "LORD HARRINGTON: \"This place has always been unlucky for Juliana.\"",
+          "unresolved_question": "What will happen after LORD HARRINGTON says: 'This place has always been unlucky for Juliana.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP40_SCENE_02",
+      "episode_id": 40,
+      "key_conflict": "Confrontation between LADY HARRINGTON and others: She stands beneath God's watch and still gets exactly what she deserves.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP40_SCENE_02 at INT. CATHEDRAL – CONTINUOUS involving LADY HARRINGTON, LORD HARRINGTON.",
+      "characters_involved": [
+        "LADY HARRINGTON",
+        "LORD HARRINGTON"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:34.40",
+          "end_time": "00:39.00",
+          "start_seconds": 34.4,
+          "end_seconds": 39.0,
+          "quote_or_action": "LADY HARRINGTON: \"She stands beneath God's watch and still gets exactly what she deserves.\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: She stands beneath God's watch and still gets exactly what she deserves."
+        },
+        {
+          "start_time": "00:42.00",
+          "end_time": "00:44.00",
+          "start_seconds": 42.0,
+          "end_seconds": 44.0,
+          "quote_or_action": "LADY HARRINGTON: \"We have an excellent view.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: We have an excellent view."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:45.30",
+          "end_time": "00:48.30",
+          "start_seconds": 45.3,
+          "end_seconds": 48.3,
+          "quote_or_action": "LADY HARRINGTON: \"And everything that comes after it.\"",
+          "unresolved_question": "What will happen after LADY HARRINGTON says: 'And everything that comes after it.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP40_SCENE_03",
+      "episode_id": 40,
+      "key_conflict": "Threat conflict: ROYAL GUARD: 'Every one, my Lord.'",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "ELDER NOBLEMAN: 'By sunset, Ashburgh will have its new Duke and Duchess.'",
+        "ELDER NOBLEMAN: 'And its witch will be dead.'"
+      ],
+      "threats_or_danger": [
+        "ROYAL GUARD: 'Every one, my Lord.'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP40_SCENE_03 at INT. CATHEDRAL – ALTAR & BALCONY – CONTINUOUS involving BLOND NOBLEMAN, ELDER NOBLEMAN, ROYAL GUARD.",
+      "characters_involved": [
+        "BLOND NOBLEMAN",
+        "ELDER NOBLEMAN",
+        "ROYAL GUARD"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:50.80",
+          "end_time": "00:53.20",
+          "start_seconds": 50.8,
+          "end_seconds": 53.2,
+          "quote_or_action": "BLOND NOBLEMAN: \"Everything must go perfectly.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Everything must go perfectly."
+        },
+        {
+          "start_time": "01:05.00",
+          "end_time": "01:06.80",
+          "start_seconds": 65.0,
+          "end_seconds": 66.8,
+          "quote_or_action": "ELDER NOBLEMAN: \"All entrances are covered?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: All entrances are covered?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:14.80",
+          "end_time": "01:17.40",
+          "start_seconds": 74.8,
+          "end_seconds": 77.4,
+          "quote_or_action": "ELDER NOBLEMAN: \"And its witch will be dead.\"",
+          "unresolved_question": "What will happen after ELDER NOBLEMAN says: 'And its witch will be dead.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP40_SCENE_04",
+      "episode_id": 40,
+      "key_conflict": "Confrontation between LADY HARRINGTON and others: She looks like a queen.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP40_SCENE_04 at INT. CATHEDRAL – CONTINUOUS involving BLOND NOBLEMAN, CATHERINE, LADY HARRINGTON.",
+      "characters_involved": [
+        "BLOND NOBLEMAN",
+        "CATHERINE",
+        "LADY HARRINGTON"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "01:32.00",
+          "end_time": "01:34.20",
+          "start_seconds": 92.0,
+          "end_seconds": 94.2,
+          "quote_or_action": "LADY HARRINGTON: \"She looks like a queen.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: She looks like a queen."
+        },
+        {
+          "start_time": "01:40.00",
+          "end_time": "01:42.80",
+          "start_seconds": 100.0,
+          "end_seconds": 102.8,
+          "quote_or_action": "BLOND NOBLEMAN: \"You look more queen than bride.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You look more queen than bride."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:45.00",
+          "end_time": "01:49.00",
+          "start_seconds": 105.0,
+          "end_seconds": 109.0,
+          "quote_or_action": "CATHERINE: \"And you look better in silk than you ever did as an ignored cousin.\"",
+          "unresolved_question": "What will happen after CATHERINE says: 'And you look better in silk than you ever did as an ignored cousin.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

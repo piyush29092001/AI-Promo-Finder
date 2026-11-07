@@ -1,0 +1,61 @@
+{
+  "episode_id": 33,
+  "summary": "Under cruel coercion and threats to send her seven-year-old brother to the county gaol, a young maid is manipulated into giving false testimony framing Juliana for witchcraft.",
+  "key_events": [
+    "Threat conflict: LORD: 'One word from me, and the county gaol will take him before sunrise.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP33_SCENE_01",
+      "episode_id": 33,
+      "key_conflict": "Threat conflict: LORD: 'One word from me, and the county gaol will take him before sunrise.'",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "LORD: 'One word from me, and the county gaol will take him before sunrise.'",
+        "LORD: 'The truth.'",
+        "LORD: 'That will be your testimony.'"
+      ],
+      "threats_or_danger": [
+        "LORD: 'One word from me, and the county gaol will take him before sunrise.'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP33_SCENE_01 at INT. STUDY – NIGHT involving LORD, MAID.",
+      "characters_involved": [
+        "LORD",
+        "MAID"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:02.50",
+          "end_time": "00:04.80",
+          "start_seconds": 2.5,
+          "end_seconds": 4.8,
+          "quote_or_action": "LORD: \"Your brother is breathing again.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Your brother is breathing again."
+        },
+        {
+          "start_time": "00:06.50",
+          "end_time": "00:08.50",
+          "start_seconds": 6.5,
+          "end_seconds": 8.5,
+          "quote_or_action": "MAID: \"Yes, my Lord.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Yes, my Lord."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:41.80",
+          "end_time": "02:44.50",
+          "start_seconds": 161.8,
+          "end_seconds": 164.5,
+          "quote_or_action": "LORD: \"Save your tears for the trial.\"",
+          "unresolved_question": "What will happen after LORD says: 'Save your tears for the trial.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

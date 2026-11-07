@@ -1,0 +1,142 @@
+{
+  "episode_id": 35,
+  "summary": "Fleeing her captivity through a secret passage, Alexander's elderly mother treks through a bitter blizzard to a secluded cabin, where she tearfully reunites with her presumed-dead son and learns the horrifying conspiracy behind his supposed demise.",
+  "key_events": [
+    "Threat conflict: ALEXANDER'S MOTHER: 'I will not die in that house.'",
+    "Confrontation between ALEXANDER'S MOTHER and others: This must be the place.",
+    "Betrayal conflict: ALEXANDER: 'Mother?'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP35_SCENE_01",
+      "episode_id": 35,
+      "key_conflict": "Threat conflict: ALEXANDER'S MOTHER: 'I will not die in that house.'",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "ALEXANDER'S MOTHER: 'I will not die in that house.'"
+      ],
+      "threats_or_danger": [
+        "ALEXANDER'S MOTHER: 'I will not die in that house.'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP35_SCENE_01 at INT. STONE CORRIDOR - NIGHT involving ALEXANDER'S MOTHER.",
+      "characters_involved": [
+        "ALEXANDER'S MOTHER"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:05.50",
+          "end_time": "00:08.50",
+          "start_seconds": 5.5,
+          "end_seconds": 8.5,
+          "quote_or_action": "ALEXANDER'S MOTHER: \"I will not die in that house.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: I will not die in that house."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:05.50",
+          "end_time": "00:08.50",
+          "start_seconds": 5.5,
+          "end_seconds": 8.5,
+          "quote_or_action": "ALEXANDER'S MOTHER: \"I will not die in that house.\"",
+          "unresolved_question": "What will happen after ALEXANDER'S MOTHER says: 'I will not die in that house.'?",
+          "intensity": 8
+        }
+      ]
+    },
+    {
+      "scene_id": "EP35_SCENE_02",
+      "episode_id": 35,
+      "key_conflict": "Confrontation between ALEXANDER'S MOTHER and others: This must be the place.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP35_SCENE_02 at EXT. SNOWY FOREST / CABIN - NIGHT involving ALEXANDER'S MOTHER.",
+      "characters_involved": [
+        "ALEXANDER'S MOTHER"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:21.00",
+          "end_time": "00:23.00",
+          "start_seconds": 21.0,
+          "end_seconds": 23.0,
+          "quote_or_action": "ALEXANDER'S MOTHER: \"This must be the place.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: This must be the place."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:21.00",
+          "end_time": "00:23.00",
+          "start_seconds": 21.0,
+          "end_seconds": 23.0,
+          "quote_or_action": "ALEXANDER'S MOTHER: \"This must be the place.\"",
+          "unresolved_question": "What will happen after ALEXANDER'S MOTHER says: 'This must be the place.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP35_SCENE_03",
+      "episode_id": 35,
+      "key_conflict": "Betrayal conflict: ALEXANDER: 'Mother?'",
+      "betrayals": [
+        "ALEXANDER: 'Mother?'",
+        "ALEXANDER: 'I survived because the men who came looking for me believed I was already dead.'",
+        "ALEXANDER: 'Because someone wanted you to believe I was dead.'"
+      ],
+      "secrets_or_revelations": [
+        "ALEXANDER: 'It was a classified Crown mission. We were investigating a British officer selling military secrets to French spies.'"
+      ],
+      "threats_or_danger": [
+        "ALEXANDER'S MOTHER: 'They told me you died. They told me your entire regiment was destroyed.'",
+        "ALEXANDER: 'Someone ordered my men to die.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP35_SCENE_03 at INT. SECLUDED CABIN - CONTINUOUS involving ALEXANDER, ALEXANDER'S MOTHER.",
+      "characters_involved": [
+        "ALEXANDER",
+        "ALEXANDER'S MOTHER"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:37.00",
+          "end_time": "00:40.00",
+          "start_seconds": 37.0,
+          "end_seconds": 40.0,
+          "quote_or_action": "ALEXANDER'S MOTHER: \"Alexander!\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Alexander!"
+        },
+        {
+          "start_time": "00:42.50",
+          "end_time": "00:44.20",
+          "start_seconds": 42.5,
+          "end_seconds": 44.2,
+          "quote_or_action": "ALEXANDER: \"Mother?\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Mother?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:25.50",
+          "end_time": "02:30.00",
+          "start_seconds": 145.5,
+          "end_seconds": 150.0,
+          "quote_or_action": "ALEXANDER: \"The men behind it... are the same men ruling Ashwood now.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'The men behind it... are the same men ruling Ashwood now.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

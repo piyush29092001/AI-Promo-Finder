@@ -1,0 +1,139 @@
+{
+  "episode_id": 14,
+  "summary": "After Juliana secures Alexander's freedom with the unearthed emerald signet ring, he carries her home to bandage her torn hands, silently swearing that no one will ever harm her again.",
+  "key_events": [
+    "Confrontation between JULIANA and others: I found it.",
+    "Dramatic confrontation",
+    "Confrontation between ALEXANDER and others: You could have lost your hands."
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP14_SCENE_01",
+      "episode_id": 14,
+      "key_conflict": "Confrontation between JULIANA and others: I found it.",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP14_SCENE_01 at EXT. BLACKTHORN GARDEN – DUSK involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:07.70",
+          "end_time": "00:09.00",
+          "start_seconds": 7.7,
+          "end_seconds": 9.0,
+          "quote_or_action": "JULIANA: \"I found it.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: I found it."
+        },
+        {
+          "start_time": "00:10.50",
+          "end_time": "00:12.70",
+          "start_seconds": 10.5,
+          "end_seconds": 12.7,
+          "quote_or_action": "JULIANA: \"Now release my husband.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Now release my husband."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:35.80",
+          "end_time": "00:38.50",
+          "start_seconds": 35.8,
+          "end_seconds": 38.5,
+          "quote_or_action": "ALEXANDER: \"You should never have had to bleed for me.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'You should never have had to bleed for me.'?",
+          "intensity": 6
+        }
+      ]
+    },
+    {
+      "scene_id": "EP14_SCENE_02",
+      "episode_id": 14,
+      "key_conflict": "Dramatic confrontation",
+      "betrayals": [],
+      "secrets_or_revelations": [],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 5,
+      "narrative_summary": "Scene EP14_SCENE_02 at EXT. ALEXANDER'S COTTAGE – CONTINUOUS involving .",
+      "characters_involved": [],
+      "hook_moments": [
+        {
+          "start_time": "00:40.50",
+          "end_time": "00:43.50",
+          "start_seconds": 40.5,
+          "end_seconds": 43.5,
+          "quote_or_action": "Wide establishing shot of the humble stone cottage standing isolated beneath dark, overcast stormy skies on a rain-slicked dirt road.",
+          "hook_type": "VISUAL_ACTION",
+          "curiosity_driver": "High visual tension establishes immediate dramatic stakes."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "00:40.50",
+          "end_time": "00:43.50",
+          "start_seconds": 40.5,
+          "end_seconds": 43.5,
+          "quote_or_action": "Gentle patter of rain and cold wind howling in the desolate countryside.",
+          "unresolved_question": "How will the character respond to this critical turning point?",
+          "intensity": 7
+        }
+      ]
+    },
+    {
+      "scene_id": "EP14_SCENE_03",
+      "episode_id": 14,
+      "key_conflict": "Confrontation between ALEXANDER and others: You could have lost your hands.",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "ALEXANDER: 'No one will ever hurt you for protecting me again.'"
+      ],
+      "threats_or_danger": [],
+      "emotional_intensity": 5,
+      "suspense_level": 7,
+      "narrative_summary": "Scene EP14_SCENE_03 at INT. ALEXANDER'S COTTAGE – NIGHT involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:47.20",
+          "end_time": "00:49.80",
+          "start_seconds": 47.2,
+          "end_seconds": 49.8,
+          "quote_or_action": "ALEXANDER: \"You could have lost your hands.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You could have lost your hands."
+        },
+        {
+          "start_time": "00:51.80",
+          "end_time": "00:54.00",
+          "start_seconds": 51.8,
+          "end_seconds": 54.0,
+          "quote_or_action": "JULIANA: \"But I didn't lose you.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: But I didn't lose you."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:16.50",
+          "end_time": "01:21.00",
+          "start_seconds": 76.5,
+          "end_seconds": 81.0,
+          "quote_or_action": "ALEXANDER: \"No one will ever hurt you for protecting me again.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'No one will ever hurt you for protecting me again.'?",
+          "intensity": 6
+        }
+      ]
+    }
+  ]
+}

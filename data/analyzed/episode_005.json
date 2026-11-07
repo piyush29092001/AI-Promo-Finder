@@ -1,0 +1,66 @@
+{
+  "episode_id": 5,
+  "summary": "Formally disowned and stripped of her inheritance, Juliana is publicly humiliated when her stepmother throws her late mother's treasured ledger into the mud, but her rugged new husband defends her dignity and guides her away from her callous family.",
+  "key_events": [
+    "Threat conflict: LADY ASHCROFT: 'Then you should have guarded it better.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP05_SCENE_01",
+      "episode_id": 5,
+      "key_conflict": "Threat conflict: LADY ASHCROFT: 'Then you should have guarded it better.'",
+      "betrayals": [],
+      "secrets_or_revelations": [
+        "LORD ASHCROFT: 'You will not leave this church carrying the Ashcroft name.'",
+        "JULIANA: 'The vows are spoken, Father. I am his wife now.'",
+        "JULIANA: 'You truly mean it? You are my father!'"
+      ],
+      "threats_or_danger": [
+        "LADY ASHCROFT: 'Then you should have guarded it better.'",
+        "JULIANA: 'They destroyed it.'"
+      ],
+      "emotional_intensity": 7,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP05_SCENE_01 at EXT. CATHEDRAL STEPS – DAY involving CLARISSA, GERALD, JULIANA, LADY ASHCROFT, LORD ASHCROFT, MYSTERIOUS BEARDED MAN.",
+      "characters_involved": [
+        "CLARISSA",
+        "GERALD",
+        "JULIANA",
+        "LADY ASHCROFT",
+        "LORD ASHCROFT",
+        "MYSTERIOUS BEARDED MAN"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:04.20",
+          "end_time": "00:05.80",
+          "start_seconds": 4.2,
+          "end_seconds": 5.8,
+          "quote_or_action": "LORD ASHCROFT: \"Miss Ashcroft.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Miss Ashcroft."
+        },
+        {
+          "start_time": "00:06.80",
+          "end_time": "00:10.40",
+          "start_seconds": 6.8,
+          "end_seconds": 10.4,
+          "quote_or_action": "LORD ASHCROFT: \"You will not leave this church carrying the Ashcroft name.\"",
+          "hook_type": "SHOCKING_REVELATION",
+          "curiosity_driver": "Viewer immediately questions: You will not leave this church carrying the Ashcroft name."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:44.20",
+          "end_time": "01:45.20",
+          "start_seconds": 104.2,
+          "end_seconds": 105.2,
+          "quote_or_action": "MYSTERIOUS BEARDED MAN: \"Come.\"",
+          "unresolved_question": "What will happen after MYSTERIOUS BEARDED MAN says: 'Come.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

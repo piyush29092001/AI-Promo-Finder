@@ -1,0 +1,67 @@
+{
+  "episode_id": 25,
+  "summary": "Deep in the misty forest, Alexander confronts an injured Juliana and uncovers the wound inflicted by Lady Catherine, reacting with fury and protective concern upon learning that someone is systematically poisoning the Dowager Duchess with arsenic.",
+  "key_events": [
+    "Betrayal conflict: ALEXANDER: 'The Dowager?'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP25_SCENE_01",
+      "episode_id": 25,
+      "key_conflict": "Betrayal conflict: ALEXANDER: 'The Dowager?'",
+      "betrayals": [
+        "ALEXANDER: 'The Dowager?'",
+        "JULIANA: 'Poison.'",
+        "ALEXANDER: 'Because you were standing inside a house where someone is poisoning a woman... and you never told me.'"
+      ],
+      "secrets_or_revelations": [
+        "JULIANA: 'Arsenic.'",
+        "ALEXANDER: 'Will you be going there again?'",
+        "JULIANA: 'I knew you would worry.'"
+      ],
+      "threats_or_danger": [
+        "JULIANA: 'Poison.'",
+        "JULIANA: 'Someone has been giving it to her again and again. Small amounts. Enough to make her weaker without killing her quickly.'",
+        "ALEXANDER: 'Because you were standing inside a house where someone is poisoning a woman... and you never told me.'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP25_SCENE_01 at EXT. MISTY FOREST TRAIL – DUSK involving ALEXANDER, JULIANA.",
+      "characters_involved": [
+        "ALEXANDER",
+        "JULIANA"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:05.10",
+          "end_time": "00:06.40",
+          "start_seconds": 5.1,
+          "end_seconds": 6.4,
+          "quote_or_action": "ALEXANDER: \"Juliana.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: Juliana."
+        },
+        {
+          "start_time": "00:07.80",
+          "end_time": "00:09.60",
+          "start_seconds": 7.8,
+          "end_seconds": 9.6,
+          "quote_or_action": "ALEXANDER: \"Why are you walking like that?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Why are you walking like that?"
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "02:37.40",
+          "end_time": "02:39.20",
+          "start_seconds": 157.4,
+          "end_seconds": 159.2,
+          "quote_or_action": "ALEXANDER: \"Everything you saw.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'Everything you saw.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}

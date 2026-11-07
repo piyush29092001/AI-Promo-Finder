@@ -1,0 +1,67 @@
+{
+  "episode_id": 42,
+  "summary": "Emerging from the smoke of the shattered cathedral gates in full ducal regalia, Alexander confronts Rupert, wins the loyalty of the royal guards, and is proclaimed the rightful Duke of Ashburn by his weeping mother.",
+  "key_events": [
+    "Betrayal conflict: ALEXANDER: 'And yet, here I stand. That is the lie you built your life upon.'"
+  ],
+  "scene_analyses": [
+    {
+      "scene_id": "EP42_SCENE_01",
+      "episode_id": 42,
+      "key_conflict": "Betrayal conflict: ALEXANDER: 'And yet, here I stand. That is the lie you built your life upon.'",
+      "betrayals": [
+        "ALEXANDER: 'And yet, here I stand. That is the lie you built your life upon.'"
+      ],
+      "secrets_or_revelations": [
+        "ROYAL GUARD: 'We will not.'"
+      ],
+      "threats_or_danger": [
+        "BLOND NOBLEMAN: 'Guards! Arrest this imposter!'",
+        "BLOND NOBLEMAN: 'I said arrest him!'",
+        "BLOND NOBLEMAN: 'You cannot be him. Alexander died!'"
+      ],
+      "emotional_intensity": 10,
+      "suspense_level": 9,
+      "narrative_summary": "Scene EP42_SCENE_01 at INT. CATHEDRAL – CONTINUOUS involving ALEXANDER, ALEXANDER'S MOTHER, BLOND NOBLEMAN, CATHERINE, JULIANA, ROYAL GUARD.",
+      "characters_involved": [
+        "ALEXANDER",
+        "ALEXANDER'S MOTHER",
+        "BLOND NOBLEMAN",
+        "CATHERINE",
+        "JULIANA",
+        "ROYAL GUARD"
+      ],
+      "hook_moments": [
+        {
+          "start_time": "00:11.20",
+          "end_time": "00:12.60",
+          "start_seconds": 11.2,
+          "end_seconds": 12.6,
+          "quote_or_action": "BLOND NOBLEMAN: \"Who are you?\"",
+          "hook_type": "MYSTERY_QUESTION",
+          "curiosity_driver": "Viewer immediately questions: Who are you?"
+        },
+        {
+          "start_time": "00:12.80",
+          "end_time": "00:14.60",
+          "start_seconds": 12.8,
+          "end_seconds": 14.6,
+          "quote_or_action": "ALEXANDER: \"You already know.\"",
+          "hook_type": "CONFRONTATION",
+          "curiosity_driver": "Viewer immediately questions: You already know."
+        }
+      ],
+      "cliffhanger_moments": [
+        {
+          "start_time": "01:13.80",
+          "end_time": "01:17.50",
+          "start_seconds": 73.8,
+          "end_seconds": 77.5,
+          "quote_or_action": "ALEXANDER: \"And now, Rupert... we settle what you stole.\"",
+          "unresolved_question": "What will happen after ALEXANDER says: 'And now, Rupert... we settle what you stole.'?",
+          "intensity": 8
+        }
+      ]
+    }
+  ]
+}
